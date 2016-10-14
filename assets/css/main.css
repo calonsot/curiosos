@@ -1072,7 +1072,7 @@
 	body {
 		background: #4d4b30 url("images/bg03.jpg");
 		color: #86816e;
-		font-size: 14pt;
+		font-size: 13.5pt;
 		font-family: 'Oswald';
 		line-height: 1.65em;
 		font-weight: 280;
@@ -1326,24 +1326,22 @@
 			}
 
 				#header h1 {
-	position: absolute;
-	left: 0;
-	bottom: 25px;
-	font-size: 2em;
-	width: 550px;
-	height:90px;
-	line-height:normal;
-				}
+					position: absolute;
+					left: 0;
+					bottom: 25px;
+					font-size: 2em;
+					height: 90px;
+					line-height:normal;
+							}
 				
 				#header h6 {
-	position: absolute;
-	font-family: 'Cairo';
-	left: 0;
-	bottom: 25px;
-	font-size: 1.5em;
-	width: 550px;
-	height:50px;
-	line-height:normal;
+					position: absolute;
+					font-family: 'Cairo';
+					left: 0;
+					bottom: 25px;
+					font-size: 1.5em;
+					height: 50px;
+					line-height:normal;
 				}
 
 					#header h1 a {
@@ -1352,17 +1350,16 @@
 					}
 
 				#header nav {
-	position: absolute;
-	right: 64px;
-	bottom: 39px;
-	font-weight: 200;
-	width: 486px;
+					position: absolute;
+					right: 64px;
+					bottom: 39px;
+					font-weight: 200;
 				}
 
 					#header nav a {
-						color: #f9f8ef;
+						color: #ece9dc;
 						text-decoration: none;
-						font-size: 1.3em;
+						font-size: 1.2em;
 						margin-left: 60px;
 						outline: 0;
 					}
