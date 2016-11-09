@@ -1,18 +1,12 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Moctezuma II, Xocoyotzin</title>
-    </head>
-	
-    <body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
-			<!-- Content -->
+<?php include'../Layouts/header.php'?>
+        
+        <title>Moctezuma II, Xocoyotzin</title>
+        </head>
+
+			<body class="subpage">
+            
+            <!-- Content -->
 				<div id="content-wrapper">
 					<div id="content">
 						<div class="container">
@@ -111,5 +105,3 @@
 
 			<!-- Footer -->
 		<?php include '../Layouts/footerXV_Ant.php'?>
-	</body>
-</html>

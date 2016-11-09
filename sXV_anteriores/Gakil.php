@@ -1,18 +1,12 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Gakil</title>
-    </head>
 
-	<body class="subpage">
-	<?php include'../Layouts/header.php'?>	
-
-			<!-- Content -->
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Gakil</title>
+    </head>	
+    
+    <body class="subpage">
+            
+            <!-- Content -->
 				<div id="content-wrapper">
 					<div id="content">
 						<div class="container">
@@ -71,26 +65,24 @@
 									<header>
 									  <h2>Mis ideas</h2>
 									</header>
-<ul class="link-list">
+			<ul class="link-list">
 			  <li></li>
 			  <li></li>
 			  </ul>
-			<section>
+              </section>
+			
+            							<section>
 										  <header>
 										    <ul class="link-list">
 										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
-								  </section>
-                                  
-							  </div>
-							</div>
-						</div>
-					</div>
-				</div>
+                                 </section>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
 
 			<!-- Footer -->
 <?php include '../Layouts/footerXV_Ant.php'?>
-
-	</body>
-</html>

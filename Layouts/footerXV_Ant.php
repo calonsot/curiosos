@@ -1,18 +1,4 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Curiosos y comprometidos</title>
-<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <link rel="stylesheet" href="../TIMELINE3/css/timeline.css" />
-        <link rel="stylesheet" href="../assets/css/fuentes.css"/>
-</head>
 
-<body class="subpage">
 			<!-- Footer -->
 				<div id="footer-wrapper">
 					<footer id="footer" class="container">
@@ -86,6 +72,4 @@
       		timeline = new TL.Timeline('timeline-embed',
        		'https://docs.google.com/spreadsheets/d/1-awSTGqjvaZvPuaTBD-FmKV1Po7OCoPsJXccm-HM5RY/edit#gid=0');
     		</script>
-	</body>
-
-</html>
+   </body>
