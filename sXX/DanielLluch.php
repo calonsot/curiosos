@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Daniel Lluch Belda</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Daniel Lluch Belda</title>
     </head>
 	
     <body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,13 +36,14 @@
 												<h2>Daniel Lluch Belda</h2>
 												<h3>1942 - 2014</h3>
 											</header>
-<p>Daniel es un científico muy reconocido por su trabajo sobre el manejo de las pesquerías de México, es decir, la amplia gama de actividades relacionadas con la pesca, desde la captura hasta la distribución y venta.</p>
-                                          <p>Estudió biología en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional (1967). A continuación tomó cursos de especialización en el Colegio de Pesquerías de la Universidad de Washington. Más tarde regresó a México para hacer el doctorado (1977), también en el IPN.</p>
-                                          <p>Gran parte de su trabajo estuvo dedicada al estudio de diferentes animales marinos de la región noroeste del país, por ejemplo del lobo marino, los manatís, los elefantes y las focas marinos, y las toninas. Realizó numerosos registros sobre la distribución, el crecimiento y la mortalidad de las poblaciones de estos mamíferos marinos, o de sus capturas.</p>
-                                          <p>A Daniel también le interesó estudiar los recursos pesqueros del país para hacer modelos de la dinámica de sus poblaciones y mejorar el rendimiento de las extracciones, así como el manejo y la conservación de estos recursos. </p>
-                                          <p>Su más reciente campo de investigación es determinar los efectos del cambio climático global sobre la abundancia y la distribución de los organismos marinos.</p>
-                                          <p>Daniel ha ocupado distintos cargos académicos y administrativos en diferentes instituciones como el Instituto Nacional de Investigaciones Biológico Pesqueras, hoy INAPESCA; el Centro de Investigaciones Biológicas de Baja California Sur y actualmente el Centro Interdisciplinario de Ciencias Marinas del IPN (CICIMAR).</p>
-                                          <p>Entre sus distinciones más destacadas está el Premio Nobel de la Paz que se otorgó al Panel Intergubernamental de Cambio Climático, del cual es miembro.</p>
+
+<p>Nací en la tranquila ciudad de Uruapan, Michoacán en 1942. Mis padres fueron Salvador Lluch-Cuñat y Josefina Belda Alandi llegaron como asilados políticos a Veracruz en 1939. Viajaron desde Francia en el famoso buque de vapor francés &quot;Sinaia&quot; junto con 1599 personas. Este fue el primer barco en el que llegaron los exilados de la Guerra Civil Española a México (1936-1939). Mi padre era considerado anarquista durante la Dictadura de Miguel Primo de Rivera en España. Él dirigía la &quot;Casa del Pueblo&quot; en Santa Coloma de Gramanet, Barcelona y escribía bajo el pseudónimo de Máximo Llorca. Mi madre fue maestra y enfermera durante la guerra.</p>
+                                          <p>Estudié la primaria y secundaria en Uruapan y más tarde en la Ciudad de México estudié biología en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional (IPN) (1967). Después tomé cursos de especialización en el Colegio de Pesquerías de la Universidad de Washington. Más tarde regresé a México para hacer el doctorado (1977), también en el IPN. En 1964 me casé con la escritora Olga Freda Cota Gándara y tuvimos tres hijos Montserrat, Daniel Bernardo y Salvador, quien también se dedica al estudio de los mares.</p>
+                                          <p>Gran parte de mi trabajo estuvo dedicado al estudio de diferentes mamíferos marinos de la región noroeste del país, por ejemplo del lobo marino, los manatíes, los elefantes marinos, las focas y las toninas. Realicé numerosos registros sobre la distribución, el crecimiento y la mortalidad de las poblaciones de estos mamíferos marinos, o de sus capturas.</p>
+                                          <p>También me interesó estudiar los recursos pesqueros del país para hacer modelos de la dinámica de sus poblaciones y mejorar el rendimiento de las extracciones, así como su manejo y conservación.</p>
+                                          <p>Mi más reciente campo de investigación fue determinar los efectos del cambio climático global sobre la abundancia y la distribución de los organismos marinos.</p>
+                                          <p>Ocupé distintos cargos académicos y administrativos en diferentes instituciones como el Instituto Nacional de Investigaciones Biológico Pesqueras, hoy INAPESCA; el Centro de Investigaciones Biológicas del Noroeste (CIBNOR) en Baja California Sur (1984-1997) y finalmente en el Centro Interdisciplinario de Ciencias Marinas del IPN (CICIMAR).</p>
+                                          <p>Recibí el <strong>Premio Nobel de la Paz</strong> que se otorgó al Panel Intergubernamental de Cambio Climático, del cual fui miembro.</p>
                                           </section>
 
 								</div>
@@ -96,6 +91,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

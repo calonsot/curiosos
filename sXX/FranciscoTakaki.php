@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Francisco Takaki Takaki</title>
+	
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Francisco Takaki Takaki</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,13 +36,13 @@
 												<h2>Francisco Takaki Takaki</h2>
 												<h3>1940</h3>
 											</header>
-<p>Francisco Takaki es experto en la elaboración de mapas sobre la vegetación y el uso del suelo de nuestro país a partir de imágenes fotográficas y satelitales.</p>
-                                          <p>Es mexicano, hijo de inmigrantes japoneses. Estudió biología en la Escuela Nacional de Ciencias Biológicas del IPN (1959) y más tarde tomó cursos de especialización en ecología vegetal en el Colegio de Postgraduados de la Escuela Nacional de Agricultura (hoy Universidad Autónoma de Chapingo) así como en el Instituto de Botánica de la Universidad de Montpellier, Francia.</p>
-                                          <p>Trabajó en el Instituto de Investigación de Zonas Desérticas de la Universidad Autónoma de San Luis Potosí y después en el Instituto Nacional de Investigaciones Forestales de la hoy Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación. Desde la década de los setenta hasta el 2010 ocupó diversos cargos en el Instituto Nacional de Estadística, Geografía e Historia (INEGI)</p>
-                                          <p>Participó en numerosos proyectos, como en el Inventario Nacional Forestal y el Mapa de Regiones Ecológicas de América del Norte, así como en el desarrollo de metodologías para la elaboración de mapas de uso del suelo y de la vegetación en nuestro país.</p>
-                                          <p>Pertenece a diferentes sociedades científicas, entre ellas la Sociedad Botánica de México. También es miembro del Consejo Nacional de Flora de México, A.C. y el Instituto Panamericano de Geografía e Historia.</p>
-                                          <p>Gracias su trabajo, México ahora cuenta con una completa cartografía de la cobertura vegetal de su territorio.</p>
-										  </section>
+
+<p>Nací en México en 1940. Mis padres fueron inmigrantes japoneses. Estudié biología en la Escuela Nacional de Ciencias Biológicas del IPN (1959) y más tarde tomé cursos de especialización en ecología vegetal en el Colegio de Postgraduados de la Escuela Nacional de Agricultura (hoy Universidad Autónoma de Chapingo) así como en el Instituto de Botánica de la Universidad de Montpellier, Francia.</p>
+                                          <p>Trabajé en el Instituto de Investigación de Zonas Desérticas de la Universidad Autónoma de San Luis Potosí y después en el Instituto Nacional de Investigaciones Forestales de la hoy Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación. Desde la década de los setenta hasta el 2010 ocupé diversos cargos en el Instituto Nacional de Estadística, Geografía e Historia (INEGI).</p>
+                                          <p>Participé en numerosos proyectos, como en el Inventario Nacional Forestal y el Mapa de Regiones Ecológicas de América del Norte, así como en el desarrollo de metodologías para la elaboración de mapas de uso del suelo y de la vegetación en nuestro país.</p>
+                                          <p>Pertenezco a diferentes sociedades científicas, entre ellas la Sociedad Botánica de México. También soy miembro del Consejo Nacional de Flora de México, A.C. y el Instituto Panamericano de Geografía e Historia.</p>
+                                          <p>A través de mi trabajo, México ahora cuenta con una completa cartografía de la cobertura vegetal de su territorio.										</p>
+										</section>
 
 								</div>
 								<div class="3u 12u(mobile)">
@@ -96,6 +90,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Saúl Álvarez Borrego</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Saúl Álvarez Borrego</title>
     </head>
     
-	<body class="subpage">
-		<?php include'../Layouts/header.php'?>		
+	<body class="subpage">	
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,13 +36,12 @@
 												<h2>Saúl Álvarez Borrego</h2>
 												<h3>1946</h3>
 											</header>
-<p>Saúl es un promotor de las ciencias del mar en México; sus investigaciones se han enfocado a generar conocimiento que sea útil para tener un mejor aprovechamiento de los recursos marinos, tanto en el campo de las pesquerías como en la acuicultura, que armonice con la conservación de la fauna y flora silvestres.</p>
-                                          <p>Nació en Mazatlán, Sinaloa, donde pasó su infancia y adolescencia. Más tarde, en 1963, se mudó a Ensenada para estudiar oceanología en la Escuela Superior de Ciencias Marinas de la Universidad Autónoma de Baja California (UABC). Años después, su pasión por el estudio lo llevó a estudiar la maestría en ciencias en la Universidad Estatal de Oregon, Estados Unidos, y luego el doctorado en ciencias en la misma institución.</p>
-                                          <p>En estrecha colaboración con estudiantes y colegas, Saúl ha dirigido y participado en estudios sobre aspectos físico-químicos y ecológicos del Pacífico Mexicano, la corriente de California, las lagunas costeras de Baja California y el Golfo de México.</p>
-                                          <p>Fue director del Instituto de Investigaciones Oceanológicas de la UABC (1973) y del Centro de Investigación Científica y de Educación Superior de Ensenada (1981). En este último se convirtió en un gran promotor institucional pues integró nuevos investigadores a su plantilla.</p>
-                                          <p>Desde muy joven también se dedicó a la docencia, impartió clases de distintas disciplinas a jóvenes de diferentes grados de escolaridad, desde primaria hasta licenciatura y posgrados. </p>
-                                          <p>Saúl pertenece a varias asociaciones científicas, como la Sociedad Mexicana de Planctología y la Asociación de Investigadores del Mar de Cortés.</p>
-                                          <p>Su interés por la difusión de los resultados científicos generados en su campo de investigación, lo condujo a participar en la fundación de la revista <em>Ciencias Marinas</em> (1974), todavía vigente.</p>
+
+<p>Tuve la gran fortuna de nacer en Mazatlán, Sinaloa en 1946, donde pasé mi infancia y adolescencia. Más tarde, en 1963, me mudé a Ensenada, Baja California, para estudiar oceanología en la Escuela Superior de Ciencias Marinas de la Universidad Autónoma de Baja California (UABC). Me encantaba la gimnasia y a los 19 años, participé en los Juegos Nacionales Infantiles y Juveniles como el primer gimnasta representativo de Baja California.</p>
+                                          <p>Terminando la licenciatura participé en un crucero por dos meses recorriendo el Océano Pacífico hasta Chile y Nueva Zelandia.¡Quedé encantado! Mi pasión por el estudio me llevó a estudiar la maestría en ciencias en la Universidad Estatal de Oregon, Estados Unidos, y luego el doctorado en ciencias en la misma institución. Durante el posgrado en 1969 me casé con Esthela Elsie Millán y tuvimos dos hijos: Yazae y Danténoc.</p>
+                                          <p>En estrecha colaboración con estudiantes y colegas, he dirigido y participado en estudios sobre aspectos físico-químicos y ecológicos del Pacífico Mexicano, la corriente de California, las lagunas costeras de Baja California y el Golfo de México.</p>
+                                          <p>Fui director del Instituto de Investigaciones Oceanológicas de la UABC (1973) y del Centro de Investigación Científica y de Educación Superior de Ensenada (1981). En este último me convirtí en promotor institucional fortaleciendo al centro con la integración de nuevos investigadores a su plantilla.</p>
+                                          <p>Desde muy joven también me dediqué a la docencia, impartí clases de distintas disciplinas a jóvenes de diferentes grados de escolaridad, desde primaria hasta licenciatura y posgrados. Pertenezco a varias asociaciones científicas, como la Sociedad Mexicana de Planctología y la Asociación de Investigadores del Mar de Cortés. Mi interés por la difusión de los resultados científicos generados en mi campo de investigación, me condujo a participar en la fundación de la revista Ciencias Marinas (1974), todavía vigente.</p>
 										  </section>
 
 								</div>
@@ -96,6 +89,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

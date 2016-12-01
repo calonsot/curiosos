@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Francisco Contreras Espinosa</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Francisco Contreras Espinosa</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>	
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,12 +36,13 @@
 												<h2><strong>Francisco Contreras Espinosa</strong></h2>
 												<h3>1948 - 2005</h3>
 											</header>
-<p>Francisco fue un investigador muy reconocido por sus estudios sobre las lagunas costeras mexicanas; abarcó casi por completo la costa del Golfo de México, pero también incursionó en las costas del Pacífico mexicano.</p>
-                                          <p>Estudió la carrera de biología en la Facultad de Ciencias de la UNAM (1974); ahí comenzó su interés por la dinámica de los nutrientes y la producción primaria del fitoplancton en las lagunas costeras. Más tarde hizo el doctorado en ciencias biológicas en la UAM-Iztapalapa (2000). En esta institución pasó la mayor parte de su vida académica y ahí consolidó su labor de investigación, docencia y difusión de la cultura. </p>
-                                          <p>Su pasión profesional dio muchos frutos, uno de gran importancia fue la creación de una gran base de datos sobre las condiciones de muchísimos ecosistemas costeros; esta se consolidó a lo largo del tiempo y a la fecha conforma el Centro de Documentación de Ecosistemas Litorales Mexicanos, único en América Latina.</p>
-                                          <p>Francisco también se preocupó por buscar soluciones a los problemas de sobreexplotación de los recursos pesqueros y de contaminación que afectan a estos ecosistemas; por ello fue promotor de varios cursos y talleres sobre la conservación de los humedales de México y el mundo.</p>
-                                          <p>Ocupó además diversos cargos administrativos, impartió muchísimos cursos de licenciatura y publicó varios libros, uno de ellos titulado &ldquo;Las Lagunas Costeras Mexicanas&rdquo;, el cual fue un importante referente por décadas. </p>
-										  </section>
+
+<p>Me encantaba conocer las lagunas costeras mexicanas; abarqué casi por completo la costa del Golfo de México, pero también incursioné en las costas del Pacífico mexicano.</p>
+                                          <p>Estudié la carrera de biología en la Facultad de Ciencias de la UNAM (1974); ahí comenzó mi interés por la dinámica de los nutrientes y la producción primaria del fitoplancton en las lagunas costeras. Más tarde hice el doctorado en ciencias biológicas en la UAM-Iztapalapa (2000). En esta institución pasé la mayor parte de mi vida académica y ahí consolidé su labor de investigación, docencia y difusión de la cultura. Estudié el estuario de Tuxpan y la laguna de Tampamachoco y la laguna de Tamiahua en Veracruz.</p>
+                                          <p>Mi pasión profesional dio muchos frutos, uno de gran importancia fue la creación de una gran base de datos sobre las condiciones de muchísimos ecosistemas costeros; esta se consolidó a lo largo del tiempo y a la fecha conforma el Centro de Documentación de Ecosistemas Litorales Mexicanos, único en América Latina.</p>
+                                          <p>También me preocupé por buscar soluciones a los problemas de sobreexplotación de los recursos pesqueros y de contaminación que afectan a estos ecosistemas; por ello fui promotor de varios cursos y talleres sobre la conservación de los humedales de México y el mundo.</p>
+                                          <p>Ocupé diversos cargos administrativos, impartí muchísimos cursos de licenciatura y publiqué varios libros, uno de ellos titulado “Las Lagunas Costeras Mexicanas”, el cual fue un importante referente por décadas.</p>
+										</section>
 
 								</div>
 								<div class="3u 12u(mobile)">
@@ -94,6 +89,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

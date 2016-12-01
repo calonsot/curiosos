@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>José Martínez de Lejarza</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>José Martínez de Lejarza</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -91,7 +85,6 @@
 										    </ul>
 										  </header>
 								  </section>
-                                  
 							  </div>
 							</div>
 						</div>
@@ -99,6 +92,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXVIII.php'?>	
-	</body>
-</html>
