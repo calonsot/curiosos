@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>José Luis Castro Aguirre</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>José Luis Castro Aguirre</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,13 +36,13 @@
 												<h2>José Luis Castro Aguirre</h2>
 												<h3>1943 - 2011</h3>
 											</header>
-<p>José Luis fue uno de los pioneros en hacer estudios sobre la clasificación, la ecología y la distribución de los peces marinos que penetran a las aguas continentales de México, en particular de los tiburones y las rayas.</p>
-                                          <p>Durante su formación académica, estudió biología en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional (1967), más adelante la maestría (1974) y el doctorado (1986) en esa misma institución. </p>
-                                          <p>Ya en su vida laboral, colaboró como investigador en el Instituto Nacional de Investigaciones Biológico-Pesqueras (INIBP), organismo encargado asesorar científica y tecnológicamente los proyectos pesqueros y de acuicultura del país en aquella época. </p>
-                                          <p>José Luis se dedicó a impulsar la creación de centros de investigación y de docencia que estuvieran acordes con los programas más vanguardistas para el desarrollo de las ciencias marinas, la pesca y la oceanografía. Por ejemplo, participó en la planeación del proyecto del Centro Interdisciplinario de Ciencias Marinas (CICIMAR) del Instituto Politécnico Nacional en Baja California Sur, así como en la transformación del INIBP al Instituto Nacional de Pesca, hoy día un órgano gubernamental. En estas instituciones ocupó cargos administrativos. </p>
-                                          <p>Interesado por compartir sus conocimientos y su pasión por el estudio de los peces, José Luis también se dedicó a la docencia; dio clases en varias instituciones, entre ellas la UNAM, la ENCB y el CICIMAR.</p>
-                                          <p>Por la década de 1970 se realizaron numerosas expediciones oceanográficas en el Pacífico noroeste mexicano y el golfo de California, en las cuales, José Luis participó planeándolas y dirigiéndolas. Asimismo, aprovechó para organizar las primeras recolectas sistemáticas de ejemplares de peces marinos, mismas que dieron lugar a lo que ahora es la Colección Ictiológica del CICIMAR. </p>
-                                          <p>Fue miembro de la Sociedad Mexicana de Zoología y de la Sociedad Ictiológica Mexicana.</p>
+
+<p>Nací en la ciudad de México en 1943. Estudié biología en la Escuela Nacional de Ciencias Biológicas (ENCB) del Instituto Politécnico Nacional (1967). Más adelante estudié la maestría (1974) y el doctorado (1986) en esa misma institución.</p>
+                                          <p>Fuí uno de los pioneros en hacer estudios sobre la clasificación, la ecología y la distribución de los peces marinos que penetran a las aguas continentales de México, en particular de los tiburones y las rayas. Colaboré como investigador en el Instituto Nacional de Investigaciones Biológico-Pesqueras (INIBP), organismo encargado asesorar científica y tecnológicamente los proyectos pesqueros y de acuicultura del país en aquella época.</p>
+                                          <p>Me dediqué a impulsar la creación de centros de investigación y de docencia que estuvieran acordes con los programas más vanguardistas para el desarrollo de las ciencias marinas, la pesca y la oceanografía. Por ejemplo, participé en la planeación del proyecto del Centro Interdisciplinario de Ciencias Marinas (CICIMAR) del Instituto Politécnico Nacional en Baja California Sur, así como en la transformación del INIBP al Instituto Nacional de Pesca, hoy día un órgano gubernamental. En estas instituciones ocupé cargos administrativos.</p>
+                                          <p>Mi interés por compartir el conocimiento de los peces, me llevó a dedicarme a la docencia en varias instituciones, entre ellas la UNAM, la ENCB y el CICIMAR. En 1999 publiqué el libro &quot;Ictiofauna esturarino lagunar y vicaria de México&quot;.</p>
+                                          <p>Por la década de 1970 dirigí numerosas expediciones oceanográficas en el Pacífico noroeste mexicano y el golfo de California. Asimismo, aproveché para organizar las primeras recolectas sistemáticas de ejemplares de peces marinos, mismas que dieron lugar a lo que ahora es la Colección Ictiológica del CICIMAR. Fui miembro de la Sociedad Mexicana de Zoología y de la Sociedad Ictiológica Mexicana.</p>
+                                          <p>Fallecí en la Ciudad de México en 2011.</p>
                                           </section>
 
 								</div>
@@ -96,6 +90,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

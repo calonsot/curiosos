@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Miguel Armando Ulloa Sosa</title>
+	
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Miguel Armando Ulloa Sosa</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,13 +36,12 @@
 												<h2>Miguel Armando Ulloa Sosa</h2>
 												<h3>1945</h3>
 											</header>
-<p>Miguel Ulloa es un especialista en hongos microscópicos que crecen en alimentos y bebidas fermentadas indígenas de México.</p>
-                                          <p>Nació en la ciudad de México y estudió la carrera de biología (1965) en la Facultad de Ciencias de la UNAM. Sus primeros estudios fueron sobre el crecimiento de varias especies de hongos alucinógenos.</p>
-                                          <p>Más tarde hizo la maestría en la Universidad de Texas A&amp;M, Estados Unidos, con especialidad en fitopatología (1969), enfocándose en la ecología de los hongos que crecen en diversos tipos de cultivo y que producen unas sustancias tóxicas llamadas aflotoxinas.</p>
-                                          <p>Años después, obtuvo el doctorado por la Universidad de Georgia, Estados Unidos (1974); ahora centrándose en la micoflora del pozol en el estado de Tabasco. </p>
-                                          <p>A partir de ese momento, incrementó sus investigaciones sobre los hongos microscópicos que crecen en diferentes alimentos fermentados autóctonos de México, por ejemplo, el pozol, el tesgüino, el pulque, el colonche, la tuba, el tepache, los tibicos, la madre del vinagre y los búlgaros. </p>
-                                          <p>También ha estudiado especies de hongos que crecen en sustratos como granos y semillas y que son productores de micotoxinas, y otros que viven sobre el estiércol, el suelo, en raíces o en plantas. Recientemente le han interesado los hongos que infectan insectos y otros que viven en el aire, sobre todo aquellos causantes de enfermedades respiratorias.</p>
-                                          <p>La docencia también ha sido una de sus actividades principales. Es socio fundador de la Sociedad Mexicana de Micología (1965) y fue presidente de la misma por algunos años; también es miembro de la Sociedad Micológica de América. </p>
+
+<p>Nací en la ciudad de México en 1945. Estudié la carrera de biología (1965) en la Facultad de Ciencias de la UNAM. Mis primeros estudios fueron sobre el crecimiento de varias especies de hongos alucinógenos. Más tarde hice la maestría en la Universidad de Texas A&amp;M, Estados Unidos, con especialidad en fitopatología (1969), enfocándome en la ecología de los hongos que crecen en diversos tipos de cultivo y que producen unas sustancias tóxicas llamadas aflotoxinas.</p>
+                                          <p>Años después, obtuve el doctorado por la Universidad de Georgia, Estados Unidos (1974); ahora centrándome en la micoflora de la sabrosa bebida conocida como &quot;pozol&quot; del estado de Tabasco.</p>
+                                          <p>A partir de ese momento, me clavé en las investigaciones sobre los hongos microscópicos que crecen en diferentes alimentos fermentados autóctonos de México, por ejemplo, el pozol, el tesgüino, el pulque, el colonche, la tuba, el tepache, los tibicos, la madre del vinagre y los búlgaros. ¿Los conoces?</p>
+                                          <p>También he estudiado especies de hongos que crecen en sustratos como granos y semillas y que son productores de micotoxinas, y otros que viven sobre el estiércol, el suelo, en raíces o en plantas. Recientemente me entró el interés por los hongos que infectan insectos y otros que viven en el aire, sobre todo aquellos causantes de enfermedades respiratorias.</p>
+                                          <p>La enseñanza también ha sido una de mis actividades principales. Participe en la fundación de la Sociedad Mexicana de Micología (1965) y fui presidente de la misma por algunos años; también soy miembro de la Sociedad Micológica de América.</p>
                                           </section>
 
 								</div>
@@ -95,6 +88,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

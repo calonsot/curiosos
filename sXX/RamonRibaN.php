@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Ramón Riba y Nava Esparza</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Ramón Riba y Nava Esparza</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -96,6 +90,5 @@ Missouri Botanical Garden, Universidad Nacional Autónoma de México, The Natura
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

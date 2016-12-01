@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Miguel Ángel Martínez Alfaro</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Miguel Ángel Martínez Alfaro</title>
     </head>
 	
     <body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,13 +36,15 @@
 												<h2><strong>Miguel Ángel Martínez Alfaro</strong></h2>
 												<h3>1942 - 2007</h3>
 											</header>
-<p>Es considerado un pionero de la etnobotánica (estudio de las relaciones entre los grupos humanos con su entorno vegetal) en México y Latinoamérica. Fue un amante de la naturaleza y de la gente que realizó numerosas excursiones a distintas regiones del país.</p>
-                                          <p>Miguel Ángel mostró su gusto por estudiar la naturaleza desde niño, por eso hizo la carrera de biología, que cursó en la Facultad de Ciencias de la UNAM (1970). A partir de entonces se interesó en entender el binomio hombre-planta o sociedad-naturaleza. Así fue como años más tarde (1971) ingresó a la Maestría en Ciencias del Colegio de Posgraduados de la hoy Universidad Autónoma Chapingo. Desde entonces, Miguel Ángel planteó la necesidad de integrar las ciencias naturales con las sociales para comprender los problemas que tenían las comunidades rurales con las que trabajaba, y por eso procuró que los resultados de esos estudios dieran la pauta para posibles soluciones a dicha problemática. </p>
-                                          <p>Para incluir una perspectiva antropológica a su práctica profesional como etnobotánico, decidió hacer una maestría en antropología social, la cual cursó en la Universidad Iberoamericana (1973). </p>
-                                          <p>Miguel Ángel consideraba que el conocimiento tradicional de los pueblos indígenas sobre las plantas útiles, especialmente las alimenticias y las medicinales, es muy rico e invaluable. Por ello, varios de los temas desarrollados a lo largo de su vida laboral fueron la etnobotánica, la historia del uso de las plantas útiles y de la agricultura tradicional.</p>
-                                          <p>Dio innumerables cursos y ofreció conferencias en distintas instituciones a lo largo de la república mexicana. También publicó libros, capítulos de libros y artículos especializados en revistas científicas y de divulgación. </p>
-                                          <p>Perteneció y colaboró con diferentes sociedades científicas nacionales e internacionales como la Sociedad Botánica de México,  la International Society of Ethnobiology, el Grupo Etnobotánico Latinoamericano y el Grupo Latinoamericano de Etnobotánica.</p>
-                                          </section>
+
+<p>Nací en la Ciudad de México en 1942. Desde niño me interesó naturaleza y eso me llevó a la carrera de biología, que cursé en la Facultad de Ciencias de la UNAM (1961-1964). Al terminar la carrera me integré a la Comisión Nacional para el Estudio de las Dioscóreas, para realizar mi tésis dirigida por el Dr. Arturo Gómez-Pompa en el ejido Sabastopol, Tuxtepec, Oaxaca. A partir de entonces me interesé en entender el binomio hombre-planta o sociedad-naturaleza.</p>
+                                          <p>Fui el primer egresado del Colegio Superior de Agricultura Tropical en Cárdenas, Tabasco. Me titulé como Maestro en Ciencias, bajo la dirección del Dr. Efraím Hernández Xolocotzi. Años más tarde (1971) ingresé a la Maestría en Ciencias del Colegio de Posgraduados de la hoy Universidad Autónoma Chapingo. Desde entonces, me preocupaba la necesidad de integrar las ciencias naturales con las sociales para comprender los problemas que tenían las comunidades rurales con las que trabajaba, y por eso procuré que los resultados de esos estudios dieran la pauta para posibles soluciones.</p>
+                                          <p>Para incluir una perspectiva antropológica a mi práctica profesional como etnobotánico, decidí hacer una maestría en antropología social, la cual cursé en la Universidad Iberoamericana (1973).</p>
+                                          <p>El conocimiento tradicional de los pueblos indígenas sobre las plantas útiles, especialmente las alimenticias y las medicinales, es muy rico e invaluable. Por ello, varios de los temas desarrollados a lo largo de mi vida laboral fueron la etnobotánica, la historia del uso de las plantas útiles y de la agricultura tradicional.</p>
+                                          <p>Impartí innumerables cursos y ofrecí conferencias en distintas instituciones a lo largo de la república mexicana. También publiqué libros, capítulos de libros y artículos especializados en revistas científicas y de divulgación.</p>
+                                          <p>Pertenecí y colaboré con diferentes sociedades científicas nacionales e internacionales como la Sociedad Botánica de México, la International Society of Ethnobiology, el Grupo Etnobotánico Latinoamericano y el Grupo Latinoamericano de Etnobotánica.<br>
+                                          Fallecí en 2007 en la Casa Fueguina de Coyoacán donde viví 27 años con mi compañera Abigail Aguilar Contreras.</p>
+										</section>
 
 								</div>
 								<div class="3u 12u(mobile)">
@@ -97,6 +93,5 @@
 				</div>
 
 			<!-- Footer -->
+			
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

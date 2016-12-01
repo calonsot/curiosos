@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Agustín Ayala Castañares</title>
+	
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Agustín Ayala Castañares</title>
     </head>
 	
-    <body class="subpage">
-		<?php include'../Layouts/header.php'?>	
+    <body class="subpage">	
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -88,7 +82,7 @@
 										    <ul class="link-list">
 										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
 										    </ul>
-										  </header>
+										 </header>
 								  </section>
 							  </div>
 							</div>
@@ -97,6 +91,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

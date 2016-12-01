@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Antonio del Castillo</title>
+	
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Antonio del Castillo</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -108,6 +102,5 @@
 				</div>
 
 			<!-- Footer -->
-		<?php include '../Layouts/footerXIX.php'?>	
-	</body>
-</html>
+
+		<?php include '../Layouts/footerXIX.php'?>

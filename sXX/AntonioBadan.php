@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Antonio Badán Dangon</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Antonio Badán Dangon</title>
     </head>
     
-	<body class="subpage">
-		<?php include'../Layouts/header.php'?>	
+	<body class="subpage">	
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -42,12 +36,13 @@
 												<h2><strong>Antonio Badán Dangon</strong></h2>
 												<h3>1951 - 2008</h3>
 											</header>
-<p>El vino y el océano son temas que quizá no tienen entre ellos mucha relación, pero cuando se habla de Antonio Badan, ambos salen a flote necesariamente, pues este mexicano de origen franco-suizo no solo fue un oceanógrafo muy reconocido sino también un vitinicultor exitoso.</p>
-                                          <p>Estudió oceanología en la Escuela Superior de Ciencias Marinas de la Universidad Autónoma de Baja California y más adelante, hizo el doctorado en la Escuela de Oceanografía de la Universidad de Oregon, Estados Unidos.</p>
-                                          <p>En 1981 ingresó al Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE), donde laboró el resto de su vida. Dentro de esta institución, lideró a un grupo de investigadores que trabajó con PEMEX en el Proyecto integral de mediciones oceanográficas, único en su tipo en el CICESE, con el cual ahora se tiene una descripción más amplia y precisa de los procesos oceanográficos (como la circulación del agua profunda y el oleaje) y meteorológicos que ocurren en el Golfo de México. </p>
-                                          <p>La información recabada hasta el momento ha sido de gran valor para las distintas actividades económicas que se realizan en la zona, incluyendo la pesca y el turismo; para pronosticar fenómenos de gran impacto como ciclones, así como para mejorar el diseño de las plataformas petroleras.</p>
-                                          <p>En su trayectoria como empresario, Antonio dirigió el viñedo heredado por sus padres localizado en Baja California. Debido a que la conservación del ambiente también era una de sus inquietudes, se dedicó a buscar estrategias para hacer sustentable esta actividad, sobre todo por el problema de escasez y sobreexplotación del agua en la región.</p>
-                                          <p>Antonio también se dedicó a la docencia. Además fue miembro de la Academia Mexicana de Ciencias, de la American Geophysical Union y de la Oceanography Society.</p>
+
+<p>El vino y el océano son temas que quizá no tienen entre ellos mucha relación, pero ambos estuvieron altos entre mis prioridades. Mi nombre completo era Antoine Renaud Fabrice y Toño para los cuates. Mi padre Henri era suizo y mi madre francesa y llegaron a México alrededor de 1940. En la Ciudad de México formaron la empresa Olivares Mexicanos para comercializar aceitunas y aceite, pero eso los llevó a Baja California, el lugar ideal para ese cultivo. Yo nací en la Ciudad de México, pero llegué a los dos años al hermoso Valle de Guadalupe.</p>
+                                          <p>Estudié Oceanología en la Escuela Superior de Ciencias Marinas de la Universidad Autónoma de Baja California y más adelante, hice el doctorado en la Escuela de Oceanografía de la Universidad de Oregon, Estados Unidos. Viajé por África, Europa, América del Sur y la Antártida.</p>
+                                          <p>En 1981 ingresé al Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE), donde laboré el resto de su vida. Dentro de esta institución, lideré a un grupo de investigadores que trabajó con PEMEX en el Proyecto integral de mediciones oceanográficas, único en su tipo en el CICESE, con el cual ahora se tiene una descripción más amplia y precisa de los procesos oceanográficos (como la circulación del agua profunda y el oleaje) y meteorológicos que ocurren en el Golfo de México.</p>
+                                          <p>La información recabada por este grupo ha sido de gran valor para las distintas actividades económicas que se realizan en la zona, incluyendo la pesca y el turismo; para pronosticar fenómenos de gran impacto como ciclones, así como para mejorar el diseño de las plataformas petroleras.</p>
+                                          <p>En mi vida como como empresario, junto con mi hermana Natalia, dirigí el viñedo heredado por mis padres llamado &quot;el Mogor&quot; localizado en el Valle de Guadalupe Baja California. La conservación del ambiente también fue una de mis inquietudes, y me dediqué a buscar estrategias para hacer sustentable esta actividad, sobre todo por el problema de escasez y sobreexplotación del agua en el Valle de Guadalupe región. Obtuvimos nuestra primera cosecha Mogor Badán en 1987.</p>
+                                          <p>También me dediqué a la docencia y fui miembro de la Academia Mexicana de Ciencias, de la American Geophysical Union y de la Oceanography Society. Me despedí en el Hospital Velmar de Ensenada en 2008 a los 57 años a causa de una intoxicación de alimentos.</p>
                                           </section>
 
 								</div>
@@ -59,9 +54,7 @@
 												<h2>Mis favoritos</h2>
 										  </header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/AntonioBadanimg2.jpg" width="230" height="154" alt=""/></li>
-			  <li>Uvero <em>(Coccoloba uvifera)</em></li>
-			  <li>Foto: Christian Dreckmann / Banco de imágenes, CONABIO</li>
+			  <li></li>
 			  </ul>
                                     </section>
                                   <section>
@@ -97,6 +90,5 @@ Boletín AMC/172/11<br>
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXX.php'?>
-	</body>
-</html>

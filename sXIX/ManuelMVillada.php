@@ -1,16 +1,10 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-	<title>Manuel María Villada</title>
+
+	<?php include'../Layouts/header.php'?>
+    
+    <title>Manuel María Villada</title>
     </head>
     
 	<body class="subpage">
-		<?php include'../Layouts/header.php'?>
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -95,6 +89,5 @@
 				</div>
 
 			<!-- Footer -->
+
 		<?php include '../Layouts/footerXIX.php'?>
-	</body>
-</html>
