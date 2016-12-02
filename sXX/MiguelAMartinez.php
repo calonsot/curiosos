@@ -15,17 +15,19 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../images/personajes/MiguelAMartinez.jpg" width="230" height="325" alt=""/></header>
+											<header><!-- InstanceBeginEditable name="Img_Personaje" --><img src="../images/personajes/MiguelAMartinez.jpg" width="230" height="325" alt=""/><!-- InstanceEndEditable --></header>
 </section>
 										<section>
 											<header>
 												<h2>Referencias</h2>
 											</header>
-<ul class="link-list last-child">
-			  <li></li>
-              <li></li>
-              </ul>
-										  </section>
+											<!-- InstanceBeginEditable name="Citas_referencia" -->
+											<ul class="link-list last-child">
+											  <li></li>
+                                              <li></li>
+                                            </ul>
+											<!-- InstanceEndEditable -->
+                                            </section>
 								</div>
                                 
                                 <div class="6u 12u(mobile) important(mobile)">
@@ -33,18 +35,19 @@
 									<!-- Main Content -->
 										<section>
 											<header>
-												<h2><strong>Miguel Ángel Martínez Alfaro</strong></h2>
-												<h3>1942 - 2007</h3>
+												<h2><!-- InstanceBeginEditable name="Nombre_personaje" --><strong>Miguel Ángel Martínez Alfaro</strong><!-- InstanceEndEditable --></h2>
+												<h3><!-- InstanceBeginEditable name="Periodo_vida" -->1942 - 2007<!-- InstanceEndEditable --></h3>
 											</header>
+											<!-- InstanceBeginEditable name="Biografía" -->
+											<p>Nací en la Ciudad de México en 1942. Desde niño me interesó naturaleza y eso me llevó a la carrera de biología, que cursé en la Facultad de Ciencias de la UNAM (1961-1964). Al terminar la carrera me integré a la Comisión Nacional para el Estudio de las Dioscóreas, para realizar mi tésis dirigida por el Dr. Arturo Gómez-Pompa en el ejido Sabastopol, Tuxtepec, Oaxaca. A partir de entonces me interesé en entender el binomio hombre-planta o sociedad-naturaleza. </p>
 
-<p>Nací en la Ciudad de México en 1942. Desde niño me interesó naturaleza y eso me llevó a la carrera de biología, que cursé en la Facultad de Ciencias de la UNAM (1961-1964). Al terminar la carrera me integré a la Comisión Nacional para el Estudio de las Dioscóreas, para realizar mi tésis dirigida por el Dr. Arturo Gómez-Pompa en el ejido Sabastopol, Tuxtepec, Oaxaca. A partir de entonces me interesé en entender el binomio hombre-planta o sociedad-naturaleza.</p>
-                                          <p>Fui el primer egresado del Colegio Superior de Agricultura Tropical en Cárdenas, Tabasco. Me titulé como Maestro en Ciencias, bajo la dirección del Dr. Efraím Hernández Xolocotzi. Años más tarde (1971) ingresé a la Maestría en Ciencias del Colegio de Posgraduados de la hoy Universidad Autónoma Chapingo. Desde entonces, me preocupaba la necesidad de integrar las ciencias naturales con las sociales para comprender los problemas que tenían las comunidades rurales con las que trabajaba, y por eso procuré que los resultados de esos estudios dieran la pauta para posibles soluciones.</p>
-                                          <p>Para incluir una perspectiva antropológica a mi práctica profesional como etnobotánico, decidí hacer una maestría en antropología social, la cual cursé en la Universidad Iberoamericana (1973).</p>
-                                          <p>El conocimiento tradicional de los pueblos indígenas sobre las plantas útiles, especialmente las alimenticias y las medicinales, es muy rico e invaluable. Por ello, varios de los temas desarrollados a lo largo de mi vida laboral fueron la etnobotánica, la historia del uso de las plantas útiles y de la agricultura tradicional.</p>
-                                          <p>Impartí innumerables cursos y ofrecí conferencias en distintas instituciones a lo largo de la república mexicana. También publiqué libros, capítulos de libros y artículos especializados en revistas científicas y de divulgación.</p>
-                                          <p>Pertenecí y colaboré con diferentes sociedades científicas nacionales e internacionales como la Sociedad Botánica de México, la International Society of Ethnobiology, el Grupo Etnobotánico Latinoamericano y el Grupo Latinoamericano de Etnobotánica.<br>
-                                          Fallecí en 2007 en la Casa Fueguina de Coyoacán donde viví 27 años con mi compañera Abigail Aguilar Contreras.</p>
-										</section>
+											<p>Fui el primer egresado del Colegio Superior de Agricultura Tropical en Cárdenas, Tabasco. Me titulé como Maestro en Ciencias, bajo la dirección del Dr. Efraím Hernández Xolocotzi. Años más tarde (1971) ingresé a la Maestría en Ciencias del Colegio de Posgraduados de la hoy Universidad Autónoma Chapingo. Desde entonces, me preocupaba la necesidad de integrar las ciencias naturales con las sociales para comprender los problemas que tenían las comunidades rurales con las que trabajaba, y por eso procuré que los resultados de esos estudios dieran la pauta para posibles soluciones. </p>
+                                            <p>Para incluir una perspectiva antropológica a mi práctica profesional como etnobotánico, decidí hacer una maestría en antropología social, la cual cursé en la Universidad Iberoamericana (1973). </p>
+                                            <p>El conocimiento tradicional de los pueblos indígenas sobre las plantas útiles, especialmente las alimenticias y las medicinales, es muy rico e invaluable. Por ello, varios de los temas desarrollados a lo largo de mi vida laboral fueron la etnobotánica, la historia del uso de las plantas útiles y de la agricultura tradicional.</p>
+                                            <p>Impartí innumerables cursos y ofrecí conferencias en distintas instituciones a lo largo de la república mexicana. También publiqué libros, capítulos de libros y artículos especializados en revistas científicas y de divulgación. </p>
+                                            <p>Pertenecí y colaboré con diferentes sociedades científicas nacionales e internacionales como la Sociedad Botánica de México, la International Society of Ethnobiology, el Grupo Etnobotánico Latinoamericano y el Grupo Latinoamericano de Etnobotánica.</p>
+                                            Fallecí en 2007 en la Casa Fueguina de Coyoacán donde viví 27 años con mi compañera Abigail Aguilar Contreras.
+                                            <!-- InstanceEndEditable --></section>
 
 								</div>
 								<div class="3u 12u(mobile)">
@@ -54,31 +57,45 @@
 											<header>
 												<h2>Mis favoritos</h2>
 										  </header>
-<ul class="link-list">
-			  <li><img src="../images/pagInternas/MiguelAMimg3.jpg" width="230" height="314" alt=""/></li>
-			  <li>Plantas medicinales. Unión Zapata, Oaxaca</li>
-			  <li>Foto: Matías Domínguez Laso / Banco de imágenes, CONABIO</li>
-			  </ul>
-                                    </section>
+											<!-- InstanceBeginEditable name="MisFavoritos" -->
+											<ul class="link-list">
+											  <li><img src="../images/pagInternas/MiguelAMimg3.jpg" width="230" height="314" alt=""/></li>
+											  <li>Plantas medicinales. Unión Zapata, Oaxaca</li>
+											  <li>Foto: Matías Domínguez Laso / Banco de imágenes, CONABIO</li>
+											</ul>
+                                          <!-- InstanceEndEditable --></section>
                                   <section>
 											<header>
 												<h2>Mis lugares</h2>
 										  </header>
-<ul class="link-list">
-		      <li></li>
-              </ul>
-								      </section>
+											<!-- InstanceBeginEditable name="Mis_lugares" -->
+											<ul class="link-list">
+										      <li></li>
+                                              </ul>
+										      <!-- InstanceEndEditable -->
+                                              </section>
                                   <section>
 									<header>
 									  <h2>Mis ideas</h2>
 									</header>
-<ul class="link-list">
-			  <li><img src="../images/pagInternas/MiguelAMimg1.jpg" width="230" height="310" alt=""/></li>
-              <li>
-                <p>Miguel Ángel Martínez, Virginia Evangelista, Francisco Basurto, Myrna Mendoza, Antonio Cruz-Rivas. <em><a href="http://www.scielo.org.mx/pdf/rmbiodiv/v78n1/v78n1a3.pdf" target="_blank">Flora útil de los cafetales en la Sierra Norte de Puebla, México</a></em>. Revista Mexicana de Biodiversidad 78: 15- 40, 2007 </p>
-              </li>
-			  </ul>
-				</section>
+									<!-- InstanceBeginEditable name="MisIdeas" -->
+									<ul class="link-list">
+									  <li><img src="../images/pagInternas/MiguelAMimg1.jpg" width="230" height="310" alt=""/></li>
+                                      <li>
+                                        <p>Miguel Ángel Martínez, Virginia Evangelista, Francisco Basurto, Myrna Mendoza, Antonio Cruz-Rivas. <em><a href="http://www.scielo.org.mx/pdf/rmbiodiv/v78n1/v78n1a3.pdf" target="_blank">Flora útil de los cafetales en la Sierra Norte de Puebla, México</a></em>. Revista Mexicana de Biodiversidad 78: 15- 40, 2007 </p>
+                                      </li>
+									</ul>
+								  <script type="text/javascript">
+      // The TL.Timeline constructor takes at least two arguments:
+      // the id of the Timeline container (no '#'), and
+      // the URL to your JSON data file or Google spreadsheet.
+      // the id must refer to an element "above" this code,
+      // and the element must have CSS styling to give it width and height
+      // optionally, a third argument with configuration options can be passed.
+      // See below for more about options.
+      timeline = new TL.Timeline('timeline-embed',
+        'https://docs.google.com/spreadsheets/d/1-awSTGqjvaZvPuaTBD-FmKV1Po7OCoPsJXccm-HM5RY/edit#gid=0');
+    </script><!-- InstanceEndEditable --></section>
                                   <section>
 										  <header>
 										    <ul class="link-list">
@@ -86,6 +103,7 @@
 										    </ul>
 										  </header>
 								  </section>
+                                  
 							  </div>
 							</div>
 						</div>
