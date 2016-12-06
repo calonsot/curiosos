@@ -99,5 +99,51 @@
 				</div>
 
 			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						
+								<!-- Links -->
+                                <section>
+										<h2>Naturalistas del siglo XVIII</h2>
+										<div>
+											<div class="row">
+												<div class="3u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li><a href="../sXVIII/CarlVonLinne.php">Carl Von Linné</a></li>
+														<li><a href="../sXVIII/FcoClavijero.php">Francisco Xavier Clavijero</a></li>
+                                                        <li></li>
+													</ul>
+												</div>
+												<div class="3u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li><a href="../sXVIII/JoseAlzate.php">José Antonio Alzate y Ramírez</a></li>
+													  <li><a href="../sXVIII/JoseMMucino.php">José Mariano Mociño</a></li>
+                                                        <li></li>
+													</ul>
+												</div>
+												<div class="3u 12u(mobile)">
+												   <ul class="link-list last-child">
+														<li><a href="../sXVIII/AlexanderHumboldt.php">Alexander Von Humboldt</a></li>
+														<li><a href="../sXVIII/PabloLlave.php">Pablo de la Llave</a></li>
+                                                        <li></li>
+                                                   </ul>
+                                                 </div>
+                                                 <div class="3u 12u(mobile)">
+                                                   <ul class="link-list last-child">
+                                                       <li><a href="../sXVIII/JoseMartinez.php">Juan José Martínez de Lejarza</a></li>
+                                                       <li></li>
+                                                   </ul>
+                                                </div>
+											</div>
+										</div>
+									</section> <br>
+									<section>
+										<h2>Línea del tiempo</h2><br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide=""></div>
+											</div>
+									</section>
+					</footer>
+				</div>
 
 		<?php include '../Layouts/footerXVIII.php'?>		
