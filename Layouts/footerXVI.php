@@ -1,48 +1,4 @@
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						
-								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XVI</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVI/FBernardinoSahagun.php">Fray Bernardino de Sahagún</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVI/MartinCruz.php">Martín de la Cruz</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												   <ul class="link-list last-child">
-														<li><a href="../sXVI/FcoHToledo.php">Francisco Hernández de Toledo</a></li>
-                                                        <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;"></div>
-											</div>
-									</section>
-					</footer>
-				</div>
-
 			<!-- Copyright -->
             <div id="copyright">
 				<p><a href="http://www.conabio.gob.mx" target="_blank"><img src="../assets/css/images/logoConabio_sinFondo.png" width="99" height="84" alt=""/></a><br>
