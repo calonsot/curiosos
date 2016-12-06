@@ -38,12 +38,12 @@
 												<h2>Rafael Martín del Campo</h2>
 												<h3>1910 - 1987</h3>
 											</header>
-<p>Rafael Martín del Campo y Sánchez fue un notable zoólogo que nació en Jalisco en 1910 y falleció en la Ciudad de México en 1987.</p>
-                                          <p>Cursó el bachillerato en la Escuela Nacional Preparatoria y en 1931, inició la Maestría en Ciencias Biológicas en la Facultad de Filosofía y Letras de la Universidad Nacional Autónoma de México (UNAM).</p>
-                                          <p>En el campo zoológico se especializó como herpetólogo y ornitólogo aunque también hizo aportaciones en el campo de la etnobiología, así como en el de la Historia de la Biología. A través de las leyendas y tradiciones contenidas en los códices y escritos de los aztecas en la época de la Conquista, estudió el conocimiento que poseían los antiguos mexicanos sobre la fauna de aquel entonces. Ejemplos son sus trabajos <em>Los batracios y reptiles según los códices y relatos de los antiguos mexicanos</em> (1937), <em>Aves en la historia antigua de México</em> (1948) y <em>La Helmintología en el México antiguo</em> (1977).</p>
-                                          <p>Se desempeñó como investigador del Instituto de Biología de la UNAM, en donde además contribuyó a engrandecer y sistematizar la Colección Ornitológica que previamente había albergado el Museo Nacional de Historia Natural.  En 1939 fue profesor fundador la Facultad de Ciencias en dicha casa de estudios, impartiendo los cursos de Zoología IV, Historia de las Ciencias Biológicas y Raíces de lenguas indígenas.</p>
-                                          <p>Publicó 68 artículos científicos y 19 de divulgación, la mayoría sobre anfibios y reptiles, seguidos de temas etnológicos.</p>
-                                          </section>
+<p>Nací en Jalisco en 1910. Cursé el bachillerato en la Escuela Nacional Preparatoria y en 1931, inicié la Maestría en Ciencias Biológicas en la Facultad de Filosofía y Letras de la Universidad Nacional Autónoma de México (UNAM).</p>
+<p>En el campo zoológico me especialicé como herpetólogo y ornitólogo aunque también hice aportaciones en el campo de la etnobiología, así como en el de la Historia de la Biología. A través de las leyendas y tradiciones contenidas en los códices y escritos de los aztecas en la época de la Conquista, estudié el conocimiento que poseían los antiguos mexicanos sobre la fauna de aquel entonces.</p>
+<p>Algunos de mis trabajos son Los batracios y reptiles según los códices y relatos de los antiguos mexicanos (1937), Aves en la historia antigua de México (1948) y La Helmintología en el México antiguo (1977).</p>
+<p>Trabajé como investigador del Instituto de Biología de la UNAM, en donde además contribuí a engrandecer y sistematizar la Colección Ornitológica que previamente había albergado el Museo Nacional de Historia Natural. En 1939 fui profesor fundador la Facultad de Ciencias en dicha casa de estudios, impartiendo los cursos de Zoología IV, Historia de las Ciencias Biológicas y Raíces de lenguas indígenas.</p>
+<p>Publiqué 68 artículos científicos y 19 de divulgación, la mayoría sobre anfibios y reptiles, seguidos de temas etnológicos. Fallecí en la Ciudad de México en 1987.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

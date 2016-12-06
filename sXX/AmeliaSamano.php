@@ -37,13 +37,14 @@
 												<h2>Amelia Sámano Bishop</h2>
 												<h3>1900 - 1998</h3>
 											</header>
-<p>Amelia Sámano Bishop fue pionera en el estudio de las algas a principios del siglo XX en México. Nació en San Nicolás del Oro, en el estado de Guerrero en 1900 y murió en 1998. </p>
-                                          <p>Se graduó como bachiller en Artes en el Colegio de Arkansas en Estados Unidos. En 1935 estudió la maestría en Ciencias Biológicas en la Facultad de Filosofía y Letras y cuatro años más tarde el doctorado en Ciencias Biológicas en la Facultad de Ciencias, ambos en la Universidad Nacional Autónoma de México (UNAM).</p>
-                                          <p>En la UNAM participó en la fundación del Instituto de Biología así como del Departamento de Embriología de la Facultad de Medicina y el de Biología en la Facultad de Ciencias. </p>
-                                          <p>Realizó alrededor de 30 trabajos de investigación, muchos de ellos sobre las algas de agua dulce del Valle de México. Se dedicó también a la docencia, impartió clases de embriología, histología comparada, biología general y técnicas selectas de laboratorio.</p>
-                                          <p>Colaboró con la Secretaría de Salubridad y Asistencia, impartiendo cursos sobre oncología y embriología en diferentes hospitales, y realizando expediciones por el país para el estudio de enfermedades de origen tropical.</p>
-                                          <p>Su hermana Eva Sámano Bishop fue Primera Dama de México (1958-1964), esposa del presidente Adolfo López Mateos.</p>
-										  </section>
+<p>Nací en el año de 1900 en la región de tierra caliente del estado de Guerrero, en el poblado de El Oro. Me gradué como bachiller en Artes en el Colegio de Arkansas en Estados Unidos. En 1935 estudié la maestría en Ciencias Biológicas en la Facultad de Filosofía y Letras y cuatro años más tarde hice el doctorado en Ciencias Biológicas en la Facultad de Ciencias, ambos en la Universidad Nacional Autónoma de México. Allá por el año de 1949 trabajé en el Instituto de Biología cuando estaba en la hermosa Casa del Lago de aquel esplendoroso y frondoso Bosque de Chapultepec.</p>
+<p>Mi energía, motivación juvenil, disciplina y análisis me llevaron a participar en la fundación de nuevas instituciones educativas. En la UNAM me involucré con la fundación del Instituto de Biología, el Departamento de Embriología de su Facultad de Medicina y el de Biología perteneciente a la Facultad de Ciencias. Conocí al Dr. Isaac Ochoterena quien me dio consejos sobre mi formación universitaria.</p>
+<p>En la escuela Médico Militar que fue abierta por Don Venustiano Carranza, promoví la primera clase de embriología humana además de que era la ¡primera escuela militar educando mujeres!</p>
+<p>Mi hermana Eva Sámano se casó con Adolfo López Mateos quien fue presidente de México de 1958 a 1964. Ella fue conocida como “Gran protectora de la infancia”, por sus diferentes actividades en bien de los niños mexicanos. Para recaudar fondos organizaba grandes festivales donde intervenían artistas muy famosos, como el cantante y actos estadounidense Frank Sinatra (1915-1998) que dio una presentación en México. La actriz estadounidense Marilyn Monroe (1826-1962) donó dinero para la causa.</p>
+<p>Gran parte de mi investigación la realice sobre las algas de agua dulce de la Cuenca de México. Las algas son un tipo de plantas acuáticas que habitan en el mar así como en los ríos y lagos y desarrollan también fotosíntesis. A menudo utilizaba el microscopio para determinar sus formas, colores y su identidad.</p>
+<p>Con la Secretaría de Salud realicé cansadísimas expediciones por el país para el estudio de enfermedades de origen tropical como el paludismo, enfermedad provocada por un organismo microscópico transmitido por los mosquitos. Cursé estudios de posdoctorado becada en Alemania, Escocia y Bélgica referentes a enfermedades tropicales y embriología humana.</p>
+<p>Al final de mis días padecí de algunas enfermedades y tuve que dejar el microscopio y las algas para siempre en el año de 1998 en la Ciudad de México.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

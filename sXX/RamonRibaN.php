@@ -35,13 +35,12 @@
 												<h2>Ramón Riba y Nava Esparza</h2>
 												<h3>1934 - 1999</h3>
 											</header>
-<p>Ramón fue pionero en México y Latinoamérica en hacer estudios sobre la distribución geográfica y la clasificación de los helechos. Incluso registró lo largo de su vida muchísimas especies de estas plantas, muchas de ellas  desconocidas para la ciencia. </p>
-                                          <p>Estudió biología  en la Facultad de Ciencias de la UNAM (1957) y años más tarde hizo el doctorado (1967) en la misma institución. Sus primeras investigaciones se enfocaron en diversos grupos de organismos, como algas, hongos y plantas. </p>
-                                          <p>Entre sus grandes aportaciones a la botánica de México estuvieron, por un lado, el proyecto de enriquecer con nuevos datos e información al inventario de helechos del estado de Veracruz; y por el otro, su participación en el proyecto Flora Mesoamericana,  la primera gran publicación  sobre flora regional escrito en español y en la que participaron la UNAM, el Jardín Botánico de Missouri y el Museo de Historia Natural de Londres. </p>
-                                          <p>Como persona comprometida con la ciencia en sus muchas dimensiones, Ramón también se dedicó a la docencia y a las actividades administrativas. Fue cofundador del Jardín Botánico de la UNAM y jefe del Herbario Nacional del Instituto de Biología de la misma institución. Participó en la formación de lo que hoy es el Herbario Metropolitano de la UAM, el cual hoy lleva su nombre y resguarda a miles de ejemplares de plantas. <br>
-                                             <br>
-                                            Fue miembro de muchas sociedades como la Sociedad Botánica de México y la Asociación Internacional de Pteridologistas.</p>
-										  </section>
+<p>Nácí en la Ciudad de Méxio. Estudié biología  en la Facultad de Ciencias de la UNAM (1957). Mi gusto por la botánica fue influenciado fuertemente por mi maestro el Dr. Faustino Miranda. Ahi tuve como compañeros a los botánicos Arturo Gómez Pompa y Javier Valdés Gutiérrez. Mis primeras investigaciones se enfocaron en diversos grupos de organismos, como algas, hongos y plantas. Estudie el posgrado en la Universidad de Harvard (1967) con una beca John Simon Guggenheim.</p>
+<p>Entre mis aportaciones a la botánica de México estuvieron, por un lado, el proyecto de enriquecer con nuevos datos e información al inventario de helechos del estado de Veracruz; y por el otro, mi participación en el proyecto Flora Mesoamericana,  la primera gran publicación  sobre flora regional escrito en español y en la que participaron la UNAM, el Jardín Botánico de Missouri y el Museo de Historia Natural de Londres.</p>
+<p>También me dediqué a la docencia y a las actividades administrativas. Fui cofundador del Jardín Botánico de la UNAM y jefe del Herbario Nacional del Instituto de Biología de la misma institución. Participé en 1974 la creación del Departamento de Biología de la recién creada Universidad Autónoma Metropolitana en la unidad Iztapalapa y en la formación de lo que hoy es su Herbario Metropolitano, el cual hoy lleva mi nombre y resguarda a miles de ejemplares de plantas. <br>
+  <br>
+  Fui miembro de muchas sociedades como la Sociedad Botánica de México y la Asociación Internacional de Pteridologistas. Fui pionero en México y Latinoamérica en hacer estudios sobre la distribución geográfica y la clasificación de los helechos. Registré lo largo de mi vida muchísimas especies de estas plantas, muchas de ellas  desconocidas para la ciencia.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

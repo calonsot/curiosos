@@ -38,13 +38,11 @@
 												<h3>1926 - 1980</h3>
 											</header>
 <p>Nací en Yucatán en 1926. Mi padre fue Alfredo Barrera Vásquez (1900-1980) su interés en la cultura maya precolombina hizo que yo también me interesara. El promovió la literatura en lengua maya y yo aprendí ese bello idioma. En la Ciudad de México estudié la licenciatura en 1952, y el doctorado en 1965, ambos en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional (IPN). Me convertí en investigador y profesor en el Poli, en la Universidad Nacional Autónoma de México (UNAM) y en el extinto Instituto Nacional de Investigaciones sobre Recursos Bióticos (INIREB) en Jalapa, Veracruz.</p>
-                                          <p>Publiqué más de 100 trabajos de investigación, entre los cuales muchos trataban sobre los mosquitos y su control, las pulgas de México, así como de otros temas entomológicos. Aunque me encantaban los insectos, también me interesé en la etnobiología, en particular en la etnobotánica maya, y dediqué gran parte de mi vida al estudio y rescate del conocimiento de los mayas sobre el entorno natural de la península de Yucatán .</p>
-                                          <p>Fundé y dirigí la revista <em>Acta Zoológica Mexicana</em>, hasta la fecha activa. Publiqué con otros autores los libros <em>Biología: unidad del mundo vivo</em> y <em>Biología: diversidad  y continuidad del mundo vivo</em>.</p>
-                                          <p>Aparte de la investigación y la enseñanza, también tuve varios cargos administrativos y académicos, entre los que destacan: director del Museo de Historia Natural de la Ciudad de México; presidente de la Sociedad Mexicana de Historia Natural y de la Academia de la Investigación Científica (ya extinta).  Me despedí en 1980 en el mismo estado donde nací.</p>
-										  </section>
-
-								</div>
-								<div class="3u 12u(mobile)">
+<p>Publiqué más de 100 trabajos de investigación, entre los cuales muchos trataban sobre los mosquitos y su control, las pulgas de México, así como de otros temas entomológicos. Aunque me encantaban los insectos, también me interesé en la etnobiología, en particular en la etnobotánica maya, y dediqué gran parte de mi vida al estudio y rescate del conocimiento de los mayas sobre el entorno natural de la península de Yucatán .</p>
+<p>Fundé y dirigí la revista Acta Zoológica Mexicana, hasta la fecha activa. Publiqué con otros autores los libros Biología: unidad del mundo vivo y Biología: diversidad  y continuidad del mundo vivo.</p>
+<p>Aparte de la investigación y la enseñanza, también tuve varios cargos administrativos y académicos, entre los que destacan: director del Museo de Historia Natural de la Ciudad de México; presidente de la <strong><a href="../sXIX/SMHN.php">Sociedad Mexicana de Historia Natural</a></strong>&quot; (1864-1965) y de la Academia de la Investigación Científica (ya extinta). Me despedí en 1980 en el mismo estado donde nací.</p>
+								  </section>
+                              </div><div class="3u 12u(mobile)">
 
 									<!-- Right Sidebar -->
                                   <section>

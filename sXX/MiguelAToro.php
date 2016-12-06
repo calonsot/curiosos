@@ -22,13 +22,14 @@
 												<h2>Referencias</h2>
 											</header>
 <ul class="link-list last-child">
-              <li>Bray D. et. al. (edts). 2007. Los bosques comunitarios de México: Manejo sustentable de paisajes forestales. Secretaría de Medio Ambiente y Recursos Naturales, 443p.</li>
-              <li>Navarro S.A. y J.E. Morales-Pérez. 1999. In Memoriam: Miguel Álvarez del Toro, 1917-1996. The Auk 116(1): 226-227.</li>
+              <li>Álvarez, G. 2014. Cuesta Arriba. Gobierno del Estado de Colima y Secretaría de Educación. México</li>
               <li>Aranda, M. 1997. In Memorian. Miguel Álvarez del Toro (1917-1996). Acta Zool. Mex. (n.s.) 71: 71-76.</li>
+              <li>Bray D. et. al. (edts). 2007. Los bosques comunitarios de México: Manejo sustentable de paisajes forestales. Secretaría de Medio Ambiente y Recursos Naturales, 443p.</li>
+              <li>Guichard-Romero, C.A. 2011. Miguel Álvarez del Toro (1917-1966). Síntesis biográfica. Quehacer Científico en Chiapas 1(11)4-6.</li>
+              <li>Navarro S.A. y J.E. Morales-Pérez. 1999. In Memoriam: Miguel Álvarez del Toro, 1917-1996. The Auk 116(1): 226-227.</li>
               <li>Secretaría de Medio Ambiente, Vivienda e Historia Natural. Plan de Educación Ambiental 2004-2014, Estado de Chiapas. Dirección de Educación Ambiental para el Desarrollo Sustentable.</li>
-              <li></li>
-              </ul>
-										  </section>
+</ul>
+								  </section>
 								</div>
                                 
                                 <div class="6u 12u(mobile) important(mobile)">
@@ -39,12 +40,12 @@
 												<h2>Miguel Álvarez del Toro</h2>
 												<h3>1917 - 1996</h3>
 											</header>
-<p>Miguel Álvarez del Toro es considerado el último naturalista mexicano del siglo XX debido a su pasión por conocer y preservar la naturaleza. Nació en Colima en 1917 y falleció en la Ciudad de México en 1996.</p>
-                                          <p>Su educación primaria y secundaria la realizó en su estado natal, y aunque no hizo estudios universitarios, se interesó tanto en el estudio de los animales, las bases para su clasificación y en particular las técnicas para conservar los especimenes zoológicos (taxidermia), que se convirtió en zoólogo y taxidermista autodidacta. </p>
-                                          <p>Comenzó su vida laboral en 1938 cuando la Academia de Ciencias Naturales de Filadelfia, en Estados Unidos, le solicitó una pequeña colección de aves de las áreas cercanas a la Ciudad de México. Más tarde por sus conocimientos en la taxidermia, fue contratado en el recién fundado Museo de Fauna y Flora del Parque de Chapultepec, siendo posteriormente el subdirector de 1940 a 1941.</p>
-                                          <p>Se mudó a Chiapas en 1942 atraído por su fauna, su exuberante vegetación, y por contrato del gobernador como taxidermista en el incipiente Museo de Historia Natural de Tuxtla Gutiérrez. Contribuyó a formar las colecciones zoológicas del museo para lo cual realizó numerosas exploraciones en el estado, primero a las zonas más accesibles y después a los lugares más alejados o remotos de la selva. Finalmente se convirtió en el director del museo desde 1944 hasta su muerte. Por otro lado contribuyó a la creación y el diseño del actual &ldquo;Zoológico Regional Miguel Álvarez del Toro&rdquo;.</p>
-                                          <p>Tanta fue su pasión por la biodiversidad chiapaneca; en particular por las aves, reptiles y mamíferos, que sobre ella tratan los nueve libros de los cuales fue autor o coautor. Además escribió alrededor de 70 artículos científicos y de divulgación.</p>
-										  </section>
+<p>Nací en Colima en 1917 y ahí realicé la primaria y secundaria. Los Álvarez de Colima se dedicaron a la política desde 1700s y ha habido varias generaciones de gobernadores incluyendo a mi tío Miguel Álvarez García (1880-19311) y a mi prima, la primera mujer electa gobernadora Griselda Álvarez Ponce de León (1913-2009).</p>
+<p>A mi me interesó más la naturaleza. Sin tener estudios universitarios, me interesé tanto en el estudio de los animales, las bases para su clasificación y en particular las técnicas para conservar los especimenes zoológicos (taxidermia), que me convertí en zoólogo y taxidermista autodidacta. En 1932, a los 15 años nos mudamos a la Ciudad de México y ahí seguí la secundaria y la preparatoria.</p>
+<p>Comencé mi vida laboral en 1938 cuando la Academia de Ciencias Naturales de Filadelfia, en Estados Unidos, me solicitó una pequeña colección de aves de las áreas cercanas a la Ciudad de México. Me casé con Clementina Pérez con la que tuve tres hijos Rebeca, Hebe y Federico y nos mudamos a la ciudad de México en 1939. Más tarde por mis conocimientos en la taxidermia, fui contratado en el recién fundado Museo de Fauna y Flora del Parque de Chapultepec, siendo posteriormente el subdirector de 1940 a 1941.</p>
+<p>Me mudé a Chiapas en 1942 atraído por su fauna, su exuberante vegetación, y por un contrato del gobernador, el Dr. Rafael Pascacio Gamboa, como taxidermista en el incipiente Museo de Historia Natural de Tuxtla Gutiérrez. Contribuí a formar las colecciones zoológicas del museo para lo cual realicé numerosas exploraciones en el estado, primero a las zonas más accesibles y después a los lugares más alejados o remotos de la selva. Finalmente me convertí en el director del museo desde 1944 hasta mi muerte. Contribuí a la creación y el diseño del actual “Zoológico Regional” que ahora lleva mi nombre.</p>
+<p>Tanta fue mi pasión por la biodiversidad chiapaneca, en particular por las aves, reptiles y mamíferos, que sobre ella tratan los nueve libros de los cuales fui autor o coautor. Además escribí alrededor de 70 artículos científicos y de divulgación. En 1996, después de vivir 54 años en Chiapas me sorprendió un infarto cardíaco. Mis cenizas fueron esparcidas cerca del río La Venta en la Selva del Ocote en Chiapas.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

@@ -15,7 +15,7 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../images/personajes/CarlosLinneo.jpg" width="230" height="405" alt=""/></header>
+											<header><img src="../images/personajes/CarlosLinneo2.jpg" width="227" height="406" alt=""/></header>
 </section>
 										<section>
 											<header>
@@ -37,7 +37,9 @@
 												<h2>Carl Von Linné</h2>
 												<h3>1707 - 1778</h3>
 											</header>
-<p>&nbsp;</p>
+<p>Me dediqué a crear el sistema de clasificación de plantas y animales que los científicos aún utilizan hoy en día. Crecí en una región llena de lagos y bosques en el sur de Suecia. Fui el mayor de los hijos de Nils Ingemarsson Linnaeus y Christina Brodersonia. Mi padre fue pastor luterano, rector de la Universidad del pueblo de Stenbrohult y tenía como afición la botánica y la jardinería. Mi madre era hija del rector de la Universidad antes que lo sucediera mi padre. Tuve tres hermanas y un hermano. Me la pasaba jugando en el jardín de la casa junto con mi papá.</p>
+<p>Mas tarde fui conociendo a varios médicos interesados en la botánica y decidí estudiar medicina en la Universidad de Lund y en Upsala, pero mi pasión realmente eran las plantas y las materias que más me gustaban tenían que ver con las plantas medicinales. Desde que era estudiante empecé a dar clases sobre botánica y a hacer expediciones para conocer las plantas de la región.</p>
+<p>A los 25 años en 1732 organicé una expedición a Laponia, con apoyo de la Real Sociedad de Ciencias de Upsala. Durante once días anduve a pie y a caballo recorriendo el norte de la península escandinava.</p>
 										  </section>
 
 								</div>

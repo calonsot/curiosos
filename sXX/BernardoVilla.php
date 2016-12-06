@@ -37,12 +37,15 @@
 												<h2>Bernardo Villa Ramírez</h2>
 												<h3>1911 - 2006</h3>
 											</header>
-<p>Bernardo Villa Ramírez fue un destacado biólogo, pionero en el estudio de los mamíferos mexicanos. Nació en 1911 en Teloloapan, de Guerrero, y murió en el año 2006.</p>
-                                          <p>Su vida escolar y profesional comenzó en su estado natal, donde fue maestro rural. Posteriormente se trasladó a la Ciudad de México para continuar sus estudios. En 1940 cursó la carrera de Biología en la Facultad de Ciencias de la UNAM y en1947 obtuvo el grado de Maestro en Artes por la Universidad de Kansas, Estados Unidos. Regresó a México para realizar su doctorado en 1966 dedicado al estudio de los murciélagos del país. De esta forma contribuyó a sentar las bases para su clasificación y distribución geográfica, abarcando además aspectos relacionados con la economía y la salud, como la transmisión de la rabia por estos organismos.</p>
-                                          <p>Fue miembro de numerosas sociedades científicas dedicadas al estudio de los mamíferos, entre las que destacan la Sociedad Americana de Mastozóologos y la Asociación Méxicana de Mastozoología, A.C. Se preocupó por la conservación y protección de la naturaleza, fungiendo como Director de Fauna Silvestre del gobierno federal.</p>
-                                          <p>Publicó alrededor de 100 artículos científicos sobre distintos grupos de mamíferos, su distribución en el país y técnicas útiles para su estudio en campo. La mayoría se enfocan en los murciélagos, muchos sobre roedores, y en menor número tratan sobre cetáceos, lobos y coyotes, el venado cola blanca, lobos marinos, antílopes y monos. </p>
-                                          <p>Escribió varios libros entre los que se encuentran las magnas obras: <em>Los mamíferos del Valle de México</em>, 1953 y <em>Los murciélagos de México</em>, 1966. </p>
-                                          </section>
+<p>Hay un pueblito llamado Teloloapan, en el estado de Guerrero. Se ubica en la parte sur de la Sierra Madre Oriental. Orgullosamente nací ahí en el año de 1911. Mi pueblito es famoso porque fue escenario de hechos históricos que actualmente mucha gente ignora. Por ejemplo, en la guerra de independencia el insurgente Vicente Guerrero tomó la plaza y venció al comandante realista José Gabriel de Armijo (1774-1830). Mis padres fueron Andrés Villa Brito y Delfina Ramírez Benites. Mi apá, nos contaba de manera muy amena, a mi hermana Anselma y a mí, los distintos enfrentamientos entre federales y revolucionarios, él era muy bueno para narrar historias.</p>
+<p>Mi familia era muy pobre por lo que tuve que vender cerillos y bolitas de hilo en el mercado para ayudarlos en los gastos. Lo bueno es que nunca dejé de estudiar y cuando terminé la primaria me convertí en maestro rural. Y con el tiempo y mi esfuerzo por superarme llegué a dar clases en la Facultad de Ciencias de la UNAM, además gracias a una beca de la Fundación Guggenheim fui a estudiar Paleontología y Zoología a la Universidad de Kansas en Estados Unidos de 1945 a 1947.</p>
+<p>En mis tiempos de juventud estuve en un paraje llamado Puente de Dios, en la Yerbabuena dentro del estado de Guerrero donde la gente llamaba “ratones viejos” a unos animales que solo salían en las oscuras noches y mataban a sus vacas, caballos y burros de manera muy misteriosa. Esto me causó tanta curiosidad que años después fui con mi apá a investigar a ese extraño animal causante de aquellas muertes. La única pista que tenía era que vivían en cuevas, así que salimos en la búsqueda montados en un burrito y un caballo a trote lento por aquellas veredas. Después de muchos meses de estudio descubrí que los causantes eran una especie de murciélago que se alimentaba de sangre y que transmitían la rabia.</p>
+<p>En la UNAM trabajé en el Instituto de Biología cuando se encontraba en la bella Casa del Lago en Chapultepec. Ahí conocí al Dr. Isaac Ochoterena quién me hizo responsable de la colección de reptiles, esto me dio una idea para después fundar la colección de mamíferos de México donde la mayoría son murciélagos y que es la más completa de América Latina.</p>
+<p>Conocí a la señorita Clemencia Cornejo, la enamoré y finalmente me casé con ella. Tuvimos tres hijos, Bernardo, y las gemelas Beatriz y Martha. Los tres se dedicaron a las ciencias biológicas, Bernardo se formó en medicina y las muchachas se titularon como veterinaria y zoóloga.</p>
+<p>En mi estancia por el Golfo de California me involucré en trabajos de conservación de la vida animal, enfocado a las aves marinas migratorias de la Isla Rasa, la simpática vaquita marina y el imponente rorcual común que es la segunda ballena más grande del mundo.</p>
+<p>Fui miembro de numerosas sociedades científicas dedicadas al estudio de los mamíferos, entre las que destacan la Sociedad Americana de Mastozoólogos y la Asociación Mexicana de Mastozoología, A.C. Entre mis libros más importantes que escribí se encuentran “Los mamíferos del Valle de México”, de 1953 y “Los murciélagos de México”, de 1966.</p>
+<p>En el año 2006 teniendo 95 años de edad me despedí para siempre de la universidad, mi país y su bella biodiversidad.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">
@@ -54,15 +57,8 @@
 										  </header>
 <ul class="link-list">
 			  <li><img src="../images/pagInternas/BVillaRimg3.jpg" width="230" height="333" alt=""/></li>
-			  <li>Lagartija escamosa <em>(Sceloporus aureolus)</em></li>
-			  <li>Foto: Miguel A. Sicilia Manzo / Banco de imágenes, CONABIO
-
-			    <ul class="link-list">
-			      <li></li>
-	            </ul>
-	          </li>
-			  </ul>
-								    </section>
+			  <li>Murciélago pescador <em>(Noctilio leporinus)</em></li>
+			  <li>Foto: Miguel A. Sicilia Manzo / Banco de imágenes, CONABIO			  </li></ul></section>
                                   <section>
 											<header>
 												<h2>Mis lugares</h2>

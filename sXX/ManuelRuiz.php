@@ -36,13 +36,13 @@
 												<h2>Manuel Ruiz Oronoz</h2>
 												<h3>1909 - 1978</h3>
 											</header>
+<p>Nací en la ciudad de Chihuahua, lugar donde realicé mis estudios básicos y di clases de primaria. Más tarde me trasladé a la ciudad de México para ampliar mi formación académica y  especializarla, de manera que obtuve el grado de doctor en Ciencias biológicas otorgado por la Facultad de Ciencias de la UNAM (1942).</p>
+<p>A partir de entonces, me dedicó a estudiar los hongos microscópicos responsables de la fermentación del agua miel, que después se convierte en pulque, así como  de la fermentación de varios frutos. Estos estudios motivaron a otros investigadores a seguir trabajando con esta tradicional bebida mexicana.</p>
+<p>A Manuel también le interesaba colectar hongos grandes, actividad que realizó en diferentes regiones del país. En sus salidas al campo, le agradaba platicar con los indígenas para que le contaran sobre cómo los usaban.</p>
+<p>Manuel transmitía con entusiasmo todos estos conocimientos a sus alumnos, así fuera en las clases a diferentes niveles de enseñanza que impartió en instituciones tan diversas como la UNAM, el IPN y la Escuela Normal Superior, o en sus excursiones al campo. Asimismo, se dedicó a escribir numerosos libros de texto que fueron referencia obligada durante muchos años.</p>
+<p>Trabajó por más de treinta años en el Instituto de Biología de la UNAM y participó en la fundación del Jardín Botánico de dicha institución.</p>
+<p>Manuel fue miembro de varias sociedades científicas, en particular, fue presidente de la Sociedad Mexicana de Historia Natural.</p>
 <p>Manuel fue pionero en campo de la microbiología (la disciplina que estudia a los organismos que no se pueden ver a simple vista) y de los estudios etnomicológicos (los que exploran la relación de los pueblos indígenas con los hongos) en México.</p>
-                                          <p>Nació en la ciudad de Chihuahua, lugar donde realizó sus estudios básicos y dio clases de primaria. Más tarde se trasladó a la ciudad de México para ampliar su formación académica y  especializarla, de manera que obtuvo el grado de doctor en ciencias biológicas otorgado por la Facultad de Ciencias de la UNAM (1942).</p>
-                                          <p>A partir de entonces, Manuel se dedicó a estudiar los hongos microscópicos responsables de la fermentación del agua miel, que después se convierte en pulque, así como  de la fermentación de varios frutos. Estos estudios motivaron a otros investigadores a seguir trabajando con esta tradicional bebida mexicana. </p>
-                                          <p>A Manuel también le interesaba colectar hongos grandes, actividad que realizó en diferentes regiones del país. En sus salidas al campo, le agradaba platicar con los indígenas para que le contaran sobre cómo los usaban.</p>
-                                          <p>Manuel transmitía con entusiasmo todos estos conocimientos a sus alumnos, así fuera en las clases a diferentes niveles de enseñanza que impartió en instituciones tan diversas como la UNAM, el IPN y la Escuela Normal Superior, o en sus excursiones al campo. Asimismo, se dedicó a escribir numerosos libros de texto que fueron referencia obligada durante muchos años. </p>
-                                          <p>Trabajó por más de treinta años en el Instituto de Biología de la UNAM y participó en la fundación del Jardín Botánico de dicha institución.</p>
-                                          <p>Manuel fue miembro de varias sociedades científicas, en particular, fue presidente de la Sociedad Mexicana de Historia Natural.</p>
                                           </section>
 
 								</div>

@@ -36,14 +36,15 @@
 												<h2>Teófilo Herrera Suárez</h2>
 												<h3>1924 </h3>
 											</header>
-<p>Teófilo Herrera es un biólogo especialista en el campo de la micología (estudio de los hongos) y la microbiología. Nació en la ciudad de México en 1924.</p>
-                                          <p>Estudió biología en la Facultad de Ciencias de la Universidad Nacional Autónoma de México (1945) y casi a la par realizó la carrera de Químico Biólogo Parasitólogo en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional. En 1954 hizo la maestría en ciencias en la Universidad de Wisconsin en la especialidad de bioquímica y microbiología y en 1964 obtuvo el grado de doctor en la Facultad de Ciencias de la UNAM.</p>
-                                          <p>Ha explorado gran parte del país, por lo que ha adquirido un vasto conocimiento sobre la vegetación del país. De hecho, colaboró con la elaboración de 1000 fichas en doce tomos sobre la flora de México.</p>
-                                          <p>En revistas científicas nacionales e internacionales ha publicado alrededor de 118 artículos derivados de su labor de investigación, la mayoría tratan de hongos y el resto sobre bacterias u otros temas.</p>
-                                          <p>También se ha dedicado a la docencia en distintos niveles educativos,  y ha impartido las asignaturas de microbiología, bacteriología y micología, entre otras. En el campo de la divulgación ha escrito varios libros de textos sobre estos temas.<br>
-                                            Fue cofundador de la sección de macromicetos en el Herbario Nacional y de la Sociedad Latinoamericana de Microbiología, de la Sociedad Mexicana de Micología y del Jardín Botánico &ldquo;Faustino Miranda&rdquo;, entre otras.<br>
-                                            Es muy reconocido por su conocimiento sobre la microbiología de alimentos y bebidas fermentadas indígenas como el pulque, tepache y tesgüino.</p>
-                                          </section>
+<p>Nací en la ciudad de México en 1924. Mi padre fue Teófilo Herrera Ostos y mi madre Victoria Suárez Robaina. Fuí el menor de cuatro hermanos y el único varón, Catalina, María Elena, Victoria. Ambas familias, la de mi madre y la de mi padre venían de Tantoyuca, Veracruz, &quot;la Perla de las Huastecas&quot;.</p>
+<p>Mi interés por la naturaleza me llevó a cursar dos carreras simultáneamente. Estudié biología en la Facultad de Ciencias de la Universidad Nacional Autónoma de México (1945) y casi a la par realicé la carrera de Químico Biólogo Parasitólogo en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional. En 1954 hice la maestría en ciencias en la Universidad de Wisconsin en la especialidad de bioquímica y microbiología y en 1964 obtuvé el grado de doctor en la Facultad de Ciencias de la UNAM.</p>
+<p>En 1955 conocí a Gastón Guzmán ¡eramos los dos únicos estudiosos de los hongos en el país! Con él inicié la Sociedad Mexicana de Micología de la cual fuí el primer presidente.<br>
+  He explorado gran parte del país, por lo que adquirí un vasto conocimiento sobre la vegetación del país. De hecho, colaboré con la elaboración de 1,000 fichas en doce tomos sobre la flora de México.</p>
+<p>En revistas científicas nacionales e internacionales he publicado alrededor de 118 artículos derivados de su labor de investigación, la mayoría tratan de hongos y el resto sobre bacterias u otros temas.</p>
+<p>También me ha dedicado a la docencia en distintos niveles educativos. Me inspiró el Dr. Ruiz Oronoz y he impartido las asignaturas de microbiología, bacteriología y micología, entre otras. En el campo de la divulgación he escrito varios libros de textos sobre estos temas.<br>
+  Fuí cofundador de la sección de macromicetos en el Herbario Nacional y de la Sociedad Latinoamericana de Microbiología y del Jardín Botánico “Faustino Miranda”, entre otras.<br>
+  Me adentré en el conocimiento sobre la microbiología de alimentos y bebidas fermentadas indígenas como el pulque, tepache y tesgüino.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

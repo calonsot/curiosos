@@ -37,14 +37,13 @@
 												<h2>Carl Lumholtz </h2>
 												<h3>1851-1922</h3>
 											</header>
-<p>Carl Lumholtz es considerado uno de los pioneros de la antropología mexicana debido a su amplio trabajo en campo sobre diferentes pueblos indígenas del país. </p>
-                                          <p>Nació en Noruega y estudió teología en la Universidad de Oslo (1876). Como desde joven tuvo inclinaciones naturalistas y era un explorador nato, aceptó ser enviado a Australia para recolectar animales y plantas que formarían parte de las colecciones biológicas del Museo de Historia Natural de la universidad donde había sido estudiante.  </p>
-                                          <p>La convivencia con los pueblos originarios de ese país y el registro de sus formas de vida durante cuatro años de exploración (1880-1884) dio origen a sus primeros trabajos etnográficos.</p>
-                                          <p>Más tarde consiguió el apoyo del Museo Americano de Historia Natural, la Sociedad Geográfica Americana (ambos de Estados Unidos) y el gobierno mexicano para comenzar sus exploraciones por el territorio nacional. </p>
-                                          <p>En total emprendió seis viajes de investigación entre 1890 y 1910, en los que recorrió principalmente amplias zonas del norte y occidente de México. Así pudo convivir y fotografiar a los purépechas, tepehuanos, tarahumaras, coras, huicholes, nahuas, pápagos y tarascos. También hizo registros arqueológicos, del paisaje, la flora y la fauna de varios de los estados que visitó.</p>
-                                          <p>El resultado de sus estudios y esfuerzos culminaron con la publicación del voluminoso libro &ldquo;El México Desconocido&rdquo; (1902), originalmente escrito en inglés y después traducido al español. Esta obra es a la fecha un referente para los estudios sociales de la época del Porfiriato así como etnográficos por sus numerosos datos, descripciones, anécdotas y material fotográfico.</p>
-                                          <p>Carl Lumholtz viajó a otros lugares del mundo, como la India y Borneo, y al final regresó a su país, donde murió.</p>
-										  </section>
+<p>Nací en Noruega y estudié teología en la Universidad de Oslo (1876). Como desde joven tuve inclinaciones naturalistas y era un explorador nato, acepté ser enviado a Australia para recolectar animales y plantas que formarían parte de las colecciones biológicas del Museo de Historia Natural de la universidad donde había sido estudiante. </p>
+<p>La convivencia con los pueblos originarios de ese país y el registro de sus formas de vida durante cuatro años de exploración (1880-1884) dio origen a mis primeros trabajos etnográficos.</p>
+<p>Más tarde conseguí el apoyo del Museo Americano de Historia Natural, la Sociedad Geográfica Americana (ambos de Estados Unidos) y el gobierno mexicano para comenzar mis exploraciones por el territorio nacional.</p>
+<p>En total emprendí seis viajes de investigación entre 1890 y 1910, en los que recorrí principalmente amplias zonas del norte y occidente de México. Así pude convivir y fotografiar a los purépechas, tepehuanos, tarahumaras, coras, huicholes, nahuas, pápagos y tarascos. También hice registros arqueológicos, del paisaje, la flora y la fauna de varios de los estados que visité.</p>
+<p>El resultado de mis estudios y esfuerzos culminaron con la publicación del voluminoso libro “El México Desconocido” (1902), originalmente escrito en inglés y después traducido al español. Esta obra es a la fecha un referente para los estudios sociales de la época del Porfiriato así como etnográficos por sus numerosos datos, descripciones, anécdotas y material fotográfico.</p>
+<p>Viajé también a otros lugares del mundo como la India y Borneo, y al final regresé a Noruega, donde fallecí. He sido considerado uno de los pioneros de la antropología mexicana debido a mi amplio trabajo en campo sobre diferentes pueblos indígenas del país.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

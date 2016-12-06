@@ -39,12 +39,12 @@
 												<h2>Cándido Bolívar y Pieltain</h2>
 												<h3>1897 - 1976</h3>
 											</header>
-<p>Cándido Bolívar y Pieltain fue un especialista en el estudio de los insectos que creó toda una escuela de entomólogos mexicanos y españoles durante su época. Nació en 1897 en Madrid, España y falleció en la ciudad de México en 1976.  </p>
-                                          <p>Obtuvo la licenciatura (1917) y el doctorado (1920) en Ciencias por la Universidad de Madrid. Desde temprana edad, su padre lo inició en el estudio de la naturaleza y particularmente en la investigación entomológica. Fue jefe de la sección de entomología y secretario del Museo de Ciencias Naturales. También se dedicó a la docencia en la Universidad de Madrid y junto con su padre fundó la revista <em>Eos.</em></p>
-                                          <p>Llegó a México en 1939 contratado por la Secretaría de Salubridad, con el objetivo de participar en la investigación de algunas enfermedades transmitidas por insectos, como el paludismo y la oncocercosis.</p>
-                                          <p>Fue cofundador en 1940 de la revista <em>Ciencia. Revista hispano-americana de Ciencias puras y aplicadas</em>, y uno de sus redactores principales. También se dedicó a la docencia en la Escuela de Ciencias Biológicas del Instituto Politécnico Nacional, donde organizó el laboratorio de Entomología en el cual dejó importantes colecciones de insectos.</p>
-                                          <p>Le interesó el estudio de la fauna cavernícola y de las altas cumbres de los volcanes mexicanos, por lo cual exploró numerosas grutas del país. Publicó una serie de trabajos científicos sobre insectos de México. Formó parte de la Sociedad Mexicana de Historia Natural, y fue su presidente en 1947.</p>
-                                          </section>
+<p>Nací en 1897 en Madrid, España. Desde temprana edad, mi padre Ignacio Bolivar mo inició en el estudio de la naturaleza y particularmente en la investigación entomológica. Obtuvé la licenciatura (1917) y el doctorado (1920) en Ciencias por la Universidad de Madrid. Fuí jefe de la sección de entomología y secretario del Museo de Ciencias Naturales. También me dediqué a la docencia en la Universidad de Madrid y junto con su padre fundó la revista Eos.</p>
+<p>Llegué a México en 1939 contratado por la Secretaría de Salubridad, con el objetivo de participar en la investigación de algunas enfermedades transmitidas por insectos, como el paludismo y la oncocercosis.</p>
+<p>Fui cofundador en 1940 de la revista Ciencia. Revista hispano-americana de Ciencias puras y aplicadas, y uno de sus redactores principales. También me dediqué a la docencia en la Escuela de Ciencias Biológicas del Instituto Politécnico Nacional, donde organicé el laboratorio de Entomología en el cual dejé importantes colecciones de insectos.</p>
+<p>Me interesó el estudio de la fauna cavernícola y de las altas cumbres de los volcanes mexicanos, por lo cual exploré numerosas grutas del país. Publiqué una serie de trabajos científicos sobre insectos de México. Formé parte de la Sociedad Mexicana de Historia Natural, y fuí su presidente en 1947.</p>
+<p>Desarrollé toda una escuela de entomólogos mexicanos y españoles. Fallecí en la ciudad de México en 1976. </p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">

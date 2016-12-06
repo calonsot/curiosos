@@ -37,13 +37,12 @@
 												<h2>Juan José Martínez  Lejarza</h2>
 												<h3>1785 – 1824</h3>
 											</header>
-<p>Juan José Martínez de Lejarza y Alday fue un naturalista del México independiente que continuó con las investigaciones sobre la naturaleza iniciadas en el tiempo de la colonia. Nació en 1785 en Michoacán y murió en ese estado en 1824. </p>
-                                          <p>Realizó sus estudios primarios en el Colegio de San Nicolás Obispo de Morelia. Más tarde se trasladó a la ciudad de México para continuar su formación en el Colegio de Minería, ahí cursó física, matemáticas, topografía y  se destacó en las ciencias naturales.</p>
-                                          <p>Posteriormente regresó a su tierra, donde se desempeñó en la milicia y ocupó varios cargos en la política como regidor y diputado del estado. Fue autor del primer análisis estadístico publicado en esa época, documento en el cual ya se incluye información sobre el total de la población de la entidad, dividida por sexos y estado civil, así como los bienes de las comunidades.</p>
-                                          <p>Como botánico se interesó en explorar Michoacán y sus alrededores, de manera que en pocos años acumuló considerable información sobre la flora del estado. Tuvo un gusto particular por las orquídeas, de las cuales se hizo especialista, incluso propuso una clasificación de estas plantas basándose en las semillas y el polen.</p>
-                                          <p>Su obra <em>Novorum Vegetabilium Descriptiones,</em> se publicó después de su muerte, es el primer estudio sistemático de orquídeas y de otros vegetales de Michoacán. Un año después, se publicó la segunda parte de su obra que incluye aportaciones del naturalista Pablo de la Llave, como las descripciones de cien especies de plantas, varias desconocidas hasta entonces.</p>
-                                          <p>Aunque la literatura no fue su principal quehacer, también escribió poesía. Esta obra se reunió y publicó después de su muerte en 1827, en un tomo titulado &ldquo;Poesías&rdquo;.</p>
-                                          </section>
+<p>Nací en 1785 en Michoacán. Realicé sus estudios primarios en el Colegio de San Nicolás Obispo de Morelia. Más tarde me trasladé a la ciudad de México para continuar mi formación en el Colegio de Minería, ahí cursé física, matemáticas, topografía, pero destaqué en las ciencias naturales.</p>
+<p>Posteriormente regresé a mi tierra, donde me desempeñó en la milicia y ocupé varios cargos en la política como regidor y diputado del estado. Realicé el primer análisis estadístico publicado en esa época, documento en el cual ya se incluye información sobre el total de la población de la entidad, dividida por sexos y estado civil, así como los bienes de las comunidades.</p>
+<p>Como botánico me interesé en explorar Michoacán y sus alrededores y en pocos años acumulé considerable información sobre la flora del estado. Tanto me fascinaban las orquídeas que me hice especialista en este grupo, incluso propuse una clasificación de estas plantas basándome en sus diminutas semillas y en su polen.</p>
+<p>Fallecí en 1824 y mi obra Novorum Vegetabilium Descriptiones, que se publicó después de mi muerte, es el primer estudio sistemático de orquídeas y de otras plantas de Michoacán. Un año después, se publicó la segunda parte de mi obra que incluye aportaciones del naturalista Pablo de la Llave, como las descripciones de cien especies de plantas, varias desconocidas hasta entonces.</p>
+<p>Aunque la literatura no fue mi principal quehacer, también escribí poesía. Esta obra se reunió y publicó después de mi muerte en 1827, en un tomo titulado “Poesías”.</p>
+								  </section>
 
 								</div>
 								<div class="3u 12u(mobile)">
