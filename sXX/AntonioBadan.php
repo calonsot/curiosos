@@ -180,4 +180,4 @@ Boletín AMC/172/11<br>
 					</footer>
 				</div>
 
-		<?php include '../Layouts/footerXX.php'?>
+		<?php include '../Layouts/footer.php'?>

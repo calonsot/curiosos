@@ -150,4 +150,4 @@
 					</footer>
 				</div>
 				
-		<?php include '../Layouts/footerXV_Ant.php'?>
+		<?php include '../Layouts/footer.php'?>

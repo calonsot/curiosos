@@ -132,4 +132,4 @@
 					</footer>
 				</div>
 
-		<?php include '../Layouts/footerXVIII.php'?>	
+		<?php include '../Layouts/footer.php'?>	

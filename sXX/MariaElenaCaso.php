@@ -175,4 +175,4 @@ María Elena Caso Muñoz. Anales del Centro de Ciencias del Mar y Limnología</l
 					</footer>
 				</div>
 
-		<?php include '../Layouts/footerXX.php'?>
+		<?php include '../Layouts/footer.php'?>

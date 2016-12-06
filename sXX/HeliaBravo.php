@@ -184,4 +184,4 @@ Julio - Septiembre 1955. <a href="http://www.mexican.cactus-society.org/espanol.
 					</footer>
 				</div>
 
-		<?php include '../Layouts/footerXX.php'?>
+		<?php include '../Layouts/footer.php'?>

@@ -140,5 +140,5 @@
 					</footer>
 				</div>
 				
-		<?php include '../Layouts/footerXVI.php'?>
+		<?php include '../Layouts/footer.php'?>
 

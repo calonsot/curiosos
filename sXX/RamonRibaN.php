@@ -170,4 +170,4 @@ Missouri Botanical Garden, Universidad Nacional Autónoma de México, The Natura
 					</footer>
 				</div>
 
-		<?php include '../Layouts/footerXX.php'?>
+		<?php include '../Layouts/footer.php'?>
