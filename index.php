@@ -1,51 +1,17 @@
-<!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
+		
+		<?php include'Layouts/header_index.php'?>
+	
 		<title>Curiosos y comprometidos</title><br>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <link rel="stylesheet" href="TIMELINE3/css/timeline.css" />
-        <link rel="stylesheet" href="assets/css/fuentes.css"/>
         
 	</head>
 	<body>
-    <!-- Header -->
-				<div id="features-wrapper1">
-					<header id="header" class="container">
-						<div class="row">
-							<div class="12u">
-
-								<!-- Logo -->
-							  <h1><a href="#" id="logo">Curiosos y comprometidos</a></h1><br>
-						      <h6>Una historia natural</h6>
-                              
-                              <!-- Nav -->
-									<nav id="nav">
-                                    <a href="Naia.html">sXV y anteriores</a>
-                                    <a href="FBernardinoSahagun.html">sXVI</a>
-                                    <a href="CarlVonLinne.html">sXVIII</a>
-                                    <a href="AntonioCastillo.html">sXIX</a>
-                                    <a href="HeliaBravo.html">sXX</a>
-                                    </nav>
-						</div>
-
-						</div>
-					</header>
 				<div id="header-wrapper">
 				  <div id="banner">
 					  <div class="container">
 							<div class="row">
 								
 									<!-- Banner AQUÍ VA IFRAME -->
-									<div id='timeline-embed' style="width: 100%; height: 500px;"></div>			
+									<div id='timeline-embed' style="width: 100%; height: 500px;" start_slide_at="2"></div>			
 							</div>
 						</div>
 					</div>
@@ -60,16 +26,18 @@
 						<div class="container">
                           <h2>INTRODUCCIÓN</h2>
 
-Duis neque nisi, dapibus sed mattis quis, r.5utrum accumsan sed. Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis. Duis neque nisi, dapibus sed mattis quis, sed rutrum accumsan sed. Suspendisse eu varius nibh lorem ipsum amet dolor sit amet lorem ipsum consequat gravida justo mollis. </p> 
+A través de la historia los seres humanos hemos ido conociendo a la naturaleza. Para los primeros pobladores era indispensable tener un buen conocimiento de plantas y animales para sobrevivir. Fueron aprendiendo sobre plantas comestibles y medicinales, y también cuales eran tóxicas. De los animales, conocieron perfectamente cuales eran los más peligrosos y también cuales se podían domesticar. En cada grupo, en cada sociedad, en cada civilización hubo individuos que destacaron por su asombro y curiosidad hacia la naturaleza. A través del conocimiento que adquirieron también llegaron a valorarla y a promover su respeto y conservación. </p> 
 						  <div class="row">
 								<div class="3u 12u(mobile)"> 
 
 									<!-- Feature #1 -->
 										<section>
 											<a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
-											<h2>El trabajo de los naturalistas</h2>
+											<h2>Los naturalistas</h2>
 											<p>
-												Introducción del sitio</p>
+												"Naturalista" es un término aplicado a los investigadores de las ciencias naturales del siglo XVII al XIX. En esta plataforma usamos el término de manera más amplia, incluyendo a distintos personajes que se interesaron por entender la naturaleza y por conservarla. </p>
+												<p>El témino <strong>"naturalista"</strong> proviene del latín, <i>nasci</i> y reúne palabras como nación, natura, nativo, naturaleza. A su vez, <i>nasci</i>, proviene del indo europeo, <i>gnasci</i>, que da lugar a términos coo nacer, gentil, genuino, génesis, generar y gente. </p>
+												<p>Los naturalistas comparten características como curiosidad, asombro, observación, paciencia, pasión por el conocimiento, creatividad, búsqueda de la verdad, entrega e inteligencia naturalista. </p>
 										</section>
 
 								</div>
@@ -78,9 +46,10 @@ Duis neque nisi, dapibus sed mattis quis, r.5utrum accumsan sed. Suspendisse eu 
 									<!-- Feature #2 -->
 										<section>
 											<a href="#" class="bordered-feature-image"><img src="images/pic02.jpg" alt="" /></a>
-											<h2>Especies</h2>
+											<h2>Sus favoritos</h2>
 											<p>
-												Importancia de las colecciones</p>
+												Una de las características de los naturalistas es su interés por un gran espectro de temas. Muchos de ellos se han interesado, no solo por las plantas y animales, sino por las rocas, los suelos, climas, procesos ecológicos y evolutivos, sociedades humanas, astronomía, entre muchos otros. </p>
+												<p>Sin embargo, también tuvieron especies o grupos de plantas o animales favoritos en los que profundizaron su conocimiento.</p>
 										</section>
 
 								</div>
@@ -89,9 +58,11 @@ Duis neque nisi, dapibus sed mattis quis, r.5utrum accumsan sed. Suspendisse eu 
 									<!-- Feature #3  -->
 										<section>
 											<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
-											<h2>Geografía</h2>
+											<h2>Sus lugares</h2>
 											<p>
-												Áreas más estudiadas</p>
+												A pesar de que muchos de ellos fueron ávidos viajeros y exploradores, también tuvieron lugares preferidos en donde dedicaron gran parte de su tiempo y de su trabajo.</p>
+												<p>Para el continente americano, el desarrollo de las técnicas de navegación en la "Era del las Exploraciones", del siglo XV al XVII, fue de gran importancia. Las "carracas" y "carabelas" permitieron viajes más largos y con más carga, alejándose de las costas.
+												<p> Sin embargo, mucho antes que eso, los primeros pobladores llegaron por distintos medios a un continente desconocido con lugares espectaculares y plantas y animales endémicos nunca antes vistos. </p>
 										</section>
 
 								</div>
@@ -100,8 +71,9 @@ Duis neque nisi, dapibus sed mattis quis, r.5utrum accumsan sed. Suspendisse eu 
 									<!-- Feature #4 -->
 										<section>
 											<a href="#" class="bordered-feature-image"><img src="images/pic04.jpg" alt="" /></a>
-											<h2>Arte y naturaleza</h2>
-											<p>La idea es dar una pequeña introducción del porqué esta dividida en estos temas</p>
+											<h2>Sus ideas</h2>
+											<p>Aunque cada naturalista tuvo sus distintas razones para dedicarse a profundizar en el conocimiento de distintas especies, grupos o procesos, sus ideas y descubrimientos fueron contribuyendo a conformar lo que el día de hoy conocemos. </p>
+											<p>Sus ideas se han ido transformando, conforme otros naturalistas, hoy llamados "científicos", continuan explorando y descubriendo la naturaleza. Sin embargo, su contribución es innegable. Ellos transformaron a la sociedad entera, gracias a su inmensa curiosidad por entender el mundo natural.</p>
 										</section>
 
 								</div>
@@ -252,33 +224,4 @@ Duis neque nisi, dapibus sed mattis quis, r.5utrum accumsan sed. Suspendisse eu 
 					</footer>
 				</div>
 
-			<!-- Copyright -->
-            <div id="copyright">
-				<p><a href="http://www.conabio.gob.mx" target="_blank"><img src="assets/css/images/logoConabio_sinFondo.png" width="99" height="84" alt=""/></a><br>
-				Comisión Nacional para el Conocimiento y Uso de la Biodiversidad<br>
-				Liga Periférico-Insurgentes Sur No. 4903, Col. Parques del Pedregal, Del. Tlalpan, 14010 Ciudad de México, Distrito Federal				</p>
-            </div>
-	</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-            <script src="TIMELINE3/js/timeline.js"></script>
-            <script type="text/javascript">
-      // The TL.Timeline constructor takes at least two arguments:
-      // the id of the Timeline container (no '#'), and
-      // the URL to your JSON data file or Google spreadsheet.
-      // the id must refer to an element "above" this code,
-      // and the element must have CSS styling to give it width and height
-      // optionally, a third argument with configuration options can be passed.
-      // See below for more about options.
-      timeline = new TL.Timeline('timeline-embed',
-        'https://docs.google.com/spreadsheets/d/1-awSTGqjvaZvPuaTBD-FmKV1Po7OCoPsJXccm-HM5RY/edit#gid=0');
-    </script>
-
-	</body>
-</html>
+			<?php include 'Layouts/footer_index.php'?>

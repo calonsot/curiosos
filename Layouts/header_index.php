@@ -1,4 +1,4 @@
-<?php include '../funciones.php'; ?>
+<?php include 'funciones.php'; ?>
 
 <!DOCTYPE HTML>
 <!--
@@ -9,11 +9,11 @@
 	<title>Curiosos y comprometidos</title>
 	<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
-        <link rel="stylesheet" href="../TIMELINE3/css/timeline.css" />
-        <link rel="stylesheet" href="../assets/css/fuentes.css"/>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <link rel="stylesheet" href="TIMELINE3/css/timeline.css" />
+        <link rel="stylesheet" href="assets/css/fuentes.css"/>
     
 			<!-- Header -->
 				
@@ -23,7 +23,7 @@
 							<div class="12u">
 
 								<!-- Logo -->
-							  <h1><a href="../" id="logo">Curiosos y comprometidos</a></h1><br>
+							  <h1><a href="#" id="logo">Curiosos y comprometidos</a></h1><br>
 						      <h6>Una historia natural mexicana</h6>
                               <!-- Nav -->
 									<nav id="nav">
@@ -39,12 +39,12 @@
 				</div>
                 
                 <!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/skel-viewport.min.js"></script>
-			<script src="../assets/js/util.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
+			<script src="assets/js/main.js"></script>
 			
 			<script>
 
@@ -54,7 +54,6 @@
 						var split_pathname = pathname.split('/');
 
 						// Quito las dos ultimas posiciones y pongo el valor del select que contiene la carpeta y nombre de archivo
-						split_pathname.splice(-1,1)
 						split_pathname.splice(-1,1)
 						split_pathname.push($(this).val());
 						var new_path = split_pathname.join("/");
