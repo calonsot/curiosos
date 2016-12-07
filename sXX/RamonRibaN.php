@@ -164,7 +164,7 @@ Missouri Botanical Garden, Universidad Nacional Autónoma de México, The Natura
 									<section>
 										<h2>Línea del tiempo</h2><br>
 										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide=""></div>
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="78"></div>
 											</div>
 									</section>
 					</footer>
