@@ -3450,6 +3450,11 @@ TL.TimelineConfig = TL.Class.extend({
             }
         }
         if (TL.Util.isEmptyObject(item_data)) return null;
+        
+        // Asssign the value
+        //$('#timeline-embed').attr('start_at_slide', item_data.slidenumber);
+        //console.log($('#timeline-embed'));
+        
         var d = {
             media: {
                 caption: item_data.mediacaption || '',
@@ -12659,7 +12664,7 @@ TL.Timeline = TL.Class.extend({
 			marker_height_min: 			30,						// Minimum Marker Height
 			marker_width_min: 			100,					// Minimum Marker Width
 			marker_padding: 			5,						// Top Bottom Marker Padding
-			start_at_slide: 			0,
+			start_at_slide: 			this._el.container.attributes.start_at_slide.nodeValue || 0, // set the attribute in the div
 			start_at_end: 				false,
 			menubar_height: 			0,
 			skinny_size: 				650,

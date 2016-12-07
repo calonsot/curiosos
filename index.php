@@ -11,7 +11,7 @@
 							<div class="row">
 								
 									<!-- Banner AQUÍ VA IFRAME -->
-									<div id='timeline-embed' style="width: 100%; height: 500px;" start_slide_at="2"></div>			
+									<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="0"></div>			
 							</div>
 						</div>
 					</div>

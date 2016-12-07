@@ -28,6 +28,7 @@
                               <!-- Nav -->
 									<nav id="nav">
 									<select id="personajes">
+										<option>--- Selecciona ---</option>
 										<?php echo options_for_select(dirname(__FILE__).'/../'); ?>
 									</select>
 									
