@@ -37,7 +37,7 @@ function options_for_select($ruta)
 	$options = '';
 
 	// Directorios de los siglos
-	$directorios = array('sXV_anteriores', 'sXVI', 'sXVIII', 'sXIX', 'sXX');
+	$directorios = array('sXV_anteriores', 'sXVI', 'sXVIII', 'sXIX', 'sXX', 'sociedades');
 	$arreglo_archivos_titulos = array();
 
 	// Los itero para obtener todas las relaciones
