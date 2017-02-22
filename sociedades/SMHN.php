@@ -20,6 +20,7 @@
 								  <section>
 									<header>
 												<h2>Referencias</h2>
+												Contribución de Ignacio March Misfut
 									  </header>
 <ul class="link-list last-child">
 			  <li></li>
@@ -37,29 +38,29 @@
 											</header>
 <p><strong>1868	</strong>29 de Agosto. Se constituye la Sociedad Mexicana de Historia Natural, siendo sus fundadores José Joaquín Arriaga, Antonio del Castillo, Francisco Cordera y Hoyos, Gumesindo Mendoza, Alfonso Herrera, Antonio Peñafiel, Manuel Río de la Loza, Manuel Urbina y Altamirano, y Manuel M. Villada.</p>
 <p>Al fundarse se definen las siguientes secciones: 1) Zoología, 2) Botánica, 3) Mineralogía, geología y paleontología, 4) Ciencias auxiliares y 5) Agricultura.</p>
-<p><strong>1868 </strong>6 de Septiembre. Se celebra la primera sesión de la SMHN bajo la presidencia de <a href="AntonioCastillo.php">Antonio del Castillo</a></p>
+<p><strong>1868 </strong>6 de Septiembre. Se celebra la primera sesión de la SMHN bajo la presidencia de <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/AntonioCastillo.php">Antonio del Castillo</a></p>
 <p><strong>1869</strong> Se aprueban los estatutos de constitución de la SMHN. El artículo primero establecía 3 finalidades para la SMHN: 1) Dar a conocer la Historia Natural de México y, por consiguiente, fomentar el estudio de la misma en todas sus ramas y en todas sus aplicaciones; 2) Reunir y publicar los trabajos de profesores nacionales y extranjeros, relativos a los productos indígenas; 3) Formar colecciones de objetos pertenecientes a los tres reinos de la naturaleza.</p>
 <p><strong>1869	</strong>Inicia la publicación de la primeria serie del Periódico de la SMHN La Naturaleza (Volúmenes 1 a 7)</p>
 <p><strong>1870	</strong><a href="https://es.wikipedia.org/wiki/Leopoldo_R%C3%ADo_de_la_Loza" target="_blank">Leopoldo Río de la Loza</a> (1807-1876), químico farmacéutico nacido en la Ciudad de México, inicia su período como presidente de la Sociedad</p>
-<p><strong>1872	</strong><a href="AlfonsoHerrera.php">Alfonso Herrera Fernández</a> , farmacéutico y naturalista nacido en la Ciudad de México, inicia su período como presidente de la Sociedad</p>
-<p><strong>1874	</strong><a href="AlfonsoHerrera.php">Alfonso Herrera Fernández</a> es nombrado profesor de Historia Natural en la Escuela Preparatoria</p>
+<p><strong>1872	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández</a>, farmacéutico y naturalista nacido en la Ciudad de México, inicia su período como presidente de la Sociedad</p>
+<p><strong>1874	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández</a> es nombrado profesor de Historia Natural en la Escuela Preparatoria</p>
 <p><strong>1875	</strong>Ramón I. Alcaraz inicia su período como presidente de la Sociedad</p>
-<p><strong>1877	</strong><a href="MarianoBarcena.php">Mariano de la Bárcena</a> inicia su período como presidente de la Sociedad</p>
+<p><strong>1877	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/MarianoBarcena.php">Mariano de la Bárcena</a> inicia su período como presidente de la Sociedad</p>
 <p><strong>1876</strong> Gumesindo Mendoza funge como Director del Museo Nacional</p>
 <p><strong>1878	</strong>En la sesión del décimo aniversario de la SMHN, presidida por Porfirio Díaz Presidente de México, se entregaron premios a los socios más destacados: el de Zoología a A. Dugés, E.Dugés y Jose María Velasco, el de Botánica a Alfonso Herrera y F. Altamirano, el de Geología a A. del Castillo, S. Navia, M. Bárcena y J.V. Mallet.</p>
 <p><strong>1879</strong> El médico naturalista Gumesindo Mendoza inicia su período como presidente de la Sociedad</p>
-<p><strong>1880	</strong><a href="MarianoBarcena.php">Mariano de la Bárcena</a> inicia por segunda ocasión su período como presidente de la Sociedad</p>
-<p><strong>1881	</strong><a href="ManuelMVillada.php">Manuel M. Villada</a> inicia su período como presidente de la Sociedad</p>
-<p><strong>1883 </strong><a href="AlfonsoHerrera.php">Alfonso Herrera Fernández</a> inicia por segunda ocasión su período como presidente de la Sociedad</p>
-<p><strong>1885</strong> <a href="JoseRamirez.php">José Ramírez</a> inicia su período como presidente de la Sociedad</p>
-<p><strong>1886</strong> A iniciativa de <a href="AntonioCastillo.php">Antonio del Castillo</a> se crea la Comisión de Geología y el Instituto Geológico</p>
+<p><strong>1880	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/MarianoBarcena.php">Mariano de la Bárcena</a> inicia por segunda ocasión su período como presidente de la Sociedad</p>
+<p><strong>1881	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/ManuelMVillada.php">Manuel M. Villada</a> inicia su período como presidente de la Sociedad</p>
+<p><strong>1883 </strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández</a> inicia por segunda ocasión su período como presidente de la Sociedad</p>
+<p><strong>1885</strong> <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/JoseRamirez.php">José Ramírez</a> inicia su período como presidente de la Sociedad</p>
+<p><strong>1886</strong> A iniciativa de <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/AntonioCastillo.php">Antonio del Castillo</a> se crea la Comisión de Geología y el Instituto Geológico</p>
 <p><strong>1887	</strong>Inicia la publicación de la segunda serie del Periódico de la SMHN La Naturaleza (Volúmenes 1 a 3)</p>
 <p><strong>1888	</strong>Se crea el Instituto Médico Nacional en el que se realizan trabos de etnobotánica</p>
 <p><strong>1894</strong> <a href="https://es.wikipedia.org/wiki/Fernando_Altamirano" target="_blank">Fernando Altamirano Carbajal</a> (1848-1908), médico y naturalista nacido en Aculco, Estado de México, inicia su período como presidente de la Sociedad</p>
 <p><strong>1895</strong> <a href="https://es.wikipedia.org/wiki/Manuel_Urbina_y_Altamirano" target="_blank">Manuel Urbina y Altamirano</a> (1843-1906), botánico, primo de Fernando Altamirano, inicia su período como presidente de la Sociedad</p>
-<p><strong>1896</strong> <a href="JoseRamirez.php">José Ramírez</a> inicia por segunda ocasión su período como presidente de la Sociedad</p>
+<p><strong>1896</strong> <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/JoseRamirez.php">José Ramírez</a> inicia por segunda ocasión su período como presidente de la Sociedad</p>
 <p><strong>1898	</strong>El ingeniero agrónomo <a href="http://www.redalyc.org/pdf/757/75703708.pdf" target="_blank">José Carmen Segura</a> (1846-1906) inicia su período como presidente de la Sociedad</p>
-<p><strong>1903	</strong><a href="ManuelMVillada.php">Manuel M. Villada</a> y Jesús Sánchez sostuvieron la SMHN con los pocos recursos disponibles.</p>
+<p><strong>1903	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/ManuelMVillada.php">Manuel M. Villada</a> y Jesús Sánchez sostuvieron la SMHN con los pocos recursos disponibles.</p>
 <p><strong>1909	</strong>La sección de Historia Natural del Museo Nacional se traslada al edificio del Chopo y se convierte en el Museo Nacional de Historia Natural bajo la dirección del médico <a href="http://www.facmed.unam.mx/publicaciones/gaceta/jun102k4/director.html" target="_blank">José de Jesús Sánchez</a></p>
 <p><strong>1910	</strong>Inicia la publicación de la tercera serie del Periódico de la SMHN La Naturaleza (5 fascículos)</p>
 <p><strong>1913</strong> 1 de Diciembre. Se inaugura el Museo Nacional de Historia Natural en el Chopo.</p>
@@ -67,7 +68,7 @@
 <p><strong>1914</strong> 26 de Junio. Después de un período de actividad irregular, y luego de 46 años de haber sido fundada, ocurre una última sesión de la primera época y la Sociedad entra en receso debido a la Revolución Mexicana</p>
 <p><strong>1923</strong> El museo de historia natural se agrupa con el Instituto Médico Nacional y el Museo de la Comisión Geográfico Exploradora para formar la Dirección de Estudios Biológicos, y que daría lugar en 1929 al Instituto de Biología de la UNAM</p>
 <p><strong>SEGUNDA ÉPOCA</strong></p>
-<p><strong>1936	</strong>23 de Diciembre. Gracias a los esfuerzos del Dr. <a href="../sXX/EnriqueBeltran.php">Enrique Beltrán</a>, Angel Roldán, José Alcaraz y otros, la SMHN se re-organiza e inicia su segunda época. El evento se realizó en el Salón de Sesiones &quot;Antonio Alzate&quot; de la Academia Nacional de Ciencias</p>
+<p><strong>1936	</strong>23 de Diciembre. Gracias a los esfuerzos del Dr. <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXX/EnriqueBeltran.php">Enrique Beltrán</a>, Angel Roldán, José Alcaraz y otros, la SMHN se re-organiza e inicia su segunda época. El evento se realizó en el Salón de Sesiones &quot;Antonio Alzate&quot; de la Academia Nacional de Ciencias</p>
 <p><strong>1936</strong> <a href="http://www.culturanicolaita.umich.mx/cescn/index.php?option=com_content&view=article&id=31&Itemid=127" target="_blank">Jesús Díaz Barriga</a> (1926-1932), médico guanajuatense, inicia su período como presidente de la Sociedad</p>
 <p><strong>1937</strong> 16 de abril. Se ratificaron los estatutos de la SMHN en su segunda época, y se eligió como escudo para la Sociedad al “camaleón” mexicano <a href="http://www.enciclovida.mx/especies/8000571" target="_blank">Phrynosoma orbiculare</a>.</p>
 <p><strong>1937</strong> La SMHN realiza una excursión biológica al lago de Pátzcuaro</p>
@@ -84,8 +85,8 @@
 <p><strong>1945</strong> El ingeniero agrónomo Julio Riquelme Inda, experto en control de plagas de insectos, inicia su período como presidente de la Sociedad</p>
 <p><strong>1945</strong> La SMHN promueve la celebración del 50 aniversario de la muerte de Luis Pasteur en el Palacio de Bellas Artes</p>
 <p><strong>1946</strong> Richard Goldschmidt (1878-1958), eminente zóologo alemán, fue designado Socio Honorario</p>
-<p><strong>1945</strong> <a href="CasianoConzatti.php">Cassiano Conzatti </a>(1862-1951) fue elegido como Socio Honorario</p>
-<p><strong>1947	</strong><a href="candidoBolivar.php">Cándido Bolívar </a>inicia su período como presidente de la Sociedad</p>
+<p><strong>1945</strong> <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/CasianoConzatti.php">Cassiano Conzatti </a>(1862-1951) fue elegido como Socio Honorario</p>
+<p><strong>1947	</strong><a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/candidoBolivar.php">Cándido Bolívar </a>inicia su período como presidente de la Sociedad</p>
 <p><strong>1948	</strong>Manuel Maldonado Koerdell (1908-1972) biólogo nacido en Mazatlán, Sinaloa inicia su período como presidente de la Sociedad</p>
 <p><strong>1950</strong> <a href="https://es.wikipedia.org/wiki/José_Joaqu%C3%ADn_Izquierdo" target="_blank">José Joaquín Izquierdo</a> (1893-1974), médico nacido en Puebla inicia su período como presidente de la Sociedad</p>
 <p><strong>1952</strong> Benjamín Briseño inicia su período como presidente de la Sociedad</p>
@@ -95,7 +96,7 @@
 <p><strong>1954	</strong>Rodolfo Hernández Corzo inicia su período como presidente de la Sociedad</p>
 <p><strong>1956	</strong>Ramiro Robles Ramos inicia su período como presidente de la Sociedad</p>
 <p><strong>1957</strong> Manuel Ruiz Oronoz inicia su período como presidente de la Sociedad</p>
-<p><strong>1958</strong> <a href="EnriqueRioja.php">Enrique Rioja</a> inicia su período como presidente de la Sociedad</p>
+<p><strong>1958</strong> <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/EnriqueRioja.php">Enrique Rioja</a> inicia su período como presidente de la Sociedad</p>
 <p><strong>1959</strong> La SMHN comienza a sesionar en la sede del Instituto Mexicano de Recursos Naturales Renovables (IMERNAR, Dr. Vértiz No. 724)</p>
 <p><strong>1960	</strong>Efraím Hernández X. inicia su período como presidente de la Sociedad</p>
 <p><strong>1962	</strong>Alfredo Sánchez Marroquín inicia su período como presidente de la Sociedad</p>
@@ -117,7 +118,7 @@
 <p><strong>1984	</strong>Roberto Gutiérrez Galera inicia su período como presidente de la Sociedad</p>
 <p><strong>1985	</strong>Guillermo Soberón Acevedo (1925) fue designado Socio Honorario</p>
 <p><strong>1986</strong> Raúl Gío-Argáez inicia su período como presidente de la Sociedad</p>
-<p><strong>1986</strong> 11 de Diciembre. Se celebra en el Palacio de Minería la Ceremonia Jubilar de la Sociedad Mexicana de Historia Natural a fin de conmemorar los 50 años de existencia de la Sociedad Mexicana de Historia Natural en su segunda época</p>
+<p><strong>1986</strong> 11 de Diciembre. Se celebra en el Palacio de Minería la Ceremonia Jubilar de la Sociedad Mexicana de Historia Natural a fin de conmemorar los 50 años de existencia de la Sociedad Mexicana de Historia Natural en su <a href="http://repositorio.fciencias.unam.mx:8080/jspui/bitstream/11154/142842/1/JVSociedadMexicana.pdf">segunda época</a></p>
 								  </section>
 
 								</div>

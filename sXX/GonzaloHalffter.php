@@ -35,7 +35,6 @@
 												<h2>Gonzalo Halffter Salas</h2>
 												<h3>1932</h3>
 											</header>
-<p>&nbsp;</p>
 										  <p>Nací en España el xx de xx de 1932, fui hijo único. Mi padre se llamó Rodolfo Halffter Escriche y mi madre Emilia Salas Viu. En ambos lados de la familia hubo excelentes músicos. Mi padre fue músico compositor. Durante la Guerra Civil Española sufrimos el bombardeo en Madrid. Fui uno de los diez sobrevivientes de mi escuela. En 1939, al terminar la Guerra en España, mis papás se trasladaron a Francia y de ahí a México y nos nacionalizamos al siguiente año. Cuando llegué a México tenía 7 años. Desde los 12 años me gustaba leer sobre insectos y salir al campo a colectarlos.</p>
 										  <p>.<br>
 										    A los 17 años conocí a Violeta Marcet Ocaña en la Academia Hispano Mexicana. Ella tenía 15 años. Su familia de origen catalán, también llegó a México después de la Guerra Civil. Española, cuando ella tenía a 8 años de edad. Nos casamos en 1955 después de un noviazgo de seis años. Tuvimos tres hijos Ruy, Rodolfo Eugenio y María del Carmen.</p>

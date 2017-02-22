@@ -36,14 +36,13 @@
 									<!-- Main Content -->
 										<section>
 											<header>
-												<h2>Eugenio Dugès</h2>
+												<h2>Eugenio Romain Dugès</h2>
 												<h3>1833 - 1895</h3>
 											</header>
-<p>Eugenio Romain Dugès fue un notable naturalista considerado el padre de la coleopterología en México, disciplina dedicada al estudio de los escarabajos. Nació en Montpellier, Francia, en 1833 y murió en México en 1895.</p>
-                                          <p>Estudió medicina en París y en 1865, año que llegó a México, ejerció esta profesión en varias ciudades de Guanajuato y en Morelia, Michoacán, ciudad en la que finalmente estableció su residencia. Fue profesor de anatomía e histología en el Colegió de San Nicolás, jefe del Departamento de Historia Natural del Museo Michoacano y a partir de 1892 y hasta su muerte director del museo.</p>
-                                          <p>A pesar de su profesión, se interesó en el estudio de los escarabajos, enfocándose en aspectos sobre su clasificación y ciclos biológicos. De las colectas que hizo durante sus recorridos por varios sitios del país, formó la colección de escarabajos mexicanos más importante del siglo XIX a nivel nacional, describiendo e ilustrando más de 3,000 especies. Actualmente dichos ejemplares forman parte de la Colección Nacional de Insectos del Instituto de Biología de la Universidad Nacional Autónoma de México (UNAM).</p>
-                                          <p>Escribió 30 artículos científicos sobre estos insectos, trabajos que aparecieron en publicaciones de la época como el periódico <em>La Naturaleza</em>, <em>Anales del Museo Michoacano</em>, Anales de la Sociedad Entomológica de Bélgica, el Boletín de la Sociedad Zoológica de Francia y la revista norteamericana <em>Insect Life</em>. </p>
-                                          <p>En su honor se creó en 1994 la revista <em>Dugesiana</em>, publicación especializada en el estudio de los insectos y editada por el Centro de Estudios en Zoología de la Universidad de Guadalajara.</p>
+											<p>Nací en Montpellier, Francia, en 1833. Estudié medicina en París y en 1865, año en que llegué a México, ejercí esta profesión en varias ciudades de Guanajuato y en Morelia, Michoacán, ciudad en la que finalmente establecí mi residencia. Fuí profesor de anatomía e histología en el Colegio de San Nicolás, Jefe del Departamento de Historia Natural del Museo Michoacano y a partir de 1892 y hasta mi muerte director del museo.</p>
+                                          <p>A pesar de la medicina, me interesé en el estudio de los escarabajos, enfocándome en aspectos sobre su clasificación y ciclos biológicos. De las colectas que hice durante sus recorridos por varios sitios del país, formé la colección de escarabajos mexicanos más importante del siglo XIX a nivel nacional, describiendo e ilustrando más de 3,000 especies. Actualmente dichos ejemplares forman parte de la Colección Nacional de Insectos del Instituto de Biología de la Universidad Nacional Autónoma de México (UNAM).</p>
+                                          <p>Escribií 30 artículos científicos sobre estos insectos, trabajos que aparecieron en publicaciones de la época como el periódico <em>La Naturaleza</em>, <em>Anales del Museo Michoacano</em>, Anales de la Sociedad Entomológica de Bélgica, el Boletín de la Sociedad Zoológica de Francia y la revista norteamericana <em>Insect Life</em>. </p>
+                                          <p> Fallecí en México en 1895. En mi honor se creó en 1994 la revista <em>Dugesiana</em>, publicación especializada en el estudio de los insectos y editada por el Centro de Estudios en Zoología de la Universidad de Guadalajara.</p>
 										  </section>
 
 								</div>

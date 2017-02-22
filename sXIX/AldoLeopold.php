@@ -1,10 +1,10 @@
 
 	<?php include'../Layouts/header.php'?>
     
-    <title>Saúl Álvarez Borrego</title>
+    <title>Aldo Leopold</title>
     </head>
     
-	<body class="subpage">	
+	<body class="subpage">
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -15,33 +15,38 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../images/personajes/SaulAlvarezB.jpg" width="230" height="320" alt=""/></header>
-</section>
-										<section>
+											<header><img src="../images/personajes/AldoLeopold.jpg" width="230" height="315" alt=""/></header></section>
+														
+														<section>
+
 											<header>
 												<h2>Referencias</h2>
-											</header>
-<ul class="link-list last-child">
-			  <li></li>
-              <li></li>
-              </ul>
-										  </section>
+												</header>
+<ul class="link-list last-child">												
+												<li><a href="http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/leopold-a-starker.pdf"> McCabe, R.A. 1990. Aldo Starker Leopold 1913-1983, a biogeographical memoir. National Academy of Sciences, Washington, D.C. </a></li>
+												<li><a href="https://sora.unm.edu/sites/default/files/journals/auk/v101n04/p0868-p0871.pdf">Raitt, R.J. 1984. In Memoriam: A. Starker Leopold. The Auk October, 868-871.</a></li>
+												<li><a href="https://www.aldoleopold.org/">The Aldo Leopold Foundation</a>
+
+											
+
+
+                                  </section>
 								</div>
                                 
                                 <div class="6u 12u(mobile) important(mobile)">
 
 									<!-- Main Content -->
 										<section>
-											<header>
-												<h2>Saúl Álvarez Borrego</h2>
-												<h3>1946</h3>
+												<header>
+												<h2>Aldo Leopold</h2>
+												<h3>1887 - 1948</h3>
 											</header>
-
-<p>Tuve la gran fortuna de nacer en Mazatlán, Sinaloa en 1946, donde pasé mi infancia y adolescencia. Más tarde, en 1963, me mudé a Ensenada, Baja California, para estudiar oceanología en la Escuela Superior de Ciencias Marinas de la Universidad Autónoma de Baja California (UABC). Me encantaba la gimnasia y a los 19 años, participé en los Juegos Nacionales Infantiles y Juveniles como el primer gimnasta representativo de Baja California.</p>
-                                          <p>Terminando la licenciatura participé en un crucero por dos meses recorriendo el Océano Pacífico hasta Chile y Nueva Zelandia.¡Quedé encantado! Mi pasión por el estudio me llevó a estudiar la maestría en ciencias en la Universidad Estatal de Oregon, Estados Unidos, y luego el doctorado en ciencias en la misma institución. Durante el posgrado en 1969 me casé con Esthela Elsie Millán y tuvimos dos hijos: Yazae y Danténoc.</p>
-                                          <p>En estrecha colaboración con estudiantes y colegas, he dirigido y participado en estudios sobre aspectos físico-químicos y ecológicos del Pacífico Mexicano, la corriente de California, las lagunas costeras de Baja California y el Golfo de México.</p>
-                                          <p>Fui director del Instituto de Investigaciones Oceanológicas de la UABC (1973) y del Centro de Investigación Científica y de Educación Superior de Ensenada (1981). En este último me convirtí en promotor institucional fortaleciendo al centro con la integración de nuevos investigadores a su plantilla.</p>
-                                          <p>Desde muy joven también me dediqué a la docencia, impartí clases de distintas disciplinas a jóvenes de diferentes grados de escolaridad, desde primaria hasta licenciatura y posgrados. Pertenezco a varias asociaciones científicas, como la Sociedad Mexicana de Planctología y la Asociación de Investigadores del Mar de Cortés. Mi interés por la difusión de los resultados científicos generados en mi campo de investigación, me condujo a participar en la fundación de la revista Ciencias Marinas (1974), todavía vigente.</p>
+											<p>Nací el 11 de enero de 1887  en Burlington Iowa. Mi padre Carl Leopold era un empresario que se dedicó a la manufactura de escritorios de nogal. Mi madre Clara Starker, era prima de mi papá. En esas épocas se acostumbraban los matrimonios entre primos. Mi abuelo materno fue un imigrante alemán que se dedicó a la ingeniería y a la arquitectura. Mi lengua materna fue el alemán, pero aprendí muy pequeño el inglés. Fui el primero de cuatro hermanos: Mary Luize, Carl Starker, Frederic y yo. </p>
+											<p>A los 17 años ingresé en la Escuela Laurenceville, en Nueva Jersey, para preparme a entrar a la Escuela Forestal de Yale. Después de un año me aceptaron en Yale. En 1909 tuve mi primer trabajo en Arizona y Nuevo México con el Servicio Forestal. Durante mi estancia en Nuevo México en 1912 me casé con Estella Bergere, una maestra que conocí en Santa Fé . Su familia de origen español, vivía en esta región desde el siglo XVII. Tuvimos cinco hijos: <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXX/StarkerLeopold.php">Starker,</a> Luna, Nina y Carl y Estella.  </p>  
+											<p>En 1924 me llevé a la familia a Madison, Wisconsin en donde trabajé en el Laboratorio de Productos Forestales. Años más tarde entré al Departamento de Economía Agrícola en la Universidad de Wisconsin como profesor de Manejo de Vida Silvestre.  </p>
+											<p>En los años 30 compré poco más de 30 hectáreas en el condado Sand cerca del río Wisconsin. Era un granja abandonada con un gallinero. Ahi me llevaba a la familia a pasar los fines de semana. Convertimos el gallinero en una cabaña, hicimos una hortaliza, y sembramos alrededor de 40 mil árboles. Increiblemente, a pesar de las condiciones extremas del clima, el terreno se convirtió en un maravilloso bosque lleno de vida. Actualmente se considera un Sitio Histórico. Ahi escribí el libro por el que me conoce mucha gente: El Almanaque del Condado Sand que se publicó en 1949.  Fallecí de un ataque cardíaco mientras intentaba apagar un incendio en el terreno de un vecino a nuestra cabaña a los 61 años el 21 de abril de 1948.</p> 
+</section>
+<p>&nbsp;</p>
 										  </section>
 
 								</div>
@@ -53,9 +58,9 @@
 												<h2>Mis favoritos</h2>
 										  </header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/SaulAlvarezimg2.jpg" width="230" height="154" alt=""/></li>
-			  <li>Pesca. Celestún, Yucatán</li>
-			  <li>Foto: Miguel A. Sicilia Manzo / Banco de imágenes, CONABIO</li>
+			  <li></li>
+			  <li><img src="../images/pagInternas/AldoLeopold2.jpg" width="230" height="170" alt=""/></li>
+			  <li></li>
 			  </ul>
                                     </section>
                                   <section>
@@ -63,7 +68,9 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-		      <li></li>
+               	<li></li>
+               	<li><img src="../images/pagInternas/AldoLeopold3.jpg" width="230" height="150" alt=""/></li>
+           		<li></li>
               </ul>
 								      </section>
                                   <section>
@@ -71,10 +78,13 @@
 									  <h2>Mis ideas</h2>
 									</header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/SaulAlvarezimg1.jpg" width="230" height="345" alt=""/></li>
-              <li>Compilador: Exequiel Ezcurra, Elisabet V. Wehncke, J. R. Lara Lara, Saúl Álvarez Borrego. <em><a href="http://www2.inecc.gob.mx/publicaciones/consultaPublicacion.html?id_pub=718" target="_blank">Conservation Science in México's NorthWest. Ecosystem Status and trends in the Gulf of California</a></em>. Publicaciones INECC. Formato electrónico.</li>
+			  <li></li>
+              <li><img src="../images/pagInternas/AldoLeopold4.jpg" width="230" height="348" alt=""/></li>
+              <li><a href="https://en.wikipedia.org/wiki/A_Sand_County_Almanac" target="_blank"A Sand County Almanac, sketches here and there,</a> 1949. Oxford University Press</li>
+                            <li>
+              </li>
 			  </ul>
-                                  </section>
+				</section>
                                   <section>
 										  <header>
 										    <ul class="link-list">
@@ -164,7 +174,7 @@
 									<section>
 										<h2>Línea del tiempo</h2><br>
 										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="87"></div>
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="55"></div>
 											</div>
 									</section>
 					</footer>

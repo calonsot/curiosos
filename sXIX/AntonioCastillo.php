@@ -35,10 +35,10 @@
 									<!-- Main Content -->
 										<section>
 											<header>
-												<h2>Antonio del Castillo</h2>
+												<h2>Antonio del Castillo Patiño</h2>
 												<h3>1820 - 1895</h3>
 											</header>
-<p>Nací en Pungarabato, en el límite entre Guerrero y Michoacán el 18 de junio de 1920, fui el cuarto hijo del Coronel José Antonio del Castillo y María Marcelina Patiño. Mi padre más tarde se convirtió en gobernador de San Luis Potosí. Mi madre fue la que me hizo agarrarle interés a las actividades científias. A los 12 años me mudé a la ciudad de México a estudiar en una de las mejores escuelas que pertenecía al caba. llero francés Matyen de Fossey. Después ingresé al Colegio de Minería y me gradué en 1845. Mas tarde fui director y profesor por muchos años de mineralogía, geología y paleontología en la misma institución.</p>
+<p>Nací en Pungarabato, en el límite entre Guerrero y Michoacán el 18 de junio de 1820, fui el cuarto hijo del Coronel José Antonio del Castillo y María Marcelina Patiño. Mi padre más tarde se convirtió en gobernador de San Luis Potosí. Mi madre fue la que me hizo agarrarle interés a las actividades científicas. A los 12 años me mudé a la ciudad de México a estudiar en una de las mejores escuelas que pertenecía al caballero francés Matyen de Fossey. Después ingresé al Colegio de Minería y me gradué en 1845. Mas tarde fui director y profesor por muchos años de mineralogía, geología y paleontología en la misma institución.</p>
 <p>Consideraba que la enseñanza de estas disciplinas debía sustentarse en una práctica sistemática de exploración, recopilación de muestras, análisis de laboratorio y formación de colecciones; así que acostumbraba llevar frecuentemente a mis alumnos en excursiones geológicas a diferentes partes de la República para hacer colectas y registros.</p>
 <p>Establecí relaciones con los políticos de ese momento así como geólogos de otros países, para impulsar la investigación geológica. De esta manera participé en la fundación de la Comisión Geológica de México, destinada a elaborar cartas geológico-mineras, un catálogo descriptivo de especies minerales de México y otro de fósiles.</p>
 <p>También contribuí a la creación de la Escuela Práctica de Minas de Pachuca y del Instituto de Geología Nacional (hoy Instituto de Geología de la UNAM). Fuí socio fundador de la Sociedad Mexicana de Historia Natural.</p>

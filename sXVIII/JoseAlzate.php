@@ -38,10 +38,10 @@
 												<h2>José Antonio Alzate</h2>
 												<h3>1737 - 1799</h3>
 											</header>
-<p>Nací en 1737 en Ozumba, en la provincia de Chalco, estado de México. Mi padre se llamaba Juan Felipe de Alzate y era español, mi madre Josefa María Ramírez Cantillana y era criolla. Por parte de mi madre estuve emparentado con Sor Juana Inés de la Cruz (1651-1695) Estudié en el Colegio de San Ildefonso en la Ciudad de México. Me gradué como Bachiller en Artes y unos años después como Bachiller en Teología.</p>
+<p>Nací el 21 de noviembre de 1737 en Ozumba, en la provincia de Chalco, estado de México. Mi padre se llamaba Juan Felipe de Alzate y era español, mi madre Josefa María Ramírez Cantillana y era criolla. Por parte de mi madre estuve emparentado con Sor Juana Inés de la Cruz (1651-1695) Estudié en el Colegio de San Ildefonso en la Ciudad de México. Me gradué como Bachiller en Artes y unos años después como Bachiller en Teología.</p>
 <p>Como sacerdote me interesé por el estudio de las matemáticas, física, astronomía y las ciencias naturales. Mi vida religiosa inició en el Colegio de San Ildefonso bajo la orden de los jesuitas, y más adelante, ingresé a la Real y Pontificia Universidad de México donde obtuve el bachillerato en Artes seguido por el bachillerato en Teología.</p>
 <p>Además de interesarme por la generación de nuevos conocimientos a través de la observación y la experimentación, me preocupó seriamente porque éstos resultaran de alguna utilidad para los habitantes. Como parte de esta preocupación por vincular la ciencia con la sociedad, me convirtí en el iniciador de la divulgación científica en México y me dediqué al periodismo del siglo XVIII del país. Entre mis publicaciones científicas más importantes se encuentran: Asuntos varios sobre ciencias y artes, Observaciones sobre la física, historia natural y artes útiles y Gaceta de México. En ellas incluí información sobre novedades científicas y literarias de la época, así como variados aspectos científicos, muchos de ellos dedicados a la medicina, tema sobre el cual escribí más de 50 artículos.</p>
-<p>Fallecí en 1799. En mi honor se formó en 1884 la Sociedad Científica Antonio Alzate que en 1935 se convirtió en la Academia Nacional de Ciencias de México.</p>
+<p>Fallecí el 2 de febrero de 1799. En mi honor se formó en 1884 la <a href="https://es.wikipedia.org/wiki/Sociedad_Cient%C3%ADfica_Antonio_Alzate"> Sociedad Científica Antonio Alzate </a>que en 1935 se convirtió en la Academia Nacional de Ciencias de México.</p>
 								  </section>
 
 								</div>

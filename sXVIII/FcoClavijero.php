@@ -34,8 +34,8 @@
 												<h2>Francisco Xavier Clavijero</h2>
 												<h3>1731 - 1787</h3>
 											</header>
-<p>Desde pequeño tuve la oportunidad de viajar con mi padre por muchas regiones de la Nueva España, conociendo su impresionante naturaleza. Nací en el puerto de Veracruz, viví en la Sierra de Puebla en Teziutlán y en Jamiltepec, en la mixteca baja de Oaxaca. Compartí mis aventuras con los indígenas de México y además aprendí náhuatl.</p>
-<p>Estudié en Puebla en el Colegio de San Jerónimo y más tarde (1748) ingresé a la orden de los Jesuitas en Tepotzotlán, donde aprendí varios idiomas. Fui religioso, historiador, docente y naturalista. Escribí “Animales del reino de México” refutando al naturalista francés Georges Louis Leclerc, conde de Buffon (1707-1788) sobre la inferioridad de los animales americanos. En 1780 publiqué la Historia Antigua de México, escrita en el exilio en Bolonia, Italia.</p>
+<p>Nací en el Puerto de Veracruz el 9 de septiembre de 1731. Desde pequeño tuve la oportunidad de viajar con mi padre por muchas regiones de la Nueva España, conociendo su impresionante naturaleza. De Veracruz nos mudamos a la Sierra de Puebla en Teziutlán y después a Jamiltepec, en la mixteca baja de Oaxaca. Compartí mis aventuras con los indígenas de México y además aprendí náhuatl.</p>
+<p>Estudié en Puebla en el Colegio de San Jerónimo y más tarde (1748) ingresé a la orden de los Jesuitas en Tepotzotlán, donde aprendí varios idiomas. Fui religioso, historiador, docente y naturalista. Escribí “Animales del reino de México” refutando al naturalista francés Georges Louis Leclerc, conde de Buffon (1707-1788) sobre la inferioridad de los animales americanos. En 1780 publiqué la Historia Antigua de México, escrita en el exilio en Bolonia, Italia. Fallecí en Bolonia el 2 de abril de 1787.</p>
 										  </section>
 
 								</div>

@@ -1,10 +1,10 @@
 
 	<?php include'../Layouts/header.php'?>
     
-    <title>Saúl Álvarez Borrego</title>
+    <title>Starker Leopold</title>
     </head>
     
-	<body class="subpage">	
+	<body class="subpage">
 
 			<!-- Content -->
 				<div id="content-wrapper">
@@ -15,33 +15,40 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../images/personajes/SaulAlvarezB.jpg" width="230" height="320" alt=""/></header>
-</section>
-										<section>
+											<header><img src="../images/personajes/StarkerLeopold.jpg" width="230" height="315" alt=""/></header></section>
+														
+														<section>
+
 											<header>
 												<h2>Referencias</h2>
-											</header>
-<ul class="link-list last-child">
-			  <li></li>
-              <li></li>
-              </ul>
-										  </section>
+												</header>
+<ul class="link-list last-child">												
+												<li><a href="http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/leopold-a-starker.pdf"> McCabe, R.A. 1990. Aldo Starker Leopold 1913-1983, a biogeographical memoir. National Academy of Sciences, Washington, D.C. </a></li>
+												<li><a href="https://sora.unm.edu/sites/default/files/journals/auk/v101n04/p0868-p0871.pdf">Raitt, R.J. 1984. In Memoriam: A. Starker Leopold. The Auk October, 868-871.</a></li>
+												<li><a href="http://onlinelibrary.wiley.com/doi/10.2307/20166637/pdf">McCullough, D. 1984.Resolution of respect: A. Starker Leopold, 1913-1983. The Bulletin of the Ecological Society of America, 69:21-23.</a></li>
+
+											
+
+
+                                  </section>
 								</div>
                                 
                                 <div class="6u 12u(mobile) important(mobile)">
 
 									<!-- Main Content -->
 										<section>
-											<header>
-												<h2>Saúl Álvarez Borrego</h2>
-												<h3>1946</h3>
+												<header>
+												<h2>Starker Leopold</h2>
+												<h3>1913 - 1983</h3>
 											</header>
-
-<p>Tuve la gran fortuna de nacer en Mazatlán, Sinaloa en 1946, donde pasé mi infancia y adolescencia. Más tarde, en 1963, me mudé a Ensenada, Baja California, para estudiar oceanología en la Escuela Superior de Ciencias Marinas de la Universidad Autónoma de Baja California (UABC). Me encantaba la gimnasia y a los 19 años, participé en los Juegos Nacionales Infantiles y Juveniles como el primer gimnasta representativo de Baja California.</p>
-                                          <p>Terminando la licenciatura participé en un crucero por dos meses recorriendo el Océano Pacífico hasta Chile y Nueva Zelandia.¡Quedé encantado! Mi pasión por el estudio me llevó a estudiar la maestría en ciencias en la Universidad Estatal de Oregon, Estados Unidos, y luego el doctorado en ciencias en la misma institución. Durante el posgrado en 1969 me casé con Esthela Elsie Millán y tuvimos dos hijos: Yazae y Danténoc.</p>
-                                          <p>En estrecha colaboración con estudiantes y colegas, he dirigido y participado en estudios sobre aspectos físico-químicos y ecológicos del Pacífico Mexicano, la corriente de California, las lagunas costeras de Baja California y el Golfo de México.</p>
-                                          <p>Fui director del Instituto de Investigaciones Oceanológicas de la UABC (1973) y del Centro de Investigación Científica y de Educación Superior de Ensenada (1981). En este último me convirtí en promotor institucional fortaleciendo al centro con la integración de nuevos investigadores a su plantilla.</p>
-                                          <p>Desde muy joven también me dediqué a la docencia, impartí clases de distintas disciplinas a jóvenes de diferentes grados de escolaridad, desde primaria hasta licenciatura y posgrados. Pertenezco a varias asociaciones científicas, como la Sociedad Mexicana de Planctología y la Asociación de Investigadores del Mar de Cortés. Mi interés por la difusión de los resultados científicos generados en mi campo de investigación, me condujo a participar en la fundación de la revista Ciencias Marinas (1974), todavía vigente.</p>
+											<p>Nací el 22 de octubre de 1913 en Burlington Iowa, a la orilla del gran río Misisipi. Fuí el primer hijo de los cinco que formamos la familia Leopold. Mi padre fue <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXIX/AldoLeopold.php">Aldo Leopold</a>, forestal y conservacionista y mi madre Estella Bergere quien fue maestra. Tuvimos una fuerte influencia de nuestros padres en el interés por la vida silvestre ya que tanto yo como mis hermanos Luna, Carl, Estella y Nina nos dedicamos a las carreras científicas y a contribuir a la conservación de la naturaleza.</p>
+											<p>La juventud la pasé en Nuevo México, la tierra de mi madre y su familia desde 1600. Mi padre la conoció ahí mientras trabajaba para el Servicio Forestal de Estados Unidos. Me encantaba salir a excursionar en los paisajes del suroeste y cazar patos en el Río Grande. Después a los 11 años nos mudamos a Madison, Wisconsin, situada entre los lagos Mendota y Monona. Ahí estudié la licenciatura en agricultura en 1936 y más tarde me fui a la Escuela Forestal de Yale. En Berkeley, mientras estudiaba el doctorado, me casé con la pintora Elizabeth Wiskotten en 1938 y tuvimos un par de hijos, Frederic y Sarah. Recibí el doctorado de la Universidad de California en 1944. Mis asesores fueron los ornitólogos Alden H. Miller y Joseph Grinnell. Más tarde me contrató la Universidad para trabajar en el Museo de Vertebrados, del cual me convertí en director con el tiempo. </p>
+											<p>En 1952 junto con el ecólogo y ornitólogo inglés Frank Fraser Darling (1903-1979) de la Universidad de Endinburgo hicimos una investigación de cuatro meses sobre los impactos del crecimiento económico en Alaska.</p>
+											<p>En 1963 escribí un reporte sobre Manejo de Vida Sivestre en Parques Nacionales con recomendaciones sobre el manejo de ecosistemas que se conoce como "El reporte Leopold". El reporte fue muy controversial, pero ahí se especifican los primeros planes para manejar tanto a los ecosistemas como a los visitantes. En 1967 me pasé al Departamento de Manejo de Bosques y Recursos Silvestres de la misma Universidad como Profesor de Zoología y Bosques.</p>
+											<p>	A pesar de no ser botánico, escribí una de las primeras descripciones sobre la vegetación de México en 1950. Sin embargo, mi "obra magna" fue <b>Fauna Silvestre de México: Las aves y mamíferos de caza" </b> publicada en 1959. Este libro fue el resultado de 15 años de trabajo de campo que inicié en 1944. Hice varias expediciones a México, para registrar la ecología e historia natural en 51 localidades desde Sonora hasta Yucatán. El biólogo y artista Charles W. Schwartz (1914-1991) hizo unas magníficas ilustraciones de la fauna. El libro lo tradujo Luis Macías Arellano, Director General Forestal y de Caza de la Secretaría de Agricultura y Ganadería y Ambrosio Gonzalez Cortés, Secretario Perpetuo de la Sociedad Mexicana de Historia Natural en 1965 y el <a href="http://www.biodiversidad.gob.mx/pais/curiosos/sXX/EnriqueBeltran.php"> Dr. Enrique Beltrán </a>escribió el prólogo. Ha sido un verdadero clásico entre los biólogos mexicanos.</p>
+											<p>Siempre tuve mis binoculares a la mano para poder observar a la naturaleza y la pesca y la caza fueron mis grandes aficiones toda la vida. Fallecí de un ataque cardíaco a los 70 años el 23 de agosto de 1983.</p> 
+</section>
+<p>&nbsp;</p>
 										  </section>
 
 								</div>
@@ -53,9 +60,8 @@
 												<h2>Mis favoritos</h2>
 										  </header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/SaulAlvarezimg2.jpg" width="230" height="154" alt=""/></li>
-			  <li>Pesca. Celestún, Yucatán</li>
-			  <li>Foto: Miguel A. Sicilia Manzo / Banco de imágenes, CONABIO</li>
+			  <li></li>
+			  <li><img src="../images/pagInternas/StarkerLeopold2.jpg" width="250" height="200" alt=""/></li>
 			  </ul>
                                     </section>
                                   <section>
@@ -63,7 +69,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-		      <li></li>
+               	<li></li>
+           		<li><img src="../images/pagInternas/StarkerLeopold3.jpg" width="250" height="200" alt=""/></li>
               </ul>
 								      </section>
                                   <section>
@@ -71,10 +78,13 @@
 									  <h2>Mis ideas</h2>
 									</header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/SaulAlvarezimg1.jpg" width="230" height="345" alt=""/></li>
-              <li>Compilador: Exequiel Ezcurra, Elisabet V. Wehncke, J. R. Lara Lara, Saúl Álvarez Borrego. <em><a href="http://www2.inecc.gob.mx/publicaciones/consultaPublicacion.html?id_pub=718" target="_blank">Conservation Science in México's NorthWest. Ecosystem Status and trends in the Gulf of California</a></em>. Publicaciones INECC. Formato electrónico.</li>
+			  <li></li>
+              <li><img src="../images/pagInternas/StarkerLeopold1.jpg" width="230" height="348" alt=""/></li>
+              <li><a href="https://books.google.com.mx/books?id=2RncXRJLxPkC&lpg=PP1&dq=%22Aldo%20Starker%20Leopold%22&hl=es&pg=PP1#v=onepage&q&f=false" target="_blank">Wildlife of Mexico: The Game Birds and Mammals,</a> 1959. University of California</li>
+                            <li>
+              </li>
 			  </ul>
-                                  </section>
+				</section>
                                   <section>
 										  <header>
 										    <ul class="link-list">
@@ -164,7 +174,7 @@
 									<section>
 										<h2>Línea del tiempo</h2><br>
 										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="87"></div>
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="55"></div>
 											</div>
 									</section>
 					</footer>

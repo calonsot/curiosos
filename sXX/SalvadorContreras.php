@@ -35,7 +35,7 @@
 												<h2>Salvador Contreras Balderas</h2>
 												<h3>1936 - 2009</h3>
 											</header>
-<p>&nbsp;</p>
+<p> Nací el 19 de febrero de 1936 en la Ciudad de México. Mi padres fueron Luis Contreras Díaz y Victoria Balderas Freeman. Nos mundamos a Monterrey, Nuevo León antes que yo entrara a la primaria</p>
 										  </section>
 
 								</div>
