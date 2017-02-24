@@ -1,7 +1,7 @@
 	
 	<?php include'../Layouts/header.php'?>
     
-    <title>Julio Berdegué Aznar</title>
+    <title>Gonzalo Halffter Salas</title>
     </head>
     
 	<body class="subpage">

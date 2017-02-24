@@ -26,7 +26,8 @@ function archivos_titulos($directorio, $ruta)
 		if (strpos($archivo, '.php') !== false)  // Nos aseguramos que sea un archivo php
 			$archivos_titulos[$archivo] = titulo_pagina($directorio, $archivo, $ruta);
 	}
-
+	
+	asort($archivos_titulos);
 	return $archivos_titulos;
 }
 
