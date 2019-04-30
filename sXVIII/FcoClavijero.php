@@ -3,7 +3,12 @@
     
     <title>Francisco Xavier Clavijero</title>
     </head>
-    
+     <section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="11"></div>
+											</div>
+									</section><br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -22,7 +27,7 @@
 												<h2>Referencias</h2>
 											</header>
 <ul class="link-list last-child">
-			  <li></li>
+			  <li>Clavijero, F.J. 2014. Historia antigua de México, 12 edición. Editorial Porrúa, México</li>
 		      </ul>
                                           </section>
 								</div>
@@ -34,8 +39,12 @@
 												<h2>Francisco Xavier Clavijero</h2>
 												<h3>1731 - 1787</h3>
 											</header>
-<p>Nací en el Puerto de Veracruz el 9 de septiembre de 1731. Desde pequeño tuve la oportunidad de viajar con mi padre por muchas regiones de la Nueva España, conociendo su impresionante naturaleza. De Veracruz nos mudamos a la Sierra de Puebla en Teziutlán y después a Jamiltepec, en la mixteca baja de Oaxaca. Compartí mis aventuras con los indígenas de México y además aprendí náhuatl.</p>
-<p>Estudié en Puebla en el Colegio de San Jerónimo y más tarde (1748) ingresé a la orden de los Jesuitas en Tepotzotlán, donde aprendí varios idiomas. Fui religioso, historiador, docente y naturalista. Escribí “Animales del reino de México” refutando al naturalista francés Georges Louis Leclerc, conde de Buffon (1707-1788) sobre la inferioridad de los animales americanos. En 1780 publiqué la Historia Antigua de México, escrita en el exilio en Bolonia, Italia. Fallecí en Bolonia el 2 de abril de 1787.</p>
+<p>Nací en el Puerto de Veracruz el 9 de septiembre de 1731. Mi padre fue Blas Clavigero, nacido cerca de Valladolid, España y mi madre María Isabel Echegaray, criolla, de ascendencia vasca. Fuimos 11 hermanos.  Desde pequeño tuve la oportunidad de viajar con mi padre y toda la familia por muchas regiones de la Nueva España, conociendo su impresionante naturaleza. De Veracruz nos mudamos a la Sierra de Puebla en Teziutlán y después a Jamiltepec, en la mixteca baja de Oaxaca. Compartí mis aventuras con los indígenas de México y además aprendí náhuatl desde muy temprano.</p>
+<p>Estudié en Puebla en el Colegio de San Jerónimo, pertenciente a los jesuitas y más tarde (1716-1788) ingresé a la orden de los Jesuitas en Tepotzotlán, donde aprendí varios idiomas. También me interesé por los escritos de Descartes, Newton, Leibniz, entre otros. En 1754 fui ordenado sacerdote. Pase tiempo en la Ciudad de México, en Morelia y en Guadalajara, pero el 27 de febrero de 1767, el rey Carlos III de España (1788) expulsó a los jesuitas de España y de sus colonias. En ese año en Nueva España el virrey era Carlos Francisco de Croix. Después de un viaje complicado terminé en Bolonia, en el norte de Italia, junto con muchos otros compañeros jesuitas. </p>
+<p>Fui religioso, historiador, docente y naturalista. En Europa me di cuenta de la ignorancia que había sobre el continente americano y sus habitantes. Ahí se creía que los indígenas americanos eran inferiores. Escribí “Animales del reino de México” refutando al naturalista francés Georges Louis Leclerc, conde de Buffon (1707-1788) sobre la inferioridad de los animales americanos. En 1780 publiqué la Historia Antigua de México, escrita en el exilio en Bolonia, Italia. Fueron diez libros que incluyeron la historia natural, el pasado prehispánico, los mexicanos, y la conquista. En estos libros combatí la visión de los europeos sobre la población y la naturaleza de América. Durante el siglo XVIII mis libros se publicaron en inglés y en alemán.
+<p>Además escribí nueve Disertaciones, en donde defendí a los indígenas de la Nueva España, en contra de las calumnias de los europeos. Algunos contemporáneos con los que simpatizaba en los temas que escribí fueron el antropólogo Antonio de León y Gama, el sacerdote naturalista <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXVIII/JoseAlzate.php">José Antonio Alzate, </a>Lorenzo Boturini y el jesuita Pedro José Marquez, entre otros.</p> 
+
+<p>Fallecí en Bolonia el 2 de abril de 1787 a los 56 años. El 5 de agosto de 1970 mis restos fueron trasladados de Bolonia a la Ciudad de México, y actualmente descanso en la "Rotonda de las Personas Ilustres" en el Panteón Civil de Dolores, en la tercera sección de Chapultepec./p>
 										  </section>
 
 								</div>
@@ -73,7 +82,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -89,46 +98,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XVIII</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVIII/CarlVonLinne.php">Carl Von Linné</a></li>
-														<li><a href="../sXVIII/FcoClavijero.php">Francisco Xavier Clavijero</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVIII/JoseAlzate.php">José Antonio Alzate y Ramírez</a></li>
-													  <li><a href="../sXVIII/JoseMMucino.php">José Mariano Mociño</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												   <ul class="link-list last-child">
-														<li><a href="../sXVIII/AlexanderHumboldt.php">Alexander Von Humboldt</a></li>
-														<li><a href="../sXVIII/PabloLlave.php">Pablo de la Llave</a></li>
-                                                        <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li><a href="../sXVIII/JoseMartinez.php">Juan José Martínez de Lejarza</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="11"></div>
-											</div>
-									</section>
+                               
 					</footer>
 				</div>
 
