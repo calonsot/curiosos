@@ -1,5 +1,5 @@
 /*
-    TimelineJS - ver. 3.3.17 - 2016-08-22
+    TimelineJS - ver. 3.6.4 - 2019-04-30
     Copyright (c) 2012-2016 Northwestern University
     a project of the Northwestern University Knight Lab, originally created by Zach Wise
     https://github.com/NUKnightLab/TimelineJS3
@@ -253,6 +253,11 @@ TL.Util = {
 		} else {
 			return "<p>" + str + "</p>";
 		}
+	},
+
+	unhtmlify: function(str) {
+		str = str.replace(/(<[^>]*>)+/g, '');
+		return str.replace('"', "'");
 	},
 
 	/*	* Turns plain text links into real links
@@ -3450,11 +3455,6 @@ TL.TimelineConfig = TL.Class.extend({
             }
         }
         if (TL.Util.isEmptyObject(item_data)) return null;
-        
-        // Asssign the value
-        //$('#timeline-embed').attr('start_at_slide', item_data.slidenumber);
-        //console.log($('#timeline-embed'));
-        
         var d = {
             media: {
                 caption: item_data.mediacaption || '',
@@ -3515,6 +3515,8 @@ TL.TimelineConfig = TL.Class.extend({
         return d;
     }
 
+    
+
     var getGoogleItemExtractor = function(data) {
         if (typeof data.feed.entry === 'undefined'
                 || data.feed.entry.length == 0) {
@@ -3544,54 +3546,203 @@ TL.TimelineConfig = TL.Class.extend({
         throw new TL.Error("invalid_data_format_err");
     }
 
-    var buildGoogleFeedURL = function(parts) {
-        return "https://spreadsheets.google.com/feeds/list/" + parts.key + "/1/public/values?alt=json";
-
+    var buildGoogleFeedURL = function(key, api_version) {
+        if (api_version == 'v4') {
+            return "https://sheets.googleapis.com/v4/spreadsheets/" + key + "/values/A1:R1000?key=AIzaSyCInR0kjJJ2Co6aQAXjLBQ14CEHam3K0xg";
+        } else {
+            return "https://spreadsheets.google.com/feeds/list/" + key + "/od6/public/values?alt=json";
+        }
     }
 
-    var jsonFromGoogleURL = function(url) {
-        var url = buildGoogleFeedURL(parseGoogleSpreadsheetURL(url));
-            var timeline_config = { 'events': [] };
-            var data = TL.ajax({
+    var jsonFromGoogleURL = function(google_url) {
+        var api_version = 'v3';
+        var parts = parseGoogleSpreadsheetURL(google_url);
+        if (parts && parts.key) {
+            var spreadsheet_key = parts.key;
+        } else {
+            throw new TL.Error('invalid_url_err', google_url);
+        }
+
+        var url = buildGoogleFeedURL(spreadsheet_key, api_version);
+
+        var response = TL.ajax({
+            url: url,
+            async: false
+        });
+        
+        // tricky because errors can be in the response object or in the parsed data...
+
+        if (response.status != 200) {
+            console.log("Error fetching data " + api_version + ": " + response.status + " - " + response.statusText);
+            api_version = 'v4';
+            var url = buildGoogleFeedURL(spreadsheet_key, api_version);
+            console.log("trying v4 - " + google_url);
+            var response = TL.ajax({
                 url: url,
                 async: false
             });
-            data = JSON.parse(data.responseText);
-            return googleFeedJSONtoTimelineJSON(data);
+
+            if (response.status == 403) {
+                throw new TL.Error('invalid_url_share_required');
+            } else if (response.status != 200) {
+                var msg = "Error fetching data " + api_version + ": " + response.status + " - " + response.statusText;
+                console.log(msg);
+                throw new TL.Error("google_error", msg);
+            }
+        } 
+
+
+        var data = JSON.parse(response.responseText);
+
+        if (data.error) {
+            var msg = "Error fetching data " + api_version + ": " + response.status + " - " + response.statusText;
+            console.log(msg);
+            console.log(data.error);
+            throw new TL.Error("google_error", msg);
         }
+
+        return googleFeedJSONtoTimelineJSON(data);
+    }
+
+    function extractGoogleEntryData_V4(column, item) {
+        function clean_integer(s) {
+            if (s) {
+                return s.replace(/[\s,]+/g,''); // doesn't handle '.' as comma separator, but how to distinguish that from decimal separator?
+            }
+        }
+        // console.log(item);
+        var item_data = {};
+        for (var i = 1; i < item.length; i++) {
+            if (column.length >= i) {
+                var column_name = column[i].toLowerCase().replace(" ", "");
+                item_data[column_name] = item[i];
+            }
+           
+        }
+
+        var event = {
+            media: {
+                caption: item_data.mediacaption || '',
+                credit: item_data.mediacredit || '',
+                url: item_data.media || '',
+                thumbnail: item_data.mediathumbnail || ''
+            },
+            text: {
+                headline: item_data.headline || '',
+                text: item_data.text || ''
+            },
+            start_date: {
+                year: clean_integer(item[0]),
+                month: clean_integer(item[1]) || '',
+                day: clean_integer(item[2]) || ''
+            },
+            end_date: {
+                year: clean_integer(item_data.endyear) || '',
+                month: clean_integer(item_data.endmonth) || '',
+                day: clean_integer(item_data.endday) || ''
+            },
+            display_date: item_data.displaydate || '',
+
+            type: item_data.type || ''
+        }
+
+
+        if (item_data.time) {
+            TL.Util.mergeData(event.start_date,TL.DateUtil.parseTime(item[3]));
+        }
+
+        if (item_data.endtime) {
+            TL.Util.mergeData(event.end_date,TL.DateUtil.parseTime(item_data.endtime));
+        }
+
+        if (item_data.group) {
+            event.group = item_data.group;
+        }
+
+        if (event.end_date.year == '') {
+            var bad_date = event.end_date;
+            delete event.end_date;
+            if (bad_date.month != '' || bad_date.day != '' || bad_date.time != '') {
+                var label = event.text.headline ||
+                trace("Invalid end date for spreadsheet row. Must have a year if any other date fields are specified.");
+                trace(item);
+            }
+        }
+
+        if (item_data.background) {
+            if (item_data.background.match(/^(https?:)?\/\/?/)) { // support http, https, protocol relative, site relative
+                event['background'] = { 'url': item_data.background }
+            } else { // for now we'll trust it's a color
+                event['background'] = { 'color': item_data.background }
+            }
+        }
+
+        return event;
+    }
 
     var googleFeedJSONtoTimelineJSON = function(data) {
         var timeline_config = { 'events': [], 'errors': [], 'warnings': [], 'eras': [] }
-        var extract = getGoogleItemExtractor(data);
-        for (var i = 0; i < data.feed.entry.length; i++) {
-            try {
-                var event = extract(data.feed.entry[i]);
+        
+        if (data.values) {
+            // Google Sheets API v4
+            for (var i = 1; i < data.values.length; i++) {
+                var event = extractGoogleEntryData_V4(data.values[0], data.values[i]);
                 if (event) { // blank rows return null
-                  var row_type = 'event';
-                  if (typeof(event.type) != 'undefined') {
-                      row_type = event.type;
-                      delete event.type;
-                  }
-                  if (row_type == 'title') {
-                    if (!timeline_config.title) {
-                      timeline_config.title = event;
-                    } else {
-                      timeline_config.warnings.push("Multiple title slides detected.");
-                      timeline_config.events.push(event);
+                    var row_type = 'event';
+                    if (typeof (event.type) != 'undefined') {
+                        row_type = event.type;
+                        delete event.type;
                     }
-                  } else if (row_type == 'era') {
-                    timeline_config.eras.push(event);
-                  } else {
-                      timeline_config.events.push(event);
-                  }
+                    if (row_type == 'title') {
+                        if (!timeline_config.title) {
+                            timeline_config.title = event;
+                        } else {
+                            timeline_config.warnings.push("Multiple title slides detected.");
+                            timeline_config.events.push(event);
+                        }
+                    } else if (row_type == 'era') {
+                        timeline_config.eras.push(event);
+                    } else {
+                        timeline_config.events.push(event);
+                    }
                 }
-            } catch(e) {
-                if (e.message) {
-                    e = e.message;
-                }
-                timeline_config.errors.push(e + " ["+ i +"]");
             }
-        };
+        } else {
+
+            // Google Sheets API v3 
+            var extract = getGoogleItemExtractor(data);
+            for (var i = 0; i < data.feed.entry.length; i++) {
+                try {
+                    var event = extract(data.feed.entry[i]);
+                    if (event) { // blank rows return null
+                    var row_type = 'event';
+                    if (typeof(event.type) != 'undefined') {
+                        row_type = event.type;
+                        delete event.type;
+                    }
+                    if (row_type == 'title') {
+                        if (!timeline_config.title) {
+                        timeline_config.title = event;
+                        } else {
+                        timeline_config.warnings.push("Multiple title slides detected.");
+                        timeline_config.events.push(event);
+                        }
+                    } else if (row_type == 'era') {
+                        timeline_config.eras.push(event);
+                    } else {
+                        timeline_config.events.push(event);
+                    }
+                    }
+                } catch(e) {
+                    if (e.message) {
+                        e = e.message;
+                    }
+                    timeline_config.errors.push(e + " ["+ i +"]");
+                }
+            };
+
+        }
+
         return timeline_config;
 
     }
@@ -3904,6 +4055,7 @@ TL.Language.languages = {
       swipe_to_navigate:              "Swipe to Navigate<br><span class='tl-button'>OK</span>",
       unknown_read_err:               "An unexpected error occurred trying to read your spreadsheet data",
 			invalid_url_err: 								"Unable to read Timeline data. Make sure your URL is for a Google Spreadsheet or a Timeline JSON file.",
+			invalid_url_share_required:			"Because of unexpected changes to Google's data access API, the creator of this timeline must enable 'anyone with the url can read' access for this spreadsheet. See timeline.knightlab.com for more information.",
       network_err:                    "Unable to read your Google Spreadsheet. Make sure you have published it to the web.",
       empty_feed_err:                 "No data entries found",
       missing_start_date_err:         "Missing start_date",
@@ -6885,176 +7037,194 @@ TL.Message = TL.Class.extend({
      Begin TL.MediaType.js
 ********************************************** */
 
-/*	TL.MediaType
-	Determines the type of media the url string is.
-	returns an object with .type and .id
-	You can add new media types by adding a regex
-	to match and the media class name to use to
-	render the media
-	
-	The image_only parameter indicates that the
-	call only wants an image-based media type
-	that can be resolved to an image URL.
+/*    TL.MediaType
+    Determines the type of media the url string is.
+    returns an object with .type and .id
+    You can add new media types by adding a regex
+    to match and the media class name to use to
+    render the media
 
-	TODO
-	Allow array so a slideshow can be a mediatype
+    The image_only parameter indicates that the
+    call only wants an image-based media type
+    that can be resolved to an image URL.
+
+    TODO
+    Allow array so a slideshow can be a mediatype
 ================================================== */
 TL.MediaType = function(m, image_only) {
-	var media = {},
-		media_types = 	[
-			{
-				type: 		"youtube",
-				name: 		"YouTube",
-				match_str: 	"^(https?:)?\/*(www.)?youtube|youtu\.be",
-				cls: 		TL.Media.YouTube
-			},
-			{
-				type: 		"vimeo",
-				name: 		"Vimeo",
-				match_str: 	"^(https?:)?\/*(player.)?vimeo\.com",
-				cls: 		TL.Media.Vimeo
-			},
-			{
-				type: 		"dailymotion",
-				name: 		"DailyMotion",
-				match_str: 	"^(https?:)?\/*(www.)?dailymotion\.com",
-				cls: 		TL.Media.DailyMotion
-			},
-			{
-				type: 		"vine",
-				name: 		"Vine",
-				match_str: 	"^(https?:)?\/*(www.)?vine\.co",
-				cls: 		TL.Media.Vine
-			},
-			{
-				type: 		"soundcloud",
-				name: 		"SoundCloud",
-				match_str: 	"^(https?:)?\/*(player.)?soundcloud\.com",
-				cls: 		TL.Media.SoundCloud
-			},
-			{
-				type: 		"twitter",
-				name: 		"Twitter",
-				match_str: 	"^(https?:)?\/*(www.)?twitter\.com",
-				cls: 		TL.Media.Twitter
-			},
-			{
-				type: 		"twitterembed",
-				name: 		"TwitterEmbed",
-				match_str: 	"<blockquote class=\"twitter-tweet\"",
-				cls: 		TL.Media.TwitterEmbed
-			},
-			{
-				type: 		"googlemaps",
-				name: 		"Google Map",
-				match_str: 	/google.+?\/maps\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)|google.+?\/maps\/search\/([\w\W]+)\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)|google.+?\/maps\/place\/([\w\W]+)\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)|google.+?\/maps\/dir\/([\w\W]+)\/([\w\W]+)\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)/,
-				cls: 		TL.Media.GoogleMap
-			},
-			{
-				type: 		"googleplus",
-				name: 		"Google+",
-				match_str: 	"^(https?:)?\/*plus.google",
-				cls: 		TL.Media.GooglePlus
-			},
-			{
-				type: 		"flickr",
-				name: 		"Flickr",
-				match_str: 	"^(https?:)?\/*(www.)?flickr.com\/photos",
-				cls: 		TL.Media.Flickr
-			},
-			{
-				type: 		"flickr",
-				name: 		"Flickr",
-				match_str: 	"^(https?:\/\/)?flic.kr\/.*",
-				cls: 		TL.Media.Flickr
-			},
-			{
-				type: 		"instagram",
-				name: 		"Instagram",
-				match_str: 	/^(https?:)?\/*(www.)?(instagr.am|^(https?:)?\/*(www.)?instagram.com)\/p\//,
-				cls: 		TL.Media.Instagram
-			},
-			{
-				type: 		"profile",
-				name: 		"Profile",
-				match_str: 	/^(https?:)?\/*(www.)?instagr.am\/[a-zA-Z0-9]{2,}|^(https?:)?\/*(www.)?instagram.com\/[a-zA-Z0-9]{2,}/,
-				cls: 		TL.Media.Profile
-			},
-			{
-			    type:       "documentcloud",
-			    name:       "Document Cloud",
-			    match_str:  /documentcloud.org\//,
-			    cls:        TL.Media.DocumentCloud
-			},
-			{
-				type: 		"image",
-				name: 		"Image",
-				match_str: 	/(jpg|jpeg|png|gif|svg)(\?.*)?$/i,
-				cls: 		TL.Media.Image
-			},
-			{
-				type: 		"imgur",
-				name: 		"Imgur",
-				match_str: 	/^.*imgur.com\/.+$/i,
-				cls: 		TL.Media.Imgur
-			},
-			{
-				type: 		"googledocs",
-				name: 		"Google Doc",
-				match_str: 	"^(https?:)?\/*[^.]*.google.com\/[^\/]*\/d\/[^\/]*\/[^\/]*\?usp=sharing|^(https?:)?\/*drive.google.com\/open\?id=[^\&]*\&authuser=0|^(https?:)?\/*drive.google.com\/open\?id=[^\&]*|^(https?:)?\/*[^.]*.googledrive.com\/host\/[^\/]*\/",
-				cls: 		TL.Media.GoogleDoc
-			},
-			{
-				type: 		"pdf",
-				name: 		"PDF",
-				match_str: 	/^.*\.pdf(\?.*)?(\#.*)?/,
-				cls: 		TL.Media.PDF
-			},
-			{
-				type: 		"wikipedia",
-				name: 		"Wikipedia",
-				match_str: 	"^(https?:)?\/*(www.)?wikipedia\.org|^(https?:)?\/*([a-z][a-z].)?wikipedia\.org",
-				cls: 		TL.Media.Wikipedia
-			},
-			{
-				type: 		"spotify",
-				name: 		"spotify",
-				match_str: 	"spotify",
-				cls: 		TL.Media.Spotify
-			},
-			{
-				type: 		"iframe",
-				name: 		"iFrame",
-				match_str: 	"iframe",
-				cls: 		TL.Media.IFrame
-			},
-			{
-				type: 		"storify",
-				name: 		"Storify",
-				match_str: 	"storify",
-				cls: 		TL.Media.Storify
-			},
-			{
-				type: 		"blockquote",
-				name: 		"Quote",
-				match_str: 	"blockquote",
-				cls: 		TL.Media.Blockquote
-			},
-			// {
-			// 	type: 		"website",
-			// 	name: 		"Website",
-			// 	match_str: 	"https?://",
-			// 	cls: 		TL.Media.Website
-			// },
-			{
-				type: 		"imageblank",
-				name: 		"Imageblank",
-				match_str: 	"",
-				cls: 		TL.Media.Image
-			}
-		];
-	
-	if(image_only) {
+    var media = {},
+        media_types =     [
+            {
+                type:         "youtube",
+                name:         "YouTube",
+                match_str:     "^(https?:)?\/*(www.)?youtube|youtu\.be",
+                cls:         TL.Media.YouTube
+            },
+            {
+                type:         "vimeo",
+                name:         "Vimeo",
+                match_str:     "^(https?:)?\/*(player.)?vimeo\.com",
+                cls:         TL.Media.Vimeo
+            },
+            {
+                type:         "dailymotion",
+                name:         "DailyMotion",
+                match_str:     "^(https?:)?\/*(www.)?dailymotion\.com",
+                cls:         TL.Media.DailyMotion
+            },
+            {
+                type:         "vine",
+                name:         "Vine",
+                match_str:     "^(https?:)?\/*(www.)?vine\.co",
+                cls:         TL.Media.Vine
+            },
+            {
+                type:         "soundcloud",
+                name:         "SoundCloud",
+                match_str:     "^(https?:)?\/*(player.)?soundcloud\.com",
+                cls:         TL.Media.SoundCloud
+            },
+            {
+                type:         "twitter",
+                name:         "Twitter",
+                match_str:     "^(https?:)?\/*(www.)?twitter\.com",
+                cls:         TL.Media.Twitter
+            },
+            {
+                type:         "twitterembed",
+                name:         "TwitterEmbed",
+                match_str:     "<blockquote class=['\"]twitter-tweet['\"]",
+                cls:         TL.Media.Twitter
+            },
+            {
+                type:         "googlemaps",
+                name:         "Google Map",
+                match_str:     /google.+?\/maps\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)|google.+?\/maps\/search\/([\w\W]+)\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)|google.+?\/maps\/place\/([\w\W]+)\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)|google.+?\/maps\/dir\/([\w\W]+)\/([\w\W]+)\/@([-\d.]+),([-\d.]+),((?:[-\d.]+[zmayht],?)*)/,
+                cls:         TL.Media.GoogleMap
+            },
+            {
+                type:         "googleplus",
+                name:         "Google+",
+                match_str:     "^(https?:)?\/*plus.google",
+                cls:         TL.Media.GooglePlus
+            },
+            {
+                type:         "flickr",
+                name:         "Flickr",
+                match_str:     "^(https?:)?\/*(www.)?flickr.com\/photos",
+                cls:         TL.Media.Flickr
+            },
+            {
+                type:         "flickr",
+                name:         "Flickr",
+                match_str:     "^(https?:\/\/)?flic.kr\/.*",
+                cls:         TL.Media.Flickr
+            },
+            {
+                type:         "instagram",
+                name:         "Instagram",
+                match_str:     /^(https?:)?\/*(www.)?(instagr.am|^(https?:)?\/*(www.)?instagram.com)\/p\//,
+                cls:         TL.Media.Instagram
+            },
+            {
+                type:         "profile",
+                name:         "Profile",
+                match_str:     /^(https?:)?\/*(www.)?instagr.am\/[a-zA-Z0-9]{2,}|^(https?:)?\/*(www.)?instagram.com\/[a-zA-Z0-9]{2,}/,
+                cls:         TL.Media.Profile
+            },
+            {
+                type:       "documentcloud",
+                name:       "Document Cloud",
+                match_str:  /documentcloud.org\//,
+                cls:        TL.Media.DocumentCloud
+            },
+            {
+                type:         "image",
+                name:         "Image",
+                match_str:     /(jpg|jpeg|png|gif|svg)(\?.*)?$/i,
+                cls:         TL.Media.Image
+            },
+            {
+                type:         "imgur",
+                name:         "Imgur",
+                match_str:     /^.*imgur.com\/.+$|<blockquote class=['\"]imgur-embed-pub['\"]/i,
+                cls:         TL.Media.Imgur
+            },
+            {
+                type:         "googledocs",
+                name:         "Google Doc",
+                match_str:     "^(https?:)?\/*[^.]*.google.com\/[^\/]*\/d\/[^\/]*\/[^\/]*\?usp=sharing|^(https?:)?\/*drive.google.com\/open\?id=[^\&]*\&authuser=0|^(https?:)?\/*drive.google.com\/open\?id=[^\&]*|^(https?:)?\/*[^.]*.googledrive.com\/host\/[^\/]*\/",
+                cls:         TL.Media.GoogleDoc
+            },
+            {
+                type:         "pdf",
+                name:         "PDF",
+                match_str:     /^.*\.pdf(\?.*)?(\#.*)?/,
+                cls:         TL.Media.PDF
+            },
+            {
+                type:         "wikipedia",
+                name:         "Wikipedia",
+                match_str:     "^(https?:)?\/*(www.)?wikipedia\.org|^(https?:)?\/*([a-z][a-z].)?wikipedia\.org",
+                cls:         TL.Media.Wikipedia
+            },
+            {
+                type:         "spotify",
+                name:         "spotify",
+                match_str:     "spotify",
+                cls:         TL.Media.Spotify
+            },
+            {
+                type:         "iframe",
+                name:         "iFrame",
+                match_str:     "iframe",
+                cls:         TL.Media.IFrame
+            },
+            {
+                type:         "storify",
+                name:         "Storify",
+                match_str:     "storify",
+                cls:         TL.Media.Storify
+            },
+            {
+                type:         "blockquote",
+                name:         "Quote",
+                match_str:     "blockquote",
+                cls:         TL.Media.Blockquote
+            },
+            // {
+            //     type:         "website",
+            //     name:         "Website",
+            //     match_str:     "https?://",
+            //     cls:         TL.Media.Website
+            // },
+            {
+                type:         "video",
+                name:         "Video",
+                match_str:     /(mp4)(\?.*)?$/i,
+                cls:         TL.Media.Video
+            },
+            {
+              type:         "wistia",
+              name:         "Wistia",
+              match_str:     /https?:\/\/(.+)?(wistia\.com|wi\.st)\/.*/i,
+              cls:         TL.Media.Wistia
+            },
+            {
+                type:         "audio",
+                name:         "Audio",
+                match_str:     /(mp3|wav|m4a)(\?.*)?$/i,
+                cls:         TL.Media.Audio
+            },
+            {
+                type:         "imageblank",
+                name:         "Imageblank",
+                match_str:     "",
+                cls:         TL.Media.Image
+            }
+        ];
+
+    if(image_only) {
         if (m instanceof Array) {
             return false;
         }
@@ -7062,35 +7232,31 @@ TL.MediaType = function(m, image_only) {
             switch(media_types[i].type) {
                 case "flickr":
                 case "image":
-                case "imgur":
                 case "instagram":
                     if (m.url.match(media_types[i].match_str)) {
                         media = media_types[i];
                         return media;
                     }
                     break;
-                
                 default:
-                    break;            
+                    break;
             }
-        }        
-	
-	} else {
+        }
+
+    } else {
         for (var i = 0; i < media_types.length; i++) {
             if (m instanceof Array) {
                 return media = {
-                    type: 		"slider",
-                    cls: 		TL.Media.Slider
+                    type:         "slider",
+                    cls:         TL.Media.Slider
                 };
             } else if (m.url.match(media_types[i].match_str)) {
-                media 		= media_types[i];
+                media         = media_types[i];
                 return media;
             }
-        };
+        }
     }
-
-	return false;
-
+    return false;
 }
 
 
@@ -7161,11 +7327,11 @@ TL.Media = TL.Class.extend({
 		//Options
 		this.options = {
 			api_key_flickr: 		"f2cc870b4d233dd0a5bfe73fd0d64ef0",
-			api_key_googlemaps: 	"AIzaSyB9dW8e_iRrATFa8g24qB6BDBGdkrLDZYI",
+			api_key_googlemaps: "AIzaSyB9dW8e_iRrATFa8g24qB6BDBGdkrLDZYI",
 			api_key_embedly: 		"", // ae2da610d1454b66abdf2e6a4c44026d
 			credit_height: 			0,
 			caption_height: 		0,
-			background:             0   // is background media (for slide)
+			background:         0   // is background media (for slide)
 		};
 
 		this.animator = {};
@@ -7209,12 +7375,12 @@ TL.Media = TL.Class.extend({
 		}
 	},
 
-    _updateMessage: function(msg) {
-        if(this.message) {
-            this.message.updateMessage(msg);
-        }    
-    },
-    
+  _updateMessage: function(msg) {
+      if(this.message) {
+          this.message.updateMessage(msg);
+      }
+  },
+
 	loadingMessage: function() {
 	    this._updateMessage(this._('loading') + " " + this.options.media_name);
 	},
@@ -7262,7 +7428,7 @@ TL.Media = TL.Class.extend({
 
 	/*	Media Specific
 	================================================== */
-    _loadMedia: function() {        
+    _loadMedia: function() {
         // All overrides must call this.onLoaded() to set state
         this.onLoaded();
     },
@@ -7283,7 +7449,7 @@ TL.Media = TL.Class.extend({
         // Image-based media types should return <img>-compatible src url
         return "";
     },
-    
+
 	/*	Public
 	================================================== */
 	show: function() {
@@ -7304,10 +7470,10 @@ TL.Media = TL.Class.extend({
 		this.onRemove();
 	},
 
-    getImageURL: function(w, h) {
-        return this._getImageURL(w, h);
-    },
-    
+  getImageURL: function(w, h) {
+      return this._getImageURL(w, h);
+  },
+
 	// Update Display
 	updateDisplay: function(w, h, l) {
 		this._updateDisplay(w, h, l);
@@ -7537,7 +7703,7 @@ TL.Media.DailyMotion = TL.Media.extend({
 		}
 
 		// API URL
-		api_url = "https://www.dailymotion.com/embed/video/" + this.media_id;
+		api_url = "https://www.dailymotion.com/embed/video/" + this.media_id+"?api=postMessage";
 
 		// API Call
 		this._el.content_item.innerHTML = "<iframe autostart='false' frameborder='0' width='100%' height='100%' src='" + api_url + "'></iframe>"
@@ -7549,6 +7715,11 @@ TL.Media.DailyMotion = TL.Media.extend({
 	// Update Media Display
 	_updateMediaDisplay: function() {
 		this._el.content_item.style.height = TL.Util.ratio.r16_9({w:this._el.content_item.offsetWidth}) + "px";
+	},
+
+	_stopMedia: function() {
+		this._el.content_item.querySelector("iframe").contentWindow.postMessage('{"command":"pause","parameters":[]}', "*");
+
 	}
 
 });
@@ -7688,6 +7859,18 @@ TL.Media.Flickr = TL.Media.extend({
 
 		// Photo
 		this._el.content_item = TL.Dom.create("img", "tl-media-item tl-media-image tl-media-flickr tl-media-shadow", this._el.content_link);
+
+		if (this.data.alt) {
+			this._el.content_item.alt = this.data.alt;
+		} else if (this.data.caption) {
+			this._el.content_item.alt = TL.Util.unhtmlify(this.data.caption);
+		}
+
+		if (this.data.title) {
+			this._el.content_item.title = this.data.title;
+		} else if (this.data.caption) {
+			this._el.content_item.title = TL.Util.unhtmlify(this.data.caption);
+		}
 
 		// Media Loaded Event
 		this._el.content_item.addEventListener('load', function(e) {
@@ -7915,7 +8098,7 @@ TL.Media.Image = TL.Media.extend({
         if(!this.options.background) {
             this.createMedia();
         }
-        
+
         // After loaded
 		this.onLoaded();
 	},
@@ -7923,11 +8106,11 @@ TL.Media.Image = TL.Media.extend({
     createMedia: function() {
         var self = this,
             image_class = "tl-media-item tl-media-image tl-media-shadow";
-        
+
 		if (this.data.url.match(/.png(\?.*)?$/) || this.data.url.match(/.svg(\?.*)?$/)) {
 			image_class = "tl-media-item tl-media-image"
 		}
-		
+
  		// Link
 		if (this.data.link) {
 			this._el.content_link 				= TL.Dom.create("a", "", this._el.content);
@@ -7937,7 +8120,19 @@ TL.Media.Image = TL.Media.extend({
 		} else {
 			this._el.content_item				= TL.Dom.create("img", image_class, this._el.content);
 		}
-		
+
+		if (this.data.alt) {
+			this._el.content_item.alt = this.data.alt;
+		} else if (this.data.caption) {
+			this._el.content_item.alt = TL.Util.unhtmlify(this.data.caption);
+		}
+
+		if (this.data.title) {
+			this._el.content_item.title = this.data.title;
+		} else if (this.data.caption) {
+			this._el.content_item.title = TL.Util.unhtmlify(this.data.caption);
+		}
+
 		// Media Loaded Event
 		this._el.content_item.addEventListener('load', function(e) {
 			self.onMediaLoaded();
@@ -7945,11 +8140,11 @@ TL.Media.Image = TL.Media.extend({
 
 		this._el.content_item.src			= this.getImageURL();
     },
-        
+
     getImageURL: function(w, h) {
         return TL.Util.transformImageURL(this.data.url);
     },
-    
+
 	_updateMediaDisplay: function(layout) {
 		if(TL.Browser.firefox) {
 			//this._el.content_item.style.maxWidth = (this.options.width/2) - 40 + "px";
@@ -7976,14 +8171,23 @@ TL.Media.Imgur = TL.Media.extend({
 	================================================== */
 	_loadMedia: function() {
 		try {
-		    this.media_id = this.data.url.split('/').slice(-1)[0];
+			var self = this;
 
-            if(!this.options.background) {
-                this.createMedia();
-            }
+			if (this.data.url.match("<blockquote class=['\"]imgur-embed-pub['\"]")){
+				var found = this.data.url.match(/(imgur\.com)\/(\w+)/);
+				this.media_id = found[2];
+				this.data.url = "http://imgur.com/gallery/" + this.media_id;
+			}
+			else if (this.data.url){
+				this.media_id = this.data.url.split('/').slice(-1)[0];
+			}
 
-			// After Loaded
-			this.onLoaded();
+	        TL.Load.js([
+						'https://s.imgur.com/min/embed.js'], 
+					function(){
+						self.createMedia();
+					}
+			);
 
 		} catch(e) {
 		    this.loadErrorDisplay(this._("imgur_invalidurl_err"));
@@ -7992,26 +8196,56 @@ TL.Media.Imgur = TL.Media.extend({
 
 	createMedia: function() {
 	    var self = this;
+		var api_url = "https://api.imgur.com/oembed.json?url=" + this.data.url;
 
-		// Link
-		this._el.content_link 				= TL.Dom.create("a", "", this._el.content);
-		this._el.content_link.href 			= this.data.url;
-		this._el.content_link.target 		= "_blank";
+		// Content div
+		this._el.content_item	= TL.Dom.create("div", "tl-media-item tl-media-image tl-media-imgur",
+																								this._el.content);
 
-		// Photo
-		this._el.content_item	= TL.Dom.create("img", "tl-media-item tl-media-image tl-media-imgur tl-media-shadow",
-																					this._el.content_link);
+		// API Call
 
-		// Media Loaded Event
-		this._el.content_item.addEventListener('load', function(e) {
-			self.onMediaLoaded();
-		});
+          TL.ajax({
+          	type: 'GET',
+            url: api_url,
+            dataType: 'json',
+            success: function(data){
+            try {
+                self._el.content_item.innerHTML	= data.html;
+            	setInterval(function(){
+            		if(document.querySelector("blockquote.imgur-embed-pub") == null){
+            			clearInterval();
+            		}
+            		else{
+            			imgurEmbed.createIframe();
+            			document.getElementById("imageElement").removeAttribute("style");
+            			document.getElementById("image").removeAttribute("style");
+            		}
+            	}, 2000);
+            } catch(e) {
+            }
+            },
+            error: function(xhr, errorType, error) {
+              tc = new TL.TimelineConfig();
+              if (errorType == 'parsererror') {
+                var error = new TL.Error("invalid_url_err");
+              } else {
+                var error = new TL.Error("unknown_read_err", errorType);
+              }
+              self.loadErrorDisplay(self._("imgur_invalidurl_err"));
+              tc.logError(error);
+            }
+          });
 
-    this._el.content_item.src			= this.getImageURL();
+         this.onLoaded();
+
 	},
 
-	getImageURL: function(w, h) {
-	    return 'https://i.imgur.com/' + this.media_id + '.jpg';
+
+
+	_updateMediaDisplay: function() {
+		//this.el.content_item = document.getElementById(this._el.content_item.id);
+		this._el.content_item.style.width = this.options.width + "px";
+		this._el.content_item.style.height = TL.Util.ratio.r16_9({w:this.options.width}) + "px";
 	}
 
 });
@@ -8053,6 +8287,18 @@ TL.Media.Instagram = TL.Media.extend({
 
 		// Photo
 		this._el.content_item				= TL.Dom.create("img", "tl-media-item tl-media-image tl-media-instagram tl-media-shadow", this._el.content_link);
+
+		if (this.data.alt) {
+			this._el.content_item.alt = this.data.alt;
+		} else if (this.data.caption) {
+			this._el.content_item.alt = TL.Util.unhtmlify(this.data.caption);
+		}
+
+		if (this.data.title) {
+			this._el.content_item.title = this.data.title;
+		} else if (this.data.caption) {
+			this._el.content_item.title = TL.Util.unhtmlify(this.data.caption);
+		}
 
 		// Media Loaded Event
 		this._el.content_item.addEventListener('load', function(e) {
@@ -8363,6 +8609,8 @@ TL.Media.Slider = TL.Media.extend({
 /*	TL.Media.SoundCloud
 ================================================== */
 
+var soundCoudCreated = false;
+
 TL.Media.SoundCloud = TL.Media.extend({
 
 	includes: [TL.Events],
@@ -8384,7 +8632,9 @@ TL.Media.SoundCloud = TL.Media.extend({
 
 		// API Call
 		TL.getJSON(api_url, function(d) {
-			self.createMedia(d);
+			TL.Load.js("https://w.soundcloud.com/player/api.js", function() {//load soundcloud api for pausing.
+				self.createMedia(d);
+			});
 		});
 
 	},
@@ -8392,8 +8642,19 @@ TL.Media.SoundCloud = TL.Media.extend({
 	createMedia: function(d) {
 		this._el.content_item.innerHTML = d.html;
 
+		this.soundCloudCreated = true;
+
+		self.widget = SC.Widget(this._el.content_item.querySelector("iframe"));//create widget for api use
+
 		// After Loaded
 		this.onLoaded();
+	},
+
+	_stopMedia: function() {
+		if (this.soundCloudCreated)
+		{
+			self.widget.pause();
+		}
 	}
 
 });
@@ -8420,16 +8681,23 @@ TL.Media.Spotify = TL.Media.extend({
 		this._el.content_item	= TL.Dom.create("div", "tl-media-item tl-media-iframe tl-media-spotify", this._el.content);
 
 		// Get Media ID
-		if (this.data.url.match(/^spotify:track/) || this.data.url.match(/^spotify:user:.+:playlist:/)) {
+		if (this.data.url.match(/^spotify:track/) || this.data.url.match(/^spotify:album/) || this.data.url.match(/^spotify:user:.+:playlist:/)) {
 			this.media_id = this.data.url;
 		}
-		if (this.data.url.match(/spotify.com\/track\/(.+)/)) {
-			this.media_id = "spotify:track:" + this.data.url.match(/spotify.com\/track\/(.+)/)[1];
-		} else if (this.data.url.match(/spotify.com\/user\/(.+?)\/playlist\/(.+)/)) {
-			var user = this.data.url.match(/spotify.com\/user\/(.+?)\/playlist\/(.+)/)[1];
-			var playlist = this.data.url.match(/spotify.com\/user\/(.+?)\/playlist\/(.+)/)[2];
+
+		if (this.data.url.match(/spotify\.com\/track\/(.+)/)) {
+			this.media_id = "spotify:track:" + this.data.url.match(/spotify\.com\/track\/(.+)/)[1];
+		} else if (this.data.url.match(/spotify\.com\/album\/(.+)/)) {
+			this.media_id = "spotify:album:" + this.data.url.match(/spotify\.com\/album\/(.+)/)[1];
+		} else if (this.data.url.match(/spotify\.com\/user\/(.+?)\/playlist\/(.+)/)) {
+			var user = this.data.url.match(/spotify\.com\/user\/(.+?)\/playlist\/(.+)/)[1];
+			var playlist = this.data.url.match(/spotify\.com\/user\/(.+?)\/playlist\/(.+)/)[2];
 			this.media_id = "spotify:user:" + user + ":playlist:" + playlist;
+		} else if (this.data.url.match(/spotify\.com\/artist\/(.+)/)) {
+			var artist = this.data.url.match(/spotify\.com\/artist\/(.+)/)[1];
+			this.media_id = "spotify:artist:" + artist;
 		}
+
 
 		if (this.media_id) {
 			// API URL
@@ -8680,9 +8948,12 @@ TL.Media.Text = TL.Class.extend({
 TL.Media.Twitter = TL.Media.extend({
 	
 	includes: [TL.Events],
+    
+
 	
 	/*	Load the media
 	================================================== */
+
 	_loadMedia: function() {
 		var api_url,
 			self = this;
@@ -8690,8 +8961,10 @@ TL.Media.Twitter = TL.Media.extend({
 		// Create Dom element
 		this._el.content_item = TL.Dom.create("div", "tl-media-twitter", this._el.content);
 		this._el.content_container.className = "tl-media-content-container tl-media-content-container-text";
-		
+        		
 		// Get Media ID
+        if(this.data.url.match("^(https?:)?\/*(www.)?twitter\.com"))
+        {
 		if (this.data.url.match("status\/")) {
 			this.media_id = this.data.url.split("status\/")[1];
 		} else if (this.data.url.match("statuses\/")) {
@@ -8699,7 +8972,19 @@ TL.Media.Twitter = TL.Media.extend({
 		} else {
 			this.media_id = "";
 		}
+        }
+        
+        else if(this.data.url.match("<blockquote class=['\"]twitter-tweet['\"]")) {
 		
+        var found = this.data.url.match(/(status|statuses)\/(\d+)/);
+		if (found && found.length > 2) {
+		    this.media_id = found[2];
+		} else {
+		    self.loadErrorDisplay(self._("twitterembed_invalidurl_err"));
+		    return;
+		}
+    }
+        
 		// API URL
 		api_url = "https://api.twitter.com/1/statuses/oembed.json?id=" + this.media_id + "&omit_script=true&include_entities=true&callback=?";
 		
@@ -8721,12 +9006,14 @@ TL.Media.Twitter = TL.Media.extend({
 	},
 	
 	createMedia: function(d) {
+        trace("create_media")	
 		var tweet				= "",
 			tweet_text			= "",
 			tweetuser			= "",
 			tweet_status_temp 	= "",
 			tweet_status_url 	= "",
-			tweet_status_date 	= "";
+			tweet_status_date 	= "",
+            self = this;
 			
 		//	TWEET CONTENT
 		tweet_text 			= d.html.split("<\/p>\&mdash;")[0] + "</p></blockquote>";
@@ -8736,39 +9023,57 @@ TL.Media.Twitter = TL.Media.extend({
 		tweet_status_date 	= tweet_status_temp.split("\"\>")[1].split("<\/a>")[0];
 		
 		// Open links in new window
-		tweet_text = tweet_text.replace(/<a href/ig, '<a class="tl-makelink" target="_blank" href');
+		tweet_text = tweet_text.replace(/<a href/ig, '<a target="_blank" href');
+        
+        if (tweet_text.includes("pic.twitter.com")) {
+            
+            TL.Load.js('https://platform.twitter.com/widgets.js', function() {
+                twttr.widgets.createTweet(self.media_id, self._el.content_item,
+                {
+                    conversation : 'none',    // or all
+                    linkColor    : '#cc0000', // default is blue
+                    theme        : 'light'    // or dark
+                })
+            });
+            
+            this.onLoaded();
+            
+        } else {
 
-		// 	TWEET CONTENT
-		tweet += tweet_text;
-		
-		//	TWEET AUTHOR
-		tweet += "<div class='vcard'>";
-		tweet += "<a href='" + tweet_status_url + "' class='twitter-date' target='_blank'>" + tweet_status_date + "</a>";
-		tweet += "<div class='author'>";
-		tweet += "<a class='screen-name url' href='" + d.author_url + "' target='_blank'>";
-		tweet += "<span class='avatar'></span>";
-		tweet += "<span class='fn'>" + d.author_name + " <span class='tl-icon-twitter'></span></span>";
-		tweet += "<span class='nickname'>@" + tweetuser + "<span class='thumbnail-inline'></span></span>";
-		tweet += "</a>";
-		tweet += "</div>";
-		tweet += "</div>";
-		
-		
-		// Add to DOM
-		this._el.content_item.innerHTML	= tweet;
-		
-		// After Loaded
-		this.onLoaded();
-			
-	},
+            // 	TWEET CONTENT
+            tweet += tweet_text;
+
+            //	TWEET AUTHOR
+            tweet += "<div class='vcard'>";
+            tweet += "<a href='" + tweet_status_url + "' class='twitter-date' target='_blank'>" + tweet_status_date + "</a>";
+            tweet += "<img src='" + "' class='tl-media-item tl-media-image' target='_blank'>" + "</a>";
+            tweet += "<div class='author'>";
+            tweet += "<a class='screen-name url' href='" + d.author_url + "' target='_blank'>";
+            tweet += "<span class='avatar'></span>";
+            tweet += "<span class='fn'>" + d.author_name + " <span class='tl-icon-twitter'></span></span>";
+            tweet += "<span class='nickname'>@" + tweetuser + "<span class='thumbnail-inline'></span></span>";
+            tweet += "</a>";
+            tweet += "</div>";
+            tweet += "</div>";
+
+
+            // Add to DOM
+            this._el.content_item.innerHTML	= tweet;
+
+            // After Loaded
+            this.onLoaded();
+        }
+    },
 	
+    
 	updateMediaDisplay: function() {
 		
 	},
 	
 	_updateMediaDisplay: function() {
 		
-	}
+	},
+    
 	
 	
 	
@@ -8783,9 +9088,12 @@ TL.Media.Twitter = TL.Media.extend({
 	Produces Twitter Display
 ================================================== */
 
+        var mediaID;
+
 TL.Media.TwitterEmbed = TL.Media.extend({
-	
 	includes: [TL.Events],
+    
+
 	
 	/*	Load the media
 	================================================== */
@@ -8808,6 +9116,25 @@ TL.Media.TwitterEmbed = TL.Media.extend({
 
 		// API URL
 		api_url = "https://api.twitter.com/1/statuses/oembed.json?id=" + this.media_id + "&omit_script=true&include_entities=true&callback=?";
+        
+        window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function(f) {
+            t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));
+        
+        mediaID = this.media_id;
 		
 		// API Call
 		TL.ajax({
@@ -8837,6 +9164,7 @@ TL.Media.TwitterEmbed = TL.Media.extend({
 			
 		//	TWEET CONTENT
 		tweet_text 			= d.html.split("<\/p>\&mdash;")[0] + "</p></blockquote>";
+        console.log(tweet_text);
 		tweetuser			= d.author_url.split("twitter.com\/")[1];
 		tweet_status_temp 	= d.html.split("<\/p>\&mdash;")[1].split("<a href=\"")[1];
 		tweet_status_url 	= tweet_status_temp.split("\"\>")[0];
@@ -8844,28 +9172,48 @@ TL.Media.TwitterEmbed = TL.Media.extend({
 		
 		// Open links in new window
 		tweet_text = tweet_text.replace(/<a href/ig, '<a target="_blank" href');
+        
+        if (tweet_text.includes("pic.twitter.com")) {
+            twttr.ready(
+                function(evt) {
+                    tweet = document.getElementsByClassName("tl-media-twitter")[0];
+                    var id = String(mediaID);
+                    twttr.widgets.createTweet(id, tweet,
+                        {
+                            conversation : 'none',    // or all
+                            linkColor    : '#cc0000', // default is blue
+                            theme        : 'light'    // or dark
+                        })
+                    .then(function (evt) {
+                        this.onLoaded();
+                    });
+                }
+            );
+            this._el.content_item.innerHTML	= tweet;
+            this.onLoaded();
+        } else{
+            // 	TWEET CONTENT
+            tweet += tweet_text;
 
-		// 	TWEET CONTENT
-		tweet += tweet_text;
-		
-		//	TWEET AUTHOR
-		tweet += "<div class='vcard'>";
-		tweet += "<a href='" + tweet_status_url + "' class='twitter-date' target='_blank'>" + tweet_status_date + "</a>";
-		tweet += "<div class='author'>";
-		tweet += "<a class='screen-name url' href='" + d.author_url + "' target='_blank'>";
-		tweet += "<span class='avatar'></span>";
-		tweet += "<span class='fn'>" + d.author_name + " <span class='tl-icon-twitter'></span></span>";
-		tweet += "<span class='nickname'>@" + tweetuser + "<span class='thumbnail-inline'></span></span>";
-		tweet += "</a>";
-		tweet += "</div>";
-		tweet += "</div>";
-		
-		
-		// Add to DOM
-		this._el.content_item.innerHTML	= tweet;
-		
-		// After Loaded
-		this.onLoaded();
+            //	TWEET AUTHOR
+            tweet += "<div class='vcard'>";
+            tweet += "<a href='" + tweet_status_url + "' class='twitter-date' target='_blank'>" + tweet_status_date + "</a>";
+            tweet += "<div class='author'>";
+            tweet += "<a class='screen-name url' href='" + d.author_url + "' target='_blank'>";
+            tweet += "<span class='avatar'></span>";
+            tweet += "<span class='fn'>" + d.author_name + " <span class='tl-icon-twitter'></span></span>";
+            tweet += "<span class='nickname'>@" + tweetuser + "<span class='thumbnail-inline'></span></span>";
+            tweet += "</a>";
+            tweet += "</div>";
+            tweet += "</div>";
+
+
+            // Add to DOM
+            this._el.content_item.innerHTML	= tweet;
+
+            // After Loaded
+            this.onLoaded();
+        }
 			
 	},
 	
@@ -8880,7 +9228,6 @@ TL.Media.TwitterEmbed = TL.Media.extend({
 	
 	
 });
-
 
 /* **********************************************
      Begin TL.Media.Vimeo.js
@@ -8904,9 +9251,18 @@ TL.Media.Vimeo = TL.Media.extend({
 
 		// Get Media ID
 		this.media_id = this.data.url.split(/video\/|\/\/vimeo\.com\//)[1].split(/[?&]/)[0];
+		var start_time = null;
+
+		// Get start time
+		if (this.data.url.match(/#t=([^&]+).*/)) {
+			start_time = this.data.url.match(/#t=([^&]+).*/)[1];
+		}
 
 		// API URL
 		api_url = "https://player.vimeo.com/video/" + this.media_id + "?api=1&title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff";
+		if (start_time) {
+			api_url = api_url += '&amp;#t=' + start_time;
+		}
 
 		this.player = TL.Dom.create("iframe", "", this._el.content_item);
 
@@ -8920,6 +9276,10 @@ TL.Media.Vimeo = TL.Media.extend({
 		this.player.frameBorder = "0";
 		this.player.src 		= api_url;
 
+		this.player.setAttribute('allowfullscreen', '');
+		this.player.setAttribute('webkitallowfullscreen', '');
+		this.player.setAttribute('mozallowfullscreen', '');
+
 		// After Loaded
 		this.onLoaded();
 	},
@@ -8927,7 +9287,6 @@ TL.Media.Vimeo = TL.Media.extend({
 	// Update Media Display
 	_updateMediaDisplay: function() {
 		this._el.content_item.style.height = TL.Util.ratio.r16_9({w:this._el.content_item.offsetWidth}) + "px";
-
 	},
 
 	_stopMedia: function() {
@@ -8938,7 +9297,6 @@ TL.Media.Vimeo = TL.Media.extend({
 		catch(err) {
 			trace(err);
 		}
-
 	}
 });
 
@@ -8981,6 +9339,10 @@ TL.Media.Vine = TL.Media.extend({
 	_updateMediaDisplay: function() {
 		var size = TL.Util.ratio.square({w:this._el.content_item.offsetWidth , h:this.options.height});
 		this._el.content_item.style.height = size.h + "px";
+	},
+
+	_stopMedia: function() {
+		this._el.content_item.querySelector("iframe").contentWindow.postMessage('pause', '*');
 	}
 
 });
@@ -9196,6 +9558,68 @@ TL.Media.Wikipedia = TL.Media.extend({
 
 
 /* **********************************************
+     Begin TL.Media.Wistia.js
+********************************************** */
+
+/*	TL.Media.Wistia
+================================================== */
+
+TL.Media.Wistia = TL.Media.extend({
+
+	includes: [TL.Events],
+
+	/*	Load the media
+	================================================== */
+	_loadMedia: function() {
+		var api_url,
+			self = this;
+
+		// Create Dom element
+		this._el.content_item	= TL.Dom.create("div", "tl-media-item tl-media-iframe tl-media-wistia tl-media-shadow", this._el.content);
+
+		// Get Media ID
+		this.media_id = this.data.url.split(/https?:\/\/(.+)?(wistia\.com|wi\.st)\/medias\/(.*)/)[3];
+
+		// API URL
+		api_url = "https://fast.wistia.com/embed/iframe/" + this.media_id + "?version=v1&controlsVisibleOnLoad=true&playerColor=aae3d8";
+
+    this.player = TL.Dom.create("iframe", "", this._el.content_item);
+
+    // Media Loaded Event
+		this.player.addEventListener('load', function(e) {
+			self.onMediaLoaded();
+		});
+
+		this.player.width 		= "100%";
+		this.player.height 		= "100%";
+		this.player.frameBorder = "0";
+		this.player.src 		= api_url;
+
+		this.player.setAttribute('allowfullscreen', '');
+		this.player.setAttribute('webkitallowfullscreen', '');
+		this.player.setAttribute('mozallowfullscreen', '');
+
+		// After Loaded
+		this.onLoaded();
+	},
+
+	// Update Media Display
+	_updateMediaDisplay: function() {
+		this._el.content_item.style.height = TL.Util.ratio.r16_9({w:this._el.content_item.offsetWidth}) + "px";
+	},
+
+	_stopMedia: function() {
+		try {
+			this.player.contentWindow.postMessage(JSON.stringify({method: "pause"}), "https://player.vimeo.com");
+		}
+		catch(err) {
+			trace(err);
+		}
+	}
+});
+
+
+/* **********************************************
      Begin TL.Media.YouTube.js
 ********************************************** */
 
@@ -9234,7 +9658,19 @@ TL.Media.YouTube = TL.Media.extend({
 			trace("YOUTUBE IN URL BUT NOT A VALID VIDEO");
 		}
 
-		this.media_id.start		= TL.Util.parseYouTubeTime(url_vars["t"]);
+		// Get start second
+		if (this.data.url.match("start=")) {
+			this.media_id.start = parseInt(this.data.url.split("start=")[1], 10);
+		}
+		else if (this.data.url.match("t=")) {
+			this.media_id.start = parseInt(this.data.url.split("t=")[1], 10);
+		}
+
+		//Get end second
+		if (this.data.url.match("end=")) {
+			this.media_id.end = parseInt(this.data.url.split("end=")[1], 10);
+		}
+
 		this.media_id.hd		= Boolean(typeof(url_vars["hd"]) != 'undefined');
 
 
@@ -9276,12 +9712,10 @@ TL.Media.YouTube = TL.Media.extend({
 				playerVars: {
 					enablejsapi:		1,
 					color: 				'white',
-					autohide: 			1,
-					showinfo:			0,
-					theme:				'light',
+					controls: 1, 
 					start:				this.media_id.start,
-					fs: 				0,
-					rel:				0
+					end:  				this.media_id.end,
+					fs: 				1
 				},
 				videoId: this.media_id.id,
 				events: {
@@ -9313,9 +9747,171 @@ TL.Media.YouTube = TL.Media.extend({
         if(e.data == YT.PlayerState.ENDED) {
             e.target.seekTo(0);
             e.target.pauseVideo();
-        }				
+        }
 	}
 
+
+});
+
+
+/* **********************************************
+     Begin TL.Media.Audio.js
+********************************************** */
+
+/*	TL.Media.Audio
+	Produces audio assets.
+	Takes a data object and populates a dom object
+================================================== */
+
+TL.Media.Audio = TL.Media.extend({
+
+	includes: [TL.Events],
+
+	/*	Load the media
+	================================================== */
+	_loadMedia: function() {
+		// Loading Message
+		this.loadingMessage();
+
+        // Create media?
+        if(!this.options.background) {
+            this.createMedia();
+        }
+
+        // After loaded
+		this.onLoaded();
+	},
+
+  createMedia: function() {
+    var self = this,
+        audio_class = "tl-media-item tl-media-audio tl-media-shadow";
+
+ 		// Link
+		if (this.data.link) {
+			this._el.content_link 				= TL.Dom.create("a", "", this._el.content);
+			this._el.content_link.href 		= this.data.link;
+			this._el.content_link.target 	= "_blank";
+			this._el.content_item					= TL.Dom.create("audio", audio_class, this._el.content_link);
+		} else {
+			this._el.content_item					= TL.Dom.create("audio", audio_class, this._el.content);
+		}
+
+		this._el.content_item.controls = true;
+		this._el.source_item = TL.Dom.create("source", "", this._el.content_item);
+
+		// Media Loaded Event
+		this._el.content_item.addEventListener('load', function(e) {
+			self.onMediaLoaded();
+		});
+
+		this._el.source_item.src = this.data.url;
+		this._el.source_item.type = this._getType(this.data.url, this.data.mediatype.match_str);
+		this._el.content_item.innerHTML += "Your browser doesn't support HTML5 audio with " + this._el.source_item.type;
+  },
+
+	_updateMediaDisplay: function(layout) {
+		if(TL.Browser.firefox) {
+			this._el.content_item.style.width = "auto";
+		}
+	},
+
+	_getType: function(url, reg) {
+		var ext = url.match(reg);
+		var type = "audio/"
+		switch(ext[1]) {
+			case "mp3":
+				type += "mpeg";
+				break;
+			case "wav":
+				type += "wav";
+				break;
+			case "m4a":
+				type += "mp4";
+				break;
+			default:
+				type = "audio";
+				break;
+		}
+		return type
+	}
+
+});
+
+
+/* **********************************************
+     Begin TL.Media.Video.js
+********************************************** */
+
+/*	TL.Media.Video
+	Produces video assets.
+	Takes a data object and populates a dom object
+================================================== */
+
+TL.Media.Video = TL.Media.extend({
+
+	includes: [TL.Events],
+
+	/*	Load the media
+	================================================== */
+	_loadMedia: function() {
+		// Loading Message
+		this.loadingMessage();
+
+        // Create media?
+        if(!this.options.background) {
+            this.createMedia();
+        }
+
+        // After loaded
+		this.onLoaded();
+	},
+
+  createMedia: function() {
+    var self = this,
+        video_class = "tl-media-item tl-media-video tl-media-shadow";
+
+ 		// Link
+		if (this.data.link) {
+			this._el.content_link 				= TL.Dom.create("a", "", this._el.content);
+			this._el.content_link.href 		= this.data.link;
+			this._el.content_link.target 	= "_blank";
+			this._el.content_item					= TL.Dom.create("video", video_class, this._el.content_link);
+		} else {
+			this._el.content_item					= TL.Dom.create("video", video_class, this._el.content);
+		}
+
+		this._el.content_item.controls = true;
+		this._el.source_item = TL.Dom.create("source", "", this._el.content_item);
+
+		// Media Loaded Event
+		this._el.content_item.addEventListener('load', function(e) {
+			self.onMediaLoaded();
+		});
+
+		this._el.source_item.src = this.data.url;
+		this._el.source_item.type = this._getType(this.data.url, this.data.mediatype.match_str);
+		this._el.content_item.innerHTML += "Your browser doesn't support HTML5 video with " + this._el.source_item.type;
+  },
+
+	_updateMediaDisplay: function(layout) {
+		if(TL.Browser.firefox) {
+			this._el.content_item.style.width = "auto";
+		}
+	},
+
+	_getType: function(url, reg) {
+		var ext = url.match(reg);
+		var type = "video/"
+		switch(ext[1]) {
+			case "mp4":
+				type += "mp4";
+				break;
+			default:
+				type = "video";
+				break;
+		}
+		return type
+	}
 
 });
 
@@ -9454,12 +10050,12 @@ TL.Slide = TL.Class.extend({
 
 	loadMedia: function() {
         var self = this;
-        
+
 		if (this._media && !this._state.loaded) {
 			this._media.loadMedia();
 			this._state.loaded = true;
 		}
-		
+
 		if(this._background_media && !this._background_media._state.loaded) {
 		    this._background_media.on("loaded", function() {
 		        self._updateBackgroundDisplay();
@@ -9524,15 +10120,15 @@ TL.Slide = TL.Class.extend({
 		// Style Slide Background
 		if (this.data.background) {
 			if (this.data.background.url) {
-			    var media_type = TL.MediaType(this.data.background, true);
-			    if(media_type) {
-                    this._background_media = new media_type.cls(this.data.background, {background: 1});
-                
-                    this.has.background.image 					= true;
-                    this._el.container.className 				+= ' tl-full-image-background';
-                    this.has.background.color_value 			= "#000";
-                    this._el.background.style.display 			= "block";
-                }
+		    var media_type = TL.MediaType(this.data.background, true);
+		    if(media_type) {
+          this._background_media = new media_type.cls(this.data.background, {background: 1});
+
+          this.has.background.image 					= true;
+          this._el.container.className 				+= ' tl-full-image-background';
+          this.has.background.color_value 		= "#000";
+          this._el.background.style.display 	= "block";
+        }
 			}
 			if (this.data.background.color) {
 				this.has.background.color 					= true;
@@ -9563,16 +10159,14 @@ TL.Slide = TL.Class.extend({
 
 		// Create Media
 		if (this.has.media) {
-
 			// Determine the media type
-			this.data.media.mediatype 	= TL.MediaType(this.data.media);
+			this.data.media.mediatype = TL.MediaType(this.data.media);
 			this.options.media_name 	= this.data.media.mediatype.name;
 			this.options.media_type 	= this.data.media.mediatype.type;
-            this.options.autolink = this.data.autolink;
+      this.options.autolink 		= this.data.autolink;
 
 			// Create a media object using the matched class name
 			this._media = new this.data.media.mediatype.cls(this.data.media, this.options);
-
 		}
 
 		// Create Text
@@ -9660,10 +10254,10 @@ TL.Slide = TL.Class.extend({
 				this._media.updateDisplay(content_width/2, this.options.height, layout);
 			}
 		}
-		
+
 		this._updateBackgroundDisplay();
 	},
-	
+
 	_updateBackgroundDisplay: function() {
 	    if(this._background_media && this._background_media._state.loaded) {
 	        this._el.background.style.backgroundImage 	= "url('" + this._background_media.getImageURL(this.options.width, this.options.height) + "')";
@@ -10562,6 +11156,7 @@ TL.TimeNav = TL.Class.extend({
 	/*	Groups
 	================================================== */
 	_createGroups: function() {
+		this._groups = [];
 		var group_labels = this.timescale.getGroupLabels();
 
 		if (group_labels) {
@@ -11356,7 +11951,7 @@ TL.TimeMarker = TL.Class.extend({
 			this._text.innerHTML		= TL.Util.unlinkify(this.data.text.headline);
 		} else if (this.data.text.text && this.data.text.text != "") {
 			this._text.innerHTML		= TL.Util.unlinkify(this.data.text.text);
-		} else if (this.data.media.caption && this.data.media.caption != "") {
+		} else if (this.data.media && this.data.media.caption && this.data.media.caption != "") {
 			this._text.innerHTML		= TL.Util.unlinkify(this.data.media.caption);
 		}
 
@@ -12263,7 +12858,11 @@ TL.TimeAxis = TL.Class.extend({
 
 	_createTickElements: function(ts_ticks,tick_element,dateformat,ticks_to_skip) {
 		tick_element.innerHTML = "";
-		var skip_times = {}
+		var skip_times = {};
+
+		var yearZero = new Date(-1,13,-30);
+		skip_times[yearZero.getTime()] = true;
+
 		if (ticks_to_skip){
 			for (var i = 0; i < ticks_to_skip.length; i++) {
 				skip_times[ticks_to_skip[i].getTime()] = true;
@@ -12579,7 +13178,10 @@ https://incident57.com/codekit/
 	// @codekit-prepend "media/types/TL.Media.Vine.js";
 	// @codekit-prepend "media/types/TL.Media.Website.js";
 	// @codekit-prepend "media/types/TL.Media.Wikipedia.js";
+	// @codekit-prepend "media/types/TL.Media.Wistia.js";
 	// @codekit-prepend "media/types/TL.Media.YouTube.js";
+	// @codekit-prepend "media/types/TL.Media.Audio.js";
+	// @codekit-prepend "media/types/TL.Media.Video.js";
 
 // STORYSLIDER
 	// @codekit-prepend "slider/TL.Slide.js";
@@ -12664,7 +13266,7 @@ TL.Timeline = TL.Class.extend({
 			marker_height_min: 			30,						// Minimum Marker Height
 			marker_width_min: 			100,					// Minimum Marker Width
 			marker_padding: 			5,						// Top Bottom Marker Padding
-			start_at_slide: 			this._el.container.attributes.start_at_slide.nodeValue || 0, // set the attribute in the div
+			start_at_slide: 			0,
 			start_at_end: 				false,
 			menubar_height: 			0,
 			skinny_size: 				650,
@@ -12724,6 +13326,25 @@ TL.Timeline = TL.Class.extend({
 			TL.DomUtil.addClass(this._el.container, 'tl-timeline-full-embed');
 		}
 
+		document.addEventListener("keydown", function(event) {
+			var keyName = event.key;
+			var currentSlide = self._getSlideIndex(self.current_id);
+			var _n = self.config.events.length - 1;
+			var lastSlide = self.config.title ? _n + 1 : _n;
+			var firstSlide = 0;
+
+			if (keyName == 'ArrowLeft'){
+				if (currentSlide!=firstSlide){
+					self.goToPrev();
+				}
+			}
+			else if (keyName == 'ArrowRight'){
+				if (currentSlide!=lastSlide){
+					self.goToNext();
+				}
+			}
+		});
+
 		// Use Relative Date Calculations
 		// NOT YET IMPLEMENTED
 		if(this.options.relative_date) {
@@ -12755,6 +13376,7 @@ TL.Timeline = TL.Class.extend({
 	_loadLanguage: function(data) {
 		try {
 		    this.options.language = new TL.Language(this.options);
+
 		    this._initData(data);
 		} catch(e) {
 		    this.showMessage(this._translateError(e));
@@ -13072,6 +13694,11 @@ TL.Timeline = TL.Class.extend({
 		this._timenav.updateDisplay(this.options.width, this.options.timenav_height, animate);
 		this._storyslider.updateDisplay(this.options.width, this.options.storyslider_height, animate, this.options.layout);
 
+		if (this.options.language.direction == 'rtl') {
+			display_class += ' tl-rtl';
+		}
+
+
 		// Apply class
 		this._el.container.className = display_class;
 
@@ -13167,7 +13794,7 @@ TL.Timeline = TL.Class.extend({
 		// Initial Default Layout
 		this.options.width        = this._el.container.offsetWidth;
 		this.options.height       = this._el.container.offsetHeight;
-		this._el.storyslider.style.top  = "1px";
+		// this._el.storyslider.style.top  = "1px";
 
 		// Set TimeNav Height
 		this.options.timenav_height = this._calculateTimeNavHeight(this.options.timenav_height);
@@ -13231,6 +13858,7 @@ TL.Timeline = TL.Class.extend({
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 		ga('create', this.options.ga_property_id, 'auto');
+		ga('set', 'anonymizeIp', true);
 	},
 
 	_initAnalytics: function() {

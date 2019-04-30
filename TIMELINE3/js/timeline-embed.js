@@ -1,5 +1,5 @@
 /*
-    TimelineJS - ver. 3.3.17 - 2016-08-22
+    TimelineJS - ver. 3.6.4 - 2019-04-30
     Copyright (c) 2012-2016 Northwestern University
     a project of the Northwestern University Knight Lab, originally created by Zach Wise
     https://github.com/NUKnightLab/TimelineJS3
@@ -580,10 +580,14 @@ function createStoryJS(c, src) {
     isCDN = true;
 
     /* IS THE SOURCE GOOGLE SPREADSHEET WITH JUST THE KEY?
+     * this is probably too clever a test but don't mess too much in case backwards compatibility
+     * but we shouldn't put a rull URL into the key...
     ================================================== */
-    if (storyjs_e_config.source.match("docs.google.com") || storyjs_e_config.source.match("json") || storyjs_e_config.source.match("storify") ) {
-
-    } else {
+    if (!(storyjs_e_config.source.match("docs.google.com") 
+        || storyjs_e_config.source.match("json$") 
+        || storyjs_e_config.source.match("storify") 
+        || storyjs_e_config.source.match("^http") 
+      )) {
       storyjs_e_config.source = "https://docs.google.com/spreadsheet/pub?key=" + storyjs_e_config.source + "&output=html";
     }
 
