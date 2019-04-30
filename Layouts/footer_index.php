@@ -14,8 +14,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-            <script src="TIMELINE3/js/timeline.js"></script>
-            <script type="text/javascript">
+			<script src="TIMELINE3/js/timeline.js"></script>
+			<script type="text/javascript">
       // The TL.Timeline constructor takes at least two arguments:
       // the id of the Timeline container (no '#'), and
       // the URL to your JSON data file or Google spreadsheet.
@@ -24,7 +24,28 @@
       // optionally, a third argument with configuration options can be passed.
       // See below for more about options.
       		timeline = new TL.Timeline('timeline-embed',
-       		'https://docs.google.com/spreadsheets/d/1-awSTGqjvaZvPuaTBD-FmKV1Po7OCoPsJXccm-HM5RY/edit#gid=0');
+      		'https://docs.google.com/spreadsheets/d/1-awSTGqjvaZvPuaTBD-FmKV1Po7OCoPsJXccm-HM5RY/edit?usp=sharing');
     		</script>
+    		
+    		
+    		<!-- Código para estadísticas en Google Analytics -->
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-8226401-1");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#myModal').modal('show');
+				});
+			</script>
+
+			<!-- Fin del código para estadísticas en Google Analytics -->
+
 	</body>
 </html>

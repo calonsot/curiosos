@@ -1071,7 +1071,7 @@
 
 	body {
 	background: #4d4b30 url("images/bg03.jpg");
-	color: #1c0d03;
+	color: #38362E;
 	font-size: 13.5pt;
 	font-family: 'Oswald';
 	line-height: 1.65em;
@@ -1079,7 +1079,7 @@
 	}
 
 	input, textarea, select {
-		color: #1c0d03;
+		color: #38362E;
 		font-size: 13.5pt;
 		font-family: 'Oswald';
 		line-height: 1.65em;

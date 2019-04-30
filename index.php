@@ -24,19 +24,18 @@
 				<div id="features-wrapper">
 					<div id="features">
 						<div class="container">
-                          <h2>INTRODUCCIÓN</h2>
-
-A través de la historia los seres humanos hemos ido conociendo a la naturaleza. Para los primeros pobladores era indispensable tener un buen conocimiento de plantas y animales para sobrevivir. Fueron aprendiendo sobre plantas comestibles y medicinales, y también cuales eran tóxicas. De los animales, conocieron perfectamente cuales eran los más peligrosos y también cuales se podían domesticar. En cada grupo, en cada sociedad, en cada civilización hubo individuos que destacaron por su asombro y curiosidad hacia la naturaleza. A través del conocimiento que adquirieron también llegaron a valorarla y a promover su respeto y conservación. </p> 
+                          
+                           
 						  <div class="row">
 								<div class="3u 12u(mobile)"> 
 
 									<!-- Feature #1 -->
 										<section>
-											<a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
+											
 											<h2>Los naturalistas</h2>
-											<p>
-												"Naturalista" es un término aplicado a los investigadores de las ciencias naturales del siglo XVII al XIX. En esta plataforma usamos el término de manera más amplia, incluyendo a distintos personajes que se interesaron por entender la naturaleza y por conservarla. </p>
-												<p>El témino <strong>"naturalista"</strong> proviene del latín, <i>nasci</i> y reúne palabras como nación, natura, nativo, naturaleza. A su vez, <i>nasci</i>, proviene del indo europeo, <i>gnasci</i>, que da lugar a términos coo nacer, gentil, genuino, génesis, generar y gente. </p>
+											<p><a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a></p>
+												<p><strong>"Naturalista" </strong>es un término aplicado a los investigadores de las ciencias naturales del siglo XVII al XIX. En esta plataforma usamos el término de manera más amplia, incluyendo a distintos personajes que se interesaron por entender la naturaleza y por conservarla. </p>
+												<p>El término <strong>"naturalista"</strong> proviene del latín, <i>nasci</i> y reúne palabras como nación, natura, nativo, naturaleza. A su vez, <i>nasci</i>, proviene del indo europeo, <i>gnasci</i>, que da lugar a términos coo nacer, gentil, genuino, génesis, generar y gente. </p>
 												<p>Los naturalistas comparten características como curiosidad, asombro, observación, paciencia, pasión por el conocimiento, creatividad, búsqueda de la verdad, entrega e inteligencia naturalista. </p>
 										</section>
 
@@ -45,11 +44,11 @@ A través de la historia los seres humanos hemos ido conociendo a la naturaleza.
 
 									<!-- Feature #2 -->
 										<section>
-											<a href="#" class="bordered-feature-image"><img src="images/pic02.jpg" alt="" /></a>
+											
 											<h2>Sus favoritos</h2>
-											<p>
-												Una de las características de los naturalistas es su interés por un gran espectro de temas. Muchos de ellos se han interesado, no solo por las plantas y animales, sino por las rocas, los suelos, climas, procesos ecológicos y evolutivos, sociedades humanas, astronomía, entre muchos otros. </p>
-												<p>Sin embargo, también tuvieron especies o grupos de plantas o animales favoritos en los que profundizaron su conocimiento.</p>
+											<p><a href="#" class="bordered-feature-image"><img src="images/pic02.jpg" alt="" /></a></p>
+							<p>Una de las características de los naturalistas es su interés por un gran espectro de temas. Muchos de ellos se han interesado, no solo por las plantas y animales, sino por las rocas, los suelos, climas, procesos ecológicos y evolutivos, sociedades humanas, astronomía, entre muchos otros. Sin embargo, también tuvieron especies o grupos de plantas o animales favoritos en los que profundizaron su conocimiento.</p>
+							<p><strong>Nota:</strong> Los personajes incluidos en esta selección, han contribuido al conocimiento de la naturaleza de México y nacieron antes de 1952. Las biografías, además de incluir historia, geografía (lugar donde trabajaron) y biología (grupo al que se dedicaron), también incorporan información familiar (padres, hermanos, hijos, conyuges) y relaciones con personas e instituciones. Si conoces a alguien que consideras debe ser incluido, revisaremos <a href="mailto:cgalindo@conabio.gob.mx">tu propuesta</a> y otras sugerencias. </p>. 
 										</section>
 
 								</div>
@@ -57,12 +56,11 @@ A través de la historia los seres humanos hemos ido conociendo a la naturaleza.
 
 									<!-- Feature #3  -->
 										<section>
-											<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
 											<h2>Sus lugares</h2>
-											<p>
-												A pesar de que muchos de ellos fueron ávidos viajeros y exploradores, también tuvieron lugares preferidos en donde dedicaron gran parte de su tiempo y de su trabajo.</p>
-												<p>Para el continente americano, el desarrollo de las técnicas de navegación en la "Era del las Exploraciones", del siglo XV al XVII, fue de gran importancia. Las "carracas" y "carabelas" permitieron viajes más largos y con más carga, alejándose de las costas.
-												<p> Sin embargo, mucho antes que eso, los primeros pobladores llegaron por distintos medios a un continente desconocido con lugares espectaculares y plantas y animales endémicos nunca antes vistos. </p>
+											<p><a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a></p>
+											
+											<p>A pesar de que muchos de ellos fueron ávidos viajeros y exploradores, también tuvieron lugares preferidos en donde dedicaron gran parte de su tiempo y de su trabajo.</p>
+												<p>Para el continente americano, el desarrollo de las técnicas de navegación en la "Era del las Exploraciones", del siglo XV al XVII, fue de gran importancia. Las "carracas" y "carabelas" permitieron viajes más largos y con más carga, alejándose de las costas. Sin embargo, mucho antes que eso, los primeros pobladores llegaron por distintos medios a un continente desconocido con lugares espectaculares y plantas y animales endémicos nunca antes vistos. </p>
 										</section>
 
 								</div>
@@ -70,8 +68,9 @@ A través de la historia los seres humanos hemos ido conociendo a la naturaleza.
 
 									<!-- Feature #4 -->
 										<section>
-											<a href="#" class="bordered-feature-image"><img src="images/pic04.jpg" alt="" /></a>
 											<h2>Sus ideas</h2>
+											<p><a href="#" class="bordered-feature-image"><img src="images/pic04.jpg" alt="" /></a></p>
+											
 											<p>Aunque cada naturalista tuvo sus distintas razones para dedicarse a profundizar en el conocimiento de distintas especies, grupos o procesos, sus ideas y descubrimientos fueron contribuyendo a conformar lo que el día de hoy conocemos. </p>
 											<p>Sus ideas se han ido transformando, conforme otros naturalistas, hoy llamados "científicos", continuan explorando y descubriendo la naturaleza. Sin embargo, su contribución es innegable. Ellos transformaron a la sociedad entera, gracias a su inmensa curiosidad por entender el mundo natural.</p>
 										</section>
@@ -203,11 +202,11 @@ A través de la historia los seres humanos hemos ido conociendo a la naturaleza.
 								<!-- Blurb -->
 							  <section>
 								<h2>Créditos</h2>
-								  <p>Textos: Carlos Galindo Leal, Noé Domínguez<br>
-								    Investigación: Carlos Galindo Leal, Noé Domínguez, Alejandra Monsivais<br>
+								  <p>Textos: Carlos Galindo Leal, Noé R. Domínguez Gervacio<br>
+								    Investigación: Carlos Galindo Leal, Noé R. Domínguez Gervacio, Alejandra Monsivais<br>
 								    Ilustraciones: Román Rivas<br>
-							      Adaptación web y Diseño: Laura Rojas Paredes							  <br>
-							      <br>
+							      Adaptación web y Diseño: Laura Rojas Paredes							
+							      <br>Programación: Carlos Alonso Torres<br><br>
 								  </p>
 							  </section>
 							  <section>
