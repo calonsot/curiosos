@@ -1,7 +1,7 @@
 
 			<!-- Copyright -->
             <div id="copyright">
-				<p><a href="http://www.conabio.gob.mx" target="_blank"><img src="assets/css/images/logoConabio_sinFondo.png" width="99" height="84" alt=""/></a><br>
+				<p><a href="http://www.conabio.gob.mx" target="_blank"><img src="assets/css/images/logoConabio_sinFondo.png" height="84" alt=""/></a><br>
 				Comisión Nacional para el Conocimiento y Uso de la Biodiversidad<br>
 				Liga Periférico-Insurgentes Sur No. 4903, Col. Parques del Pedregal, Del. Tlalpan, 14010 Ciudad de México, Distrito Federal				</p>
             </div>
