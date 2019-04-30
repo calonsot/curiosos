@@ -3,7 +3,12 @@
     
     <title>Mariano Bárcena</title>
     </head>
-    
+<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="28"></div>
+											</div>
+									</section>    <br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -36,7 +41,7 @@
 									<!-- Main Content -->
 										<section>
 											<header>
-												<h2>Mariano Bárcena</h2>
+												<h2>Mariano de la Bárcena y Ramos</h2>
 												<h3>1842 - 1899</h3>
 											</header>
 <p>Nací con el nombre de Mariano Santiago de Jesús de la Bárcena Ramos en Ameca, Jalisco el 22 de julio de 1842. Mi padre fue José María de la Bárcena y Villaseñor y mi madre Candelaria Ramos Celis.</p>
@@ -82,7 +87,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section> 
@@ -98,58 +103,8 @@
 						
 								<!-- Links -->
                                 <section>
-										<h2>Naturalistas del siglo XIX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/AntonioCastillo.php">Antonio del Castillo Patiño</a></li>
-														<li><a href="../sXIX/AlfredoDuges.php">Alfredo Dugès</a></li>
-														<li><a href="../sXIX/EugenioDuges.php">Eugenio Dugès</a></li>
-														<li><a href="../sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández </a>(padre)</li>
-														<li><a href="../sXIX/JoseMVelasco.php">José María Velasco Gómez</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/ManuelMVillada.php">Manuel María Villada Peimbert</a></li>
-														<li><a href="../sXIX/MarianoBarcena.php">Mariano de la Bárcena y Ramos</a></li>
-														<li><a href="../sXIX/CarlLumholtz.php">Carl Sofus Lumholtz</a></li>
-													  <li><a href="../sXIX/JoseRamirez.php">José Ramírez</a></li>
-													  <li><a href="../sXIX/NicolasLeon.php">Nicolás León Calderón</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												  <ul class="link-list last-child">
-													   <li><a href="../sXIX/MiguelAQuevedo.php">Miguel Ángel de Quevedo y Zubieta</a></li>
-													   <li><a href="../sXIX/CasianoConzatti.php">Casiano Bartolameotti Conzatti</a></li>
-													   <li><a href="../sXIX/AlfonsoLHerrera.php">Alfonso Luis Herrera López</a></li>
-													   <li><a href="../sXIX/CarlosCHoffmann.php">Carlos Cristian Hoffmann</a></li>
-													   <li><a href="../sXIX/GeorgeBoole.php">George Boole Hinton</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li><a href="../sXIX/IsaacOchoterena.php">Isaac Ochotorena Mendieta</a></li>
-                                                       <li><a href="../sXIX/MaximinoM.php">Maximino Martínez y Martínez</a></li>
-                                                       <li><a href="../sXIX/EiziMatuda.php">Eizi Matuda</a></li>
-                                                       <li><a href="../sXIX/EnriqueRioja.php">Enrique Rioja Lo Bianco</a></li>
-                                                       <li><a href="../sXIX/candidoBolivar.php">Cándido Bolívar y Pieltáin</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="26"></div>
-											</div>
-									</section>
+									
+									
 					</footer>
 				</div>
 

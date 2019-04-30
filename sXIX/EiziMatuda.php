@@ -3,7 +3,12 @@
     
     <title>Eizi Matuda</title>
     </head>
-    
+	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="44"></div>
+											</div>
+									</section>    <br><br>
 	<body class="subpage">	
 
 			<!-- Content -->
@@ -42,8 +47,8 @@
 <p>¡Ohayo!&quot; También soy conocido como Eiji Matsuda. Nací en 1894 en Nagasaki, Japón. Mi papá fue Hanziro Matuda y mi mamá Otuna Matuda. Ahi realicé mis estudios primarios, secundarios y de bachillerato en Nagasaki.  Obtuve el título de Maestro en Ciencias Biológicas por la Universidad Nacional de Taihoku, Japón, en 1914 y varios años después (1962) el doctorado en la Universidad de Tokio. Hasta 1921 fui profesor e investigador de diferentes centros académicos en Japón realizando estudios sobre la flora de algunas regiones de diferentes países orientales como: Hong Kong, Singapur, Japón e Indonesia.</p>
 <p>Con mi esposa Miduho Kaneko nos mudamos a México en 1922, instalándonos en una colonia agrícola japonesa del estado de Chiapas. Esto sucedió gracias a un tratado entre México y Japón firmado un par de años antes. Chiapas fue el primer estado que recibió inmigrantes japoneses, conocidos como &quot;nikkei&quot;. Una de las primeras migraciones japonesas a Latinoamérica sucedió con la llegada a Chiapas de 35 personas en mayo de 1887. Partiendo de Yokohama, la travesía del navío inglés Garlick tardó 47 días llegando al puerto de San Benito a 35 kilómetros de Tapachula. En Escuintla se estableció la &quot;Colonia Enomoto.&quot;</p>
 <p>Junto con otros japoneses trabajamos en la Granja Fujino en el municipio de Acacoyagua, en la región del Soconusco, donde introducimos innovaciones técnicas para la agricultura. Además desarrollamos la educación abierta para todo el pueblo en el rancho &quot;Esperanza&quot;, incluyendo alfabetización, clases de primaria, secundaria, lectura de la Biblia e investigación biológica y botánica. Yo había sido maestro y director en escuelas primarias en Taiwán, por lo que tenía práctica manejando estudiantes</p>
-<p>Ahí comencé la larga serie de exploraciones y colectas biológicas que haría a lo largo de mi vida. En Escuintla cerca de Tapachula, Chiapas fundé el Instituto Botánico Matuda. Recorrí también otros estados de la república como Oaxaca, Veracruz, Tabasco y Campeche. Me nacionalice mexicano en 1928 y tuvimos cinco mexicanitos. Además, tuvimos varios hijos adoptivos, entre ellos a Fidelia, Yohio y Francisco Takaki, este último siguió mis pasos en el estudio de la naturaleza.</p>
-<p>A partir de 1950 me integré como investigador al Instituto de Biología de la Universidad Nacional Autónoma de México (UNAM), y al Instituto de Investigaciones Forestales de la Secretaría de Agricultura y Ganadería. Tuve el gusto de salir a expediciones de colecta con la Dra. Helia Bravo.</p>
+<p>Ahí comencé la larga serie de exploraciones y colectas biológicas que haría a lo largo de mi vida. En Escuintla cerca de Tapachula, Chiapas fundé el Instituto Botánico Matuda. Recorrí también otros estados de la república como Oaxaca, Veracruz, Tabasco y Campeche. Me nacionalicé mexicano en 1928 y tuvimos cinco mexicanitos. Además, tuvimos varios hijos adoptivos, entre ellos a Fidelia, Yohio y <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXX/FranciscoTakaki.php">Francisco Takaki, </a>este último siguió mis pasos en el estudio de la naturaleza.</p>
+<p>A partir de 1950 me integré como investigador al Instituto de Biología de la Universidad Nacional Autónoma de México (UNAM), y al Instituto de Investigaciones Forestales de la Secretaría de Agricultura y Ganadería. Tuve el gusto de salir a expediciones de colecta con la <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXX/HeliaBravo.php">Dra. Helia Bravo.</a></p>
 <p>Colaboré en la Comisión Botánica Exploradora del gobierno del Estado de México, de la cual derivaron numerosos trabajos sobre la flora del estado entre las que destacan “Las plantas mexicanas del género Yucca”, en coautoría “Las leguminosas del Estado de México” y “Las orquídeas del Estado de México”.</p>
 <p>Describí decenas de nuevas especies de plantas. En 1932 fundé el Herbario Matuda en la Universidad de Ciencias y Artes de Chiapas. Gran parte del material de sus colectas se encuentra bajo resguardo del Herbario Nacional (MEXU) del Instituto de Biología de la UNAM. Me encantó ayudar a Octavio Paz a traducir los haikus del gran maestro japonés Basho. Fallecí en 1978 en Lima, Perú. O-yasuminasai.</p>
 								  </section>
@@ -59,7 +64,7 @@
 <ul class="link-list">
 		      <li><img src="../images/pagInternas/EiziMatudaimg1.jpg" width="230" height="344" alt=""/></li>
 		      <li> Yuca <em>(Yucca sp.)</em></li>
-		      <li>Foto: Miguel A. Sicilia Manzo / Banco de imágenes, CONABIO</li>
+		      <li>Foto: Miguel A. Sicilia Manzo / CONABIO</li>
 			  </ul>
 								    </section>
                                   <section>
@@ -67,7 +72,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-			  <li></li>
+			  <li><img src="../images/pagInternas/EiziMatudaimg3.jpg" width="330" height="230" alt=""/></li>
+			  <li>Chiapas, Foto: Alma Flor Reyes García / CONABIO</li>
 		      </ul>
 				</section>
                                   <section>
@@ -85,7 +91,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -100,59 +106,9 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XIX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/AntonioCastillo.php">Antonio del Castillo Patiño</a></li>
-														<li><a href="../sXIX/AlfredoDuges.php">Alfredo Dugès</a></li>
-														<li><a href="../sXIX/EugenioDuges.php">Eugenio Dugès</a></li>
-														<li><a href="../sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández </a>(padre)</li>
-														<li><a href="../sXIX/JoseMVelasco.php">José María Velasco Gómez</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/ManuelMVillada.php">Manuel María Villada Peimbert</a></li>
-														<li><a href="../sXIX/MarianoBarcena.php">Mariano de la Bárcena y Ramos</a></li>
-														<li><a href="../sXIX/CarlLumholtz.php">Carl Sofus Lumholtz</a></li>
-													  <li><a href="../sXIX/JoseRamirez.php">José Ramírez</a></li>
-													  <li><a href="../sXIX/NicolasLeon.php">Nicolás León Calderón</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												  <ul class="link-list last-child">
-													   <li><a href="../sXIX/MiguelAQuevedo.php">Miguel Ángel de Quevedo y Zubieta</a></li>
-													   <li><a href="../sXIX/CasianoConzatti.php">Casiano Bartolameotti Conzatti</a></li>
-													   <li><a href="../sXIX/AlfonsoLHerrera.php">Alfonso Luis Herrera López</a></li>
-													   <li><a href="../sXIX/CarlosCHoffmann.php">Carlos Cristian Hoffmann</a></li>
-													   <li><a href="../sXIX/GeorgeBoole.php">George Boole Hinton</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li><a href="../sXIX/IsaacOchoterena.php">Isaac Ochotorena Mendieta</a></li>
-                                                       <li><a href="../sXIX/MaximinoM.php">Maximino Martínez y Martínez</a></li>
-                                                       <li><a href="../sXIX/EiziMatuda.php">Eizi Matuda</a></li>
-                                                       <li><a href="../sXIX/EnriqueRioja.php">Enrique Rioja Lo Bianco</a></li>
-                                                       <li><a href="../sXIX/candidoBolivar.php">Cándido Bolívar y Pieltáin</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="41"></div>
-											</div>
-									</section>
+                                
+										
+								
 					</footer>
 				</div>
 

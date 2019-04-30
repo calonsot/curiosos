@@ -3,7 +3,12 @@
         
     <title>Francisco Hernández de Toledo</title>
     </head>
-	
+	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="8"></div>
+											</div>
+									</section><br><br>
     <body class="subpage">
 
 			<!-- Content -->
@@ -46,7 +51,7 @@
                                           <p>En esos tiempos, en el Colegio de Santa Cruz de Tlatelolco se enseñaba a los indígenas pero también se aprendía todo su conocimiento tradicional. El fraile franciscano <a href="FBernardinoSahagun.php">Bernardino de Sahagún</a>, recopiló muchísima información en ese recinto. También ahí trabajó el médico indígena <a href="MartinCruz.php">Martín de la Cruz</a>, escribiendo un libro sobre plantas medicinales.  En 1577 regresé a España después de la ardua expedición en la flota del almirante Diego Maldonado de Mendoza. Regresé enfermo y deteriorado y fallecí en Madrid diez años más tarde. <br>
                                                                                    <br>
                                             Durante mi vida no se publicó nada, fue después de mi muerte cuando mis manuscritos y copias de éstos se editaron y publicaron en 17 volúmenes bajo la magna obra titulada &ldquo;Tesoro de las Cosas Medicinales de la Nueva España&rdquo;.  La parte botánica de este trabajo también se editó y publicó como <strong>&ldquo;Historia de las plantas de la Nueva España&rdquo;</strong>. Muchos de mis manuscritos se perdieron durante el incendio de 1672 del monasterio  El Escorial, situado al noroeste de Madrid.</p>
-                                          <p>Después de nuestra expedición a la Nueva España, hubo tres expediciones científicas más de gran importancia: 1. La expedición a los Reinos del Perú y Chile (1777-1788), dirigida por los botánicos Don Hipólito Ruiz y Don José Pavón. 2. La Real Expedición Botánica del Nuevo Reino de Granada (Colombia) dirigida por el médico Don José Celestino Mutis (1783-1813). 3. La Real Expedición Botánica a la Nueva España (1787-1803) del médico Martín de Sesse y Lacasta y de José Mariano Mociño, diseñada para ilustrar y completar el trabajo que yo había hecho 200 años antes. </p>
+                                          <p>Después de nuestra expedición a la Nueva España, hubo tres expediciones científicas más de gran importancia: 1. La expedición a los Reinos del Perú y Chile (1777-1788), dirigida por los botánicos Don Hipólito Ruiz y Don José Pavón. 2. La Real Expedición Botánica del Nuevo Reino de Granada (Colombia) dirigida por el médico Don José Celestino Mutis (1783-1813). 3. La Real Expedición Botánica a la Nueva España (1787-1803) del médico <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXVIII/MartinSesse.php">Martín de Sesse y Lacasta </a>y de <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXVIII/JoseMMucino.php">José Mariano Mociño, </a>diseñada para ilustrar y completar el trabajo que yo había hecho 200 años antes. </p>
                                           </section>
 
 								</div>
@@ -58,9 +63,7 @@
 												<h2>Mis favoritos</h2>
 										  </header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/FcoHdezTimg1.jpg" width="230" height="252" alt=""/><br>
-		        <br>
-              <img src="../images/pagInternas/FcoHdezTimg2.jpg" width="230" height="252" alt=""/></li>
+			  <li><img src="../images/pagInternas/FcoHdezTimg2.jpg" width="230" height="252" alt=""/></li>
 			  <li><a href="https://www.wdl.org/es/item/7334/" target="_blank">Cuatro libros de la naturaleza y virtudes de las plantas y animales de uso medicinal en la Nueva España</a>. Francisco Hernández de Toledo. Biblioteca digital mundial.<br>
 	          </li>
 		      </ul>
@@ -70,8 +73,10 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-              <li></li>
-		      <li></li>
+              <li><img src="../images/pagInternas/FranciscoHdezT2.jpg" width="330" height="230" alt=""/></li>
+		      <li>Sanson, Nicolas, and Pierre Mariette. Mexicque, ou Nouvelle Espagne, Nouvlle. Gallice, Iucatan &c.: et autres provinces jusques a l'Isthme de Panama, ou sont les Audiences de Mexico, de Guadalaiara, et de Guatimala. Paris: Chez Pierre Mariette, 1656. <a href="https://www.loc.gov/item/2004629014/">Map. </a>Retrieved from the Library of Congress.
+
+</li>
               </ul>
 								        </section>
                                   <section>
@@ -87,7 +92,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/pais/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -103,42 +108,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XVI</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVI/FBernardinoSahagun.php">Fray Bernardino de Sahagún</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVI/MartinCruz.php">Martín de la Cruz</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												   <ul class="link-list last-child">
-														<li><a href="../sXVI/FcoHToledo.php">Francisco Hernández de Toledo</a></li>
-                                                        <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="8"></div>
-											</div>
-									</section>
+                                
 					</footer>
 				</div>
 

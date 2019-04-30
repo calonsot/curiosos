@@ -3,7 +3,12 @@
     
     <title>Manuel María Villada</title>
     </head>
-    
+    		<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="27"></div>
+											</div>
+									</section><br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -15,7 +20,7 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../assets/css/images/refImagen.jpg" width="230" height="300" alt=""/></header>
+											<header><img src="../images/personajes/ManuelMariaVillada.jpg" width="230" height="300" alt=""/></header>
 </section>
 										<section>
 											<header>
@@ -34,14 +39,15 @@
 									<!-- Main Content -->
 										<section>
 											<header>
-												<h2>Manuel María Villada</h2>
-												<h3>1840 - 1912</h3>
+												<h2>Manuel María Villada Peimbert</h2>
+												<h3>1840 - 1924</h3>
 											</header>
-<p>Nací en la ciudad de México el 26 de mayo 1841. Mis padres fueron Antonio José Villada Bort y María del Pilar Peimbert Patiño. Fui el más grande de 6 hermanos, cuatro hombres y dos mujeres. Estudié “Latinidad y Filosofía”  en el Colegio de San Juan de Letrán y posteriormente física, química e historia natural en la Escuela Nacional de Medicina, donde me recibí en 1863. Fue una época dificil en México con guerras españolas, inglesas y francesas en contra del gobierno del presidente Benito Juárez. En 1864 participé en la Comisión Científica de Pachuca, proyecto del gobierno y de los intelectuales de la época para conocer las poblaciones humanas, la fauna y flora de la región del hoy estado de Hidalgo. Ese año llegó al puerto de Veracruz, Maximiliano de Habsburgo a tomar posición de emperador.</p>
+<p>Nací en la ciudad de México el 26 de mayo 1841. Mis padres fueron Antonio José Villada Bort y María del Pilar Peimbert Patiño. Fui el más grande de 6 hermanos, cuatro hombres (Antonio, Lamberto, Miguel y yo) y dos mujeres (Soledad y María del Pilar). Estudié “Latinidad y Filosofía”  en el Colegio de San Juan de Letrán y posteriormente física, química e historia natural en la Escuela Nacional de Medicina, donde me recibí en 1863. Fue una época dificil en México con guerras españolas, inglesas y francesas en contra del gobierno del presidente Benito Juárez. </p>
+<p>En 1864 participé en la Comisión Científica de Pachuca, proyecto del gobierno y de los intelectuales de la época para conocer las poblaciones humanas, la fauna y flora de la región del hoy estado de Hidalgo. Ese año llegó al puerto de Veracruz, Maximiliano de Habsburgo a tomar posición de emperador.</p>
 <p>Me casé con Dolores Figueroa Fonte y tuvimos un hjo, José Ricardo quien se convirtió en perito agrícola en la Escuela Nacional de Agricultura. Fui padrino de bautizo del historiador, ingeniero y museólogo Jesús Galindo y Villa (1867-1937), al cual adopté cuando murió su padre.</p>
-<p>Fuí miembro fundador de la Sociedad Mexicana de Historia Natural, creada en 1868, la cual fue una de las asociaciones científicas más importantes del siglo XIX. Dirigí y edité La Naturaleza, órgano informativo de la sociedad, durante todos los años que ésta existió (1890-1914) y fuí uno de sus autores más prolíficos.</p>
-<p>También formé parte de otros centros educativos y de investigación científica como la Escuela Nacional de Agricultura, donde ingresé en 1868 y fui miembro de la sección de historia natural de la Academia Nacional de Medicina en 1886. Dirigí en 1881 el Instituto Científico Literario de Toluca y promoví la creación del primer Observatorio Meteorológico del estado de México.</p>
-<p>Posteriormente, en 1886,  ingresé al Museo Nacional donde me desempeñó como investigador y profesor de mineralogía, botánica, geología, paleontología y botánica. Además ahí aumenté la colección de fósiles y elaboré su primer catálogo.</p>
+<p>Fuí miembro fundador de la <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/SMHN.php">Sociedad Mexicana de Historia Natural, </a> creada en 1868, la cual fue una de las asociaciones científicas más importantes del siglo XIX. Dirigí y edité La Naturaleza, órgano informativo de la sociedad, durante todos los años que ésta existió (1890-1914) y fuí uno de sus autores más prolíficos.</p>
+<p>También formé parte de otros centros educativos y de investigación científica como la Escuela Nacional de Agricultura, donde ingresé en 1868 y fui miembro de la sección de Historia Natural de la Academia Nacional de Medicina en 1886. Dirigí en 1881 el Instituto Científico Literario de Toluca y promoví la creación del primer Observatorio Meteorológico del estado de México.</p>
+<p>Posteriormente, en 1886, ingresé al <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/MNHN.php">Museo Nacional </a>donde me desempeñé como investigador y profesor de mineralogía, botánica, geología, paleontología y botánica. Además ahí aumenté la colección de fósiles y elaboré su primer catálogo.</p>
 <p>La diversidad temática de mis trabajos fue muy amplia, y fueron dados a conocer en las publicaciones propias de cada institución de la que fuí miembro. En especial me interesé por las propiedades medicinales de algunas plantas y por el estudio de las aves. Fallecí en 1924</p>
 								  </section>
 
@@ -78,7 +84,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -93,54 +99,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XIX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/AntonioCastillo.php">Antonio del Castillo Patiño</a></li>
-														<li><a href="../sXIX/AlfredoDuges.php">Alfredo Dugès</a></li>
-														<li><a href="../sXIX/EugenioDuges.php">Eugenio Dugès</a></li>
-														<li><a href="../sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández </a>(padre)</li>
-														<li><a href="../sXIX/JoseMVelasco.php">José María Velasco Gómez</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/ManuelMVillada.php">Manuel María Villada Peimbert</a></li>
-														<li><a href="../sXIX/MarianoBarcena.php">Mariano de la Bárcena y Ramos</a></li>
-														<li><a href="../sXIX/CarlLumholtz.php">Carl Sofus Lumholtz</a></li>
-													  <li><a href="../sXIX/JoseRamirez.php">José Ramírez</a></li>
-													  <li><a href="../sXIX/NicolasLeon.php">Nicolás León Calderón</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												  <ul class="link-list last-child">
-													   <li><a href="../sXIX/MiguelAQuevedo.php">Miguel Ángel de Quevedo y Zubieta</a></li>
-													   <li><a href="../sXIX/CasianoConzatti.php">Casiano Bartolameotti Conzatti</a></li>
-													   <li><a href="../sXIX/AlfonsoLHerrera.php">Alfonso Luis Herrera López</a></li>
-													   <li><a href="../sXIX/CarlosCHoffmann.php">Carlos Cristian Hoffmann</a></li>
-													   <li><a href="../sXIX/GeorgeBoole.php">George Boole Hinton</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li><a href="../sXIX/IsaacOchoterena.php">Isaac Ochotorena Mendieta</a></li>
-                                                       <li><a href="../sXIX/MaximinoM.php">Maximino Martínez y Martínez</a></li>
-                                                       <li><a href="../sXIX/EiziMatuda.php">Eizi Matuda</a></li>
-                                                       <li><a href="../sXIX/EnriqueRioja.php">Enrique Rioja Lo Bianco</a></li>
-                                                       <li><a href="../sXIX/candidoBolivar.php">Cándido Bolívar y Pieltáin</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
+                                		<section>
 										<h2>Línea del tiempo</h2><br>
 										  <div class="row">
 													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="25"></div>

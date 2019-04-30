@@ -3,7 +3,12 @@
     
     <title>María Elena Caso Muñoz</title>
     </head>
-    
+	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="62"></div>
+											</div>
+									</section>    <br><br>
 	<body class="subpage">	
 
 			<!-- Content -->
@@ -37,12 +42,14 @@
 												<h2>María Elena Caso Muñoz</h2>
 												<h3>1915 – 1991</h3>
 											</header>
-											<p>Nací en la ciudad de México el 18 de diciembre de 1915. Mi padre fue Antonio Caso Andrade (1883-1946), filósofo y director de la Escuela Nacional Preparatoria. Su hermano menor fue el reconocido arquéologo Alfonso Caso (1896-1970). Mi madre fue Josefina Muñoz. Durante mi niñez tuve la oportunidad de convivir con grandes pensadores mexicanos como José Vasconcelos y Alfonso Reyes. Mi hermano menor Agustín estudió medicina.</p>
-                                          <p>Estudié biología en la Facultad de Ciencias de la UNAM donde más tarde obtuve el grado de Maestra en Ciencias Biológicas con mi tesis &ldquo;Contribución al conocimiento de los Astéridos de México&rdquo; (1943). Mi asesor fue el doctor Enrique Rioja Lobianco. Posteriormente, en 1961 me titulé como doctora en esta misma rama con el trabajo &ldquo;Los equinodermos de México&rdquo;.</p>
-                                          <p>Fuí cofundadora del Laboratorio de Hidrobiología en el Instituto de Biología de la UNAM, del cual surgió más tarde el Instituto de Ciencias del Mar y Limnología (ICML) de dicha institución.</p>
+											<p>Nací en la ciudad de México el 18 de diciembre de 1915. Mi padre fue Antonio Caso Andrade (1883-1946), filósofo y director de la <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/ENP.php">Escuela Nacional Preparatoria. </a> Su hermano menor fue el reconocido arquéologo Alfonso Caso (1896-1970). Mi madre fue Josefina Muñoz. Durante mi niñez tuve la oportunidad de convivir con grandes pensadores mexicanos como José Vasconcelos y Alfonso Reyes. Mi hermano menor Agustín estudió medicina.</p>
+                                          <p>Estudié biología en la Facultad de Ciencias de la UNAM donde más tarde obtuve el grado de Maestra en Ciencias Biológicas con mi tesis &ldquo;Contribución al conocimiento de los Astéridos de México&rdquo; (1943). Mi asesor fue el doctor <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXIX/EnriqueRioja.php">Enrique Rioja Lo-Bianco. </a>Posteriormente, en 1961 me titulé como doctora en esta misma rama con el trabajo &ldquo;Los equinodermos de México&rdquo;.</p>
+                                          <p>Los equinodermos, del griego "piel de púas" son un grupo fascinante de especies marinas. Están integrados por cinco grandes grupos: pepinos de mar, erizos de mar, lirios de mar, las ofiuras y las conocidas estrellas de mar. Este último grupo tiene casi 190 especies en México, 10% del total del mundo. Las estrellas pueden vivir desde la zona intermareal hasta profundidades mayores a 6,000 m. Aunque parecen animales muy pasivos, son grandes depredadores de invertebrados. Su capacidad de regeneración de brazos es impresionante. Algunas especies como la <a href="http://www.enciclovida.mx/especies/1001673">estrella de mar ocre </a>han sido reconocidas como "especies clave". Este concepto que ha cobrado mucha importancia en ecología, nació precisamente del estudio de las estrellas de mar y su interacción con el <a href="http://www.enciclovida.mx/especies/4013234">mejillón de California. </a>Cuando las estrellas de mar disminuyen, los mejillones aumentan y cubren las zonas rocosas expulsando a muchas otras especies.   
+
+                                          <p>Junto con mi asesor, el <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXIX/EnriqueRioja.php">Enrique Rioja Lo-Bianco </a> fuí cofundadora del Laboratorio de Hidrobiología en el Instituto de Biología de la UNAM, del cual surgió más tarde el Departamento de Ciencias del Mar y Limnología y más tarde el Instituto de Ciencias del Mar y Limnología (ICML) de dicha institución.</p>
                                           <p>Escribí decenas de artículos científicos sobre los principales grupos de equinodermos, lo cual representa la obra más importante y completa que se conoce sobre esta especialidad en nuestro país. Me interesé en la docencia y enseñé zoología de invertebrados, invertebrados marinos, biogeografía marina e hidrobiología marina en la Facultad de Ciencias de la UNAM.</p>
                                           <p>En el periodo de 1950 a 1956, a petición de la Gerencia de Exploración de Petróleos Mexicanos, trabajé como asesora en el Laboratorio de Paleontología. De ahí derivó mi trabajo sobre &ldquo;Los equinoideos fósiles del Cenozoico de México&rdquo;.</p>
-                                          <p>A lo largo de mis exploraciones por las costas mexicanas del Atlántico y Pacífico, describí numerosas especies no conocidas anteriormente de estos animales. Esta actividad me llevó a formar una vasta colección científica de equinodermos que consta de ejemplares nacionales y extranjeros. Actualmente los ejemplares forman parte de la Colección Nacional de Equinodermos &ldquo;Dra. Ma. Elena Caso Muñoz&rdquo; del ICML de la UNAM. Fallecí el 6 de noviembre de 1991.</p>
+                                          <p>A lo largo de mis exploraciones por las costas mexicanas del Atlántico y Pacífico, describí numerosas especies no conocidas anteriormente de estos animales. Esta actividad me llevó a formar una vasta colección científica de equinodermos que consta de ejemplares nacionales y extranjeros. Actualmente los ejemplares forman parte de la Colección Nacional de Equinodermos &ldquo;Dra. Ma. Elena Caso Muñoz&rdquo; del ICML de la UNAM. Fallecí el 6 de noviembre de 1991 a la edad de 76 años.</p>
 										  </section>
 
 								</div>
@@ -64,8 +71,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-              <li></li>
-		      <li></li>
+              <li><li><img src="../images/pagInternas/MariaECasoimg4.jpg" width="330" height="230" alt=""/></li>
+			  <li>Estrella de mar. Foto: Octavio Aburto / CONABIO </li>
               </ul>
 								      </section>
                                   <section>
@@ -83,7 +90,7 @@ María Elena Caso Muñoz. Anales del Centro de Ciencias del Mar y Limnología</l
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section> 
@@ -98,80 +105,8 @@ María Elena Caso Muñoz. Anales del Centro de Ciencias del Mar y Limnología</l
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-										        <li><a href="../sXX/HeliaBravo.php">Helia Bravo Hollis</a></li>
-										        <li><a href="../sXX/EnriqueBeltran.php">Enrique Beltrán Castillo</a></li>
-										        <li><a href="../sXX/FaustinoMiranda.php">Faustino Miranda González</a></li>
-										        <li><a href="../sXX/AmeliaSamano.php">Amelia Sámano Bishop</a></li>
-										        <li><a href="../sXX/FedericoBonet.php">Federico Bonet Marco</a></li>
-										        <li><a href="../sXX/JoseAlvarez.php">José Álvarez del Villar</a></li>
-										        <li><a href="../sXX/ManuelRuiz.php">Manuel Ruiz Oronoz</a></li>
-										        <li><a href="../sXX/RafaelMCampo.php">Rafael Martín del Campo</a></li>
-										        <li><a href="../sXX/BernardoVilla.php">Bernardo Villa Ramírez</a></li>
-										        <li><a href="../sXX/EfrainHdezX.php">Efraim Hernández Xolocotzi</a></li>
-										        <li><a href="../sXX/AldoStarker.php">Aldo Starker Leopold</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/LauraHuertaM.php">Laura Huerta Múzquiz</a></li>
-										        <li><a href="../sXX/LuzMaVillareal.php">Luz María Villarreal de Puga</a></li>
-										        <li><a href="../sXX/LeonilaVazquez.php">Leonila Vázquez García</a></li>
-										        <li><a href="../sXX/MariaElenaCaso.php">María Elena Caso Muñoz</a></li>
-										        <li><a href="../sXX/DionisioPelaez.php">Dionisio Pelaez Fernández</a></li>
-										        <li><a href="../sXX/MiguelAToro.php">Miguel Álvarez del Toro</a></li>
-										        <li><a href="../sXX/AlejandroVillalobos.php">Alejandro Villalobos</a></li>
-										        <li><a href="../sXX/AnaHoffman.php">Ana Hoffman Mendizábal</a></li>
-										        <li><a href="../sXX/TeofiloHerrera.php">Teófilo Herrera</a></li>
-										        <li><a href="../sXX/AgustinAyala.php">Agustín Ayala Castañares</a></li>
-										        <li><a href="../sXX/JerzyRzedowski.php">Jerzy Rzedowski</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/AlfredoBarrera.php">Alfredo Barrera Marín</a></li>
-										        <li><a href="../sXX/IngvarEmisson.php">Ingvar Emilsson Jonatansdottir</a></li>
-										        <li><a href="../sXX/GloriaAlencaster.php">Gloria Alencáster Ybarra</a></li>
-										        <li><a href="../sXX/EnriquetaGarcia.php">Enriqueta García</a></li>
-										        <li><a href="../sXX/JuanLCifuentes.php">Juan Luis Cifuentes Lemus</a></li>
-										        <li><a href="../sXX/JulioBerdegue.php">Julio Berdegué Aznar</a></li>
-										        <li><a href="../sXX/GonzaloHalffter.php">Gonzálo Halffter</a></li>
-										        <li><a href="../sXX/GastonGuzman.php">Gastón Guzmán Huerta</a></li>
-										        <li><a href="../sXX/ArturoGomezP.php">Arturo Gómez Pompa</a></li>
-										        <li><a href="../sXX/RamonRibaN.php">Ramón Riba y Nava Esparza</a></li>
-										        <li><a href="../sXX/SalvadorContreras.php">Salvador Contreras Balderas</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/JoseSarukhan.php">José Sarukhán Kermez</a></li>
-										        <li><a href="../sXX/FranciscoTakaki.php">Francisco Takaki Takaki</a></li>
-										        <li><a href="../sXX/MiguelAMartinez.php">Miguel Ángel Martínez Alfaro</a></li>
-										        <li><a href="../sXX/DanielLluch.php">Daniel Lluch Belda</a></li>
-										        <li><a href="../sXX/JoseLuisCastro.php">José Luis Castro Aguirre</a></li>
-										        <li><a href="../sXX/MiguelAUlloa.php">Miguel Ulloa Sosa</a></li>
-										        <li><a href="../sXX/SaulAlvarezB.php">Saul Álvarez Borrego</a></li>
-										        <li><a href="../sXX/FranciscoContreras.php">Francisco Contreras Espinosa</a></li>
-										        <li><a href="../sXX/AntonioBadan.php">Antonio Badán Dangon</a></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="59"></div>
-											</div>
-									</section>
+                               
+								
 					</footer>
 				</div>
 

@@ -3,7 +3,12 @@
     
     <title>José Ramírez</title>
     </head>
-    
+    	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="31"></div>
+											</div>
+									</section><br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -15,7 +20,7 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../assets/css/images/refImagen.jpg" width="230" height="300" alt=""/></header>
+											<header><img src="../images/personajes/JoseRamirez.jpg" width="230" height="300" alt=""/></header>
 </section>
 										<section>
 											<header>
@@ -42,7 +47,7 @@
 <p>Mi labor profesional comenzó como preparador y conservador del Museo de Anatomía Patológica de la Escuela Nacional de Medicina. A partir de este momento, a pesar de haber estudiado medicina me aboqué a la zoología, botánica y a los sistemas de clasificación de los seres vivos.</p>
 <p>En 1892 me casé con María Macedo González Saravia. Fuí preparador de la clase de Historia Natural en la Escuela Nacional de Agricultura y Veterinaria y profesor de Historia Natural en el Museo Nacional. Más tarde fui nombrado profesor del Instituto Médico Nacional, lugar donde desarrollé gran parte de mi obra y del cual fuí uno de sus fundadores. Me desempeñé también como secretario del Consejo Superior de Salubridad, por lo que fui representante del gobierno mexicano en una diversidad de reuniones.</p>
 <p>Dentro del Instituto Médico me encargó de la clasificación y descripción de los ejemplares que ingresaban a éste. Asimismo, me ocupé de incrementar el acervo del herbario de dicho instituto.</p>
-<p>Escribí numerosos trabajos, uno de ellos Introducción para una flora del Valle de México (1898) que sirvió como instrumento para identificar las diferentes especies vegetales que crecen en esta parte de la República Mexicana. Fui coautor de La lista de nombres vulgares y botánicos de árboles y arbustos propios para repoblar los bosques de la República (1894), obra que compila el conocimiento de varias plantas, incluye sus nombres vulgares y científicos, la manera en que crecen  así como el clima donde habitan. Y finalmente, mi libro póstumo Estudios de historia natural (1904), recoge gran parte de mi labor científica que había sido publicada en memorias, lecturas en turno o informes de trabajo. Fallecí en 1904</p>
+<p>Escribí numerosos trabajos, uno de ellos Introducción para una flora del Valle de México (1898) que sirvió como instrumento para identificar las diferentes especies vegetales que crecen en esta parte de la República Mexicana. Fui coautor junto con el médico naturalista <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXIX/FernandoAltamirano.php">Fernando Altamirano Carbajal, </a>de "La lista de nombres vulgares y botánicos de árboles y arbustos propios para repoblar los bosques de la República (1894)", obra que compila el conocimiento de varias plantas, incluye sus nombres vulgares y científicos, la manera en que crecen  así como el clima donde habitan. Y finalmente, mi libro póstumo Estudios de historia natural (1904), recoge gran parte de mi labor científica que había sido publicada en memorias, lecturas en turno o informes de trabajo. Fallecí en 1904</p>
 								  </section>
 
 								</div>
@@ -64,7 +69,7 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-			  <li></li>
+			  <li><img src="../images/pagInternas/InstitutoMedicoNacional.jpg" width="230" height="300" alt=""/></li>
 		      </ul>
 									    </section>
                                   <section>
@@ -80,7 +85,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>  
@@ -95,59 +100,8 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XIX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/AntonioCastillo.php">Antonio del Castillo Patiño</a></li>
-														<li><a href="../sXIX/AlfredoDuges.php">Alfredo Dugès</a></li>
-														<li><a href="../sXIX/EugenioDuges.php">Eugenio Dugès</a></li>
-														<li><a href="../sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández </a>(padre)</li>
-														<li><a href="../sXIX/JoseMVelasco.php">José María Velasco Gómez</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/ManuelMVillada.php">Manuel María Villada Peimbert</a></li>
-														<li><a href="../sXIX/MarianoBarcena.php">Mariano de la Bárcena y Ramos</a></li>
-														<li><a href="../sXIX/CarlLumholtz.php">Carl Sofus Lumholtz</a></li>
-													  <li><a href="../sXIX/JoseRamirez.php">José Ramírez</a></li>
-													  <li><a href="../sXIX/NicolasLeon.php">Nicolás León Calderón</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												  <ul class="link-list last-child">
-													   <li><a href="../sXIX/MiguelAQuevedo.php">Miguel Ángel de Quevedo y Zubieta</a></li>
-													   <li><a href="../sXIX/CasianoConzatti.php">Casiano Bartolameotti Conzatti</a></li>
-													   <li><a href="../sXIX/AlfonsoLHerrera.php">Alfonso Luis Herrera López</a></li>
-													   <li><a href="../sXIX/CarlosCHoffmann.php">Carlos Cristian Hoffmann</a></li>
-													   <li><a href="../sXIX/GeorgeBoole.php">George Boole Hinton</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li><a href="../sXIX/IsaacOchoterena.php">Isaac Ochotorena Mendieta</a></li>
-                                                       <li><a href="../sXIX/MaximinoM.php">Maximino Martínez y Martínez</a></li>
-                                                       <li><a href="../sXIX/EiziMatuda.php">Eizi Matuda</a></li>
-                                                       <li><a href="../sXIX/EnriqueRioja.php">Enrique Rioja Lo Bianco</a></li>
-                                                       <li><a href="../sXIX/candidoBolivar.php">Cándido Bolívar y Pieltáin</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide=""></div>
-											</div>
-									</section>
+                                							
+								
 					</footer>
 				</div>
 

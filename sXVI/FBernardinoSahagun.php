@@ -3,7 +3,12 @@
         
     <title>Fray Bernardino de Sahagún</title>
     </head>
-	
+	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="6"></div>
+											</div>
+									</section><br><br>
     	<body class="subpage">
 
 			<!-- Content -->
@@ -37,7 +42,7 @@
 												<h2>Fray Bernardino de Sahagún</h2>
 												<h3>1499 - 1590</h3>
 											</header>
-<p>Me llamo Bernardino de Ribeira. Nací en 1499 en la Villa de Sahagún, en el reino de Castilla al norte de España, lugar del cual tomé mi nombre. Estudié en la prestigiosa Universidad de Salamanca, la más antigua del mundo hispano. Posteriormente a los 18 años me uní a la orden de San Francisco y en 1524 me ordené de sacerdote.</p>
+											<p>Me llamo Bernardino de Ribeira. Nací en 1499 en la Villa de Sahagún, en el reino de Castilla al norte de España, lugar del cual tomé mi nombre. Estudié en la prestigiosa Universidad de Salamanca, la más antigua del mundo hispano. Posteriormente a los 18 años me uní a la orden de San Francisco y en 1524 me ordené de sacerdote.</p>
                                           <p>En 1529 nos embarcamos 20 religiosos bajo la dirección del franciscano Fray Antonio de Rodrigo, quien anteriormente ya había estado en el nuevo continente. Cinco años antes, habían llegado a Nueva España los primeros doce frailes franciscanos, entre ellos, Fray Toribio de Benavente, conocido como Motolinía. Después de un viaje de entre dos y cuatro meses desembarcamos en San Juan de Ulúa, Veracruz. Ahí pondría el pie sobre tierras de las que nunca volvería a salir. Camino hacia la gran Tenochtitlán y me encantó la lengua que hablaban los indígenas de Puebla, Tlalmanalco y Xochimilco, el náhuatl, el cual aprendí al poco tiempo. </p>
                                           <p>Al principio de mi llegada viví en Tlalmanalco (Hoy exConvento de San Luis Obispo), cerca de las faldas del Iztaccíhuatl y de ahí pase al convento de Xochimilco. Enseñé en el Colegio de la Santa Cruz de Santiago Tlatelolco fundado en 1536.  En esas épocas fue nombrado el primer Virrey de la Nueva España Antonio de Mendoza y Pacheco, representante de Carlos I de España.</p>
                                           <p>En el Colegio de la Santa Cruz de Tlatelolco también escribió el médico indígena <a href="MartinCruz.php">Martín de la Cruz</a> el libro&nbsp;&quot;<em>Libellus de medicinalibus indorum herbis</em>&quot;,&nbsp;sobre herbolaria, también conocido como Códice de la Cruz-Badiano. Su libro fue publicado en 1552 y contiene 185 ilustraciones de plantas medicinales. Además fue traducido al latín por el indígena xochimilca Juan Badiano. </p>
@@ -68,8 +73,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-              <li></li>
-		      <li></li>
+              <li><img src="../images/pagInternas/FrayBS1.jpg" width="230" height="328" alt=""/></li>
+		      <li>De <a href="//commons.wikimedia.org/wiki/User:ProtoplasmaKid" title="User:ProtoplasmaKid">ProtoplasmaKid</a> - <span class="int-own-work" lang="es">Trabajo propio</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=17833635">Enlace</a></li>
               </ul>
 								        </section>
                                   <section>
@@ -85,7 +90,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -101,42 +106,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XVI</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVI/FBernardinoSahagun.php">Fray Bernardino de Sahagún</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXVI/MartinCruz.php">Martín de la Cruz</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												   <ul class="link-list last-child">
-														<li><a href="../sXVI/FcoHToledo.php">Francisco Hernández de Toledo</a></li>
-                                                        <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="6"></div>
-											</div>
-									</section>
+                                
 					</footer>
 				</div>
 				

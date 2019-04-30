@@ -3,7 +3,12 @@
     
     <title>Miguel Álvarez del Toro</title>
     </head>
-    
+	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="64"></div>
+											</div>
+									</section>    <br><br>
 	<body class="subpage">	
 
 			<!-- Content -->
@@ -23,9 +28,12 @@
 											</header>
 <ul class="link-list last-child">
               <li>Álvarez, G. 2014. Cuesta Arriba. Gobierno del Estado de Colima y Secretaría de Educación. México</li>
+              <li>Álvarez del Toro, F. 2013<. Mi Vida con Miguel Álvarez del Toro. Colección Vida Salvaje. Tuxtla Gutiérrez, Chiapas</li>
               <li>Aranda, M. 1997. In Memorian. Miguel Álvarez del Toro (1917-1996). Acta Zool. Mex. (n.s.) 71: 71-76.</li>
               <li>Bray D. et. al. (edts). 2007. Los bosques comunitarios de México: Manejo sustentable de paisajes forestales. Secretaría de Medio Ambiente y Recursos Naturales, 443p.</li>
-              <li>Guichard-Romero, C.A. 2011. Miguel Álvarez del Toro (1917-1966). Síntesis biográfica. Quehacer Científico en Chiapas 1(11)4-6.</li>
+              <li>Cuarón, A.D. 1997. Miguel Alvarez del Toro: First and Last of a Kind. Conservation Biology 11(2)566-568</li> 
+              <li>Cuarón, A.D. 2018. Comunicación Personal</li> 
+              <li>Guichard-Romero, C.A. 2011. Miguel Álvarez del Toro (1917-1996). Síntesis biográfica. Quehacer Científico en Chiapas 1(11)4-6.</li>
               <li>Navarro S.A. y J.E. Morales-Pérez. 1999. In Memoriam: Miguel Álvarez del Toro, 1917-1996. The Auk 116(1): 226-227.</li>
               <li>Secretaría de Medio Ambiente, Vivienda e Historia Natural. Plan de Educación Ambiental 2004-2014, Estado de Chiapas. Dirección de Educación Ambiental para el Desarrollo Sustentable.</li>
 </ul>
@@ -40,11 +48,16 @@
 												<h2>Miguel Álvarez del Toro</h2>
 												<h3>1917 - 1996</h3>
 											</header>
-<p>Nací en Colima en 1917 y ahí realicé la primaria y secundaria. Los Álvarez de Colima se dedicaron a la política desde 1700s y ha habido varias generaciones de gobernadores incluyendo a mi tío Miguel Álvarez García (1880-19311) y a mi prima, la primera mujer electa gobernadora Griselda Álvarez Ponce de León (1913-2009).</p>
+<p>Nací en Colima el 23 de agosto de 1917 con el nombre de Miguel Carlos Francisco Álvarez del Toro. Ahí realicé la primaria y secundaria. Los Álvarez de Colima se dedicaron a la política desde 1700s y ha habido varias generaciones de gobernadores incluyendo a mi tío Miguel Álvarez García (1880-19311) y a mi prima, la primera mujer electa gobernadora Griselda Álvarez Ponce de León (1913-2009).</p>
 <p>A mi me interesó más la naturaleza. Sin tener estudios universitarios, me interesé tanto en el estudio de los animales, las bases para su clasificación y en particular las técnicas para conservar los especimenes zoológicos (taxidermia), que me convertí en zoólogo y taxidermista autodidacta. En 1932, a los 15 años nos mudamos a la Ciudad de México y ahí seguí la secundaria y la preparatoria.</p>
-<p>Comencé mi vida laboral en 1938 cuando la Academia de Ciencias Naturales de Filadelfia, en Estados Unidos, me solicitó una pequeña colección de aves de las áreas cercanas a la Ciudad de México. Me casé con Clementina Pérez con la que tuve tres hijos Rebeca, Hebe y Federico y nos mudamos a la ciudad de México en 1939. Más tarde por mis conocimientos en la taxidermia, fui contratado en el recién fundado Museo de Fauna y Flora del Parque de Chapultepec, siendo posteriormente el subdirector de 1940 a 1941.</p>
-<p>Me mudé a Chiapas en 1942 atraído por su fauna, su exuberante vegetación, y por un contrato del gobernador, el Dr. Rafael Pascacio Gamboa, como taxidermista en el incipiente Museo de Historia Natural de Tuxtla Gutiérrez. Contribuí a formar las colecciones zoológicas del museo para lo cual realicé numerosas exploraciones en el estado, primero a las zonas más accesibles y después a los lugares más alejados o remotos de la selva. Finalmente me convertí en el director del museo desde 1944 hasta mi muerte. Contribuí a la creación y el diseño del actual “Zoológico Regional” que ahora lleva mi nombre.</p>
-<p>Tanta fue mi pasión por la biodiversidad chiapaneca, en particular por las aves, reptiles y mamíferos, que sobre ella tratan los nueve libros de los cuales fui autor o coautor. Además escribí alrededor de 70 artículos científicos y de divulgación. En 1996, después de vivir 54 años en Chiapas me sorprendió un infarto cardíaco. Mis cenizas fueron esparcidas cerca del río La Venta en la Selva del Ocote en Chiapas.</p>
+<p>Comencé mi vida laboral en 1938 cuando la Academia de Ciencias Naturales de Filadelfia, en Estados Unidos, me solicitó una pequeña colección de aves de las áreas cercanas a la Ciudad de México. Me casé con Aurora "Lolita" Rincón con la que tuve tres hijos Rebeca (Becky), Hebe, y Federico (Freddy) y nos mudamos a la ciudad de México en 1939. Por mis conocimientos en la taxidermia, fui contratado en el recién fundado Museo de Fauna y Flora del Parque de Chapultepec, siendo posteriormente el subdirector de 1940 a 1941. Más adelante con Clementina "Doña Clemen" Pérez tuve a Barbarella, la más pequeña de mis hijas. </p>
+<p>Me mudé a Chiapas en 1942 atraído por su fauna, su exuberante vegetación, y por un contrato del gobernador, el Dr. Rafael Pascacio Gamboa (1897-1979), como taxidermista en el incipiente Museo de Historia Natural de Tuxtla Gutiérrez. Desarrollé las colecciones zoológicas del museo para lo cual realicé numerosas exploraciones en el estado, primero a las zonas más accesibles y después a los lugares más alejados o remotos de las selvas húmedas, manglares, bosques nublados, bosques templados. En 1944 me convertí en el director del museo, puesto que ocupé durante 52 años. Lideré la creación y el diseño del actual “Zoológico Regional” que ahora lleva mi nombre, con el gran apoyo del Ingeniero Don César Domínguez. Este hermoso zoológico ha sido único en México por dedicarse a las especies nativas de un estado. </p>
+<p>Me maravillé con la riqueza natural del Estado de Chiapas. Su nombre porviene del náhuatl <i>Chiapan, </i>o Río de la Chía). Ubicado en los límites del país, y rodeado por Guatemala, Tabasco, Veracruz y Oaxaca, este territorio es uno de los más ricos de México. Además de su ubicación tropical, sus regiones naturales son muy complejas constituidas sobre una enorme placa de roca caliza. En Chiapas existen llanuras, sierras, depresiones, que dan lugar a la gran riqueza de ecosistemas de selvas húmedas y secas, bosques nublados y templados y gran variedad de humedales, incluyendo manglares. También su riqueza cultural es sorprendente. Aqui viven los pueblos Tseltal, Tsotsil, Ch´ol, Tojol-ab´al, Chuj, Kanjobal, Mam, Jacalteco, Mochó, Cakchiquel y Lacandón, con doce lenguas distintas.<p> 
+<p>Una de mis contribuciones importantes fue el impulsar la creación de varias reservas estatales como "Área Natural y Típica" incluyendo a El Triunfo, La Selva del Ocote, La Encrucijada, entre otras, que actualmente se han convertido en Reservas de la Biosfera y forman parte del <a href="http://www.naturalista.mx/projects/areas-protegidas-del-estado-de-chiapas">Sistema Nacional de Áreas Protegidas. </a><p>
+<p>Tanta fue mi pasión por la biodiversidad chiapaneca, en particular por las aves, reptiles y mamíferos, que sobre ella tratan los nueve libros de los cuales fui autor o coautor: Los Animales Silvestres de Chiapas (1952), Los Reptiles de Chiapas (1960), Las Aves de Chiapas (1971), Los Crocodylia de México (1974), Los mamíferos de Chiapas (1977), ¡Así era Chiapas! (1985), Arañas de Chiapas (1992), Chiapas y su biodiversidad (1993), y Comitán, una puerta al sur (1994). Además escribí alrededor de 70 artículos científicos y de divulgación. 
+<p>Entre mis amigos naturalistas estuvieron el gran herpetólogo estadounidense Hobart M. Smith (1912-2013) quien describió más de 100 nuevas especies de anfibios y reptiles mexicanos. Tuve gran influencia en muchos jóvenes que pasaban tiempo en el Zoológico de Chiapas y que se volvieron grandes contribuidores al conocimiento de la naturaleza mexicana como Ignacio March, Alfredo Cuarón, Laura Barraza, Marcelo Aranda, Felipe García Villegas, Fulvio Eccardi y Ramón Perez-Gil, entre otros.</p> 
+
+<p>El 2 de agosto de 1996, después de vivir 54 años en Chiapas me sorprendió un infarto cardíaco. Mis cenizas fueron esparcidas cerca del río La Venta en la Selva del Ocote en Chiapas.</p>
 								  </section>
 
 								</div>
@@ -68,8 +81,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-              <li></li>
-		      <li></li>
+              <li><img src="../images/pagInternas/MiguelATimg5.jpg" width="330" height="230" alt=""/></li>
+		      <li>Cañón del Sumidero, Chiapas. Foto: Héctor Méndez Mendoza / CONABIO</li>
               </ul>
 								      </section>
                                   <section>
@@ -87,7 +100,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -102,80 +115,8 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-										        <li><a href="../sXX/HeliaBravo.php">Helia Bravo Hollis</a></li>
-										        <li><a href="../sXX/EnriqueBeltran.php">Enrique Beltrán Castillo</a></li>
-										        <li><a href="../sXX/FaustinoMiranda.php">Faustino Miranda González</a></li>
-										        <li><a href="../sXX/AmeliaSamano.php">Amelia Sámano Bishop</a></li>
-										        <li><a href="../sXX/FedericoBonet.php">Federico Bonet Marco</a></li>
-										        <li><a href="../sXX/JoseAlvarez.php">José Álvarez del Villar</a></li>
-										        <li><a href="../sXX/ManuelRuiz.php">Manuel Ruiz Oronoz</a></li>
-										        <li><a href="../sXX/RafaelMCampo.php">Rafael Martín del Campo</a></li>
-										        <li><a href="../sXX/BernardoVilla.php">Bernardo Villa Ramírez</a></li>
-										        <li><a href="../sXX/EfrainHdezX.php">Efraim Hernández Xolocotzi</a></li>
-										        <li><a href="../sXX/AldoStarker.php">Aldo Starker Leopold</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/LauraHuertaM.php">Laura Huerta Múzquiz</a></li>
-										        <li><a href="../sXX/LuzMaVillareal.php">Luz María Villarreal de Puga</a></li>
-										        <li><a href="../sXX/LeonilaVazquez.php">Leonila Vázquez García</a></li>
-										        <li><a href="../sXX/MariaElenaCaso.php">María Elena Caso Muñoz</a></li>
-										        <li><a href="../sXX/DionisioPelaez.php">Dionisio Pelaez Fernández</a></li>
-										        <li><a href="../sXX/MiguelAToro.php">Miguel Álvarez del Toro</a></li>
-										        <li><a href="../sXX/AlejandroVillalobos.php">Alejandro Villalobos</a></li>
-										        <li><a href="../sXX/AnaHoffman.php">Ana Hoffman Mendizábal</a></li>
-										        <li><a href="../sXX/TeofiloHerrera.php">Teófilo Herrera</a></li>
-										        <li><a href="../sXX/AgustinAyala.php">Agustín Ayala Castañares</a></li>
-										        <li><a href="../sXX/JerzyRzedowski.php">Jerzy Rzedowski</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/AlfredoBarrera.php">Alfredo Barrera Marín</a></li>
-										        <li><a href="../sXX/IngvarEmisson.php">Ingvar Emilsson Jonatansdottir</a></li>
-										        <li><a href="../sXX/GloriaAlencaster.php">Gloria Alencáster Ybarra</a></li>
-										        <li><a href="../sXX/EnriquetaGarcia.php">Enriqueta García</a></li>
-										        <li><a href="../sXX/JuanLCifuentes.php">Juan Luis Cifuentes Lemus</a></li>
-										        <li><a href="../sXX/JulioBerdegue.php">Julio Berdegué Aznar</a></li>
-										        <li><a href="../sXX/GonzaloHalffter.php">Gonzálo Halffter</a></li>
-										        <li><a href="../sXX/GastonGuzman.php">Gastón Guzmán Huerta</a></li>
-										        <li><a href="../sXX/ArturoGomezP.php">Arturo Gómez Pompa</a></li>
-										        <li><a href="../sXX/RamonRibaN.php">Ramón Riba y Nava Esparza</a></li>
-										        <li><a href="../sXX/SalvadorContreras.php">Salvador Contreras Balderas</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/JoseSarukhan.php">José Sarukhán Kermez</a></li>
-										        <li><a href="../sXX/FranciscoTakaki.php">Francisco Takaki Takaki</a></li>
-										        <li><a href="../sXX/MiguelAMartinez.php">Miguel Ángel Martínez Alfaro</a></li>
-										        <li><a href="../sXX/DanielLluch.php">Daniel Lluch Belda</a></li>
-										        <li><a href="../sXX/JoseLuisCastro.php">José Luis Castro Aguirre</a></li>
-										        <li><a href="../sXX/MiguelAUlloa.php">Miguel Ulloa Sosa</a></li>
-										        <li><a href="../sXX/SaulAlvarezB.php">Saul Álvarez Borrego</a></li>
-										        <li><a href="../sXX/FranciscoContreras.php">Francisco Contreras Espinosa</a></li>
-										        <li><a href="../sXX/AntonioBadan.php">Antonio Badán Dangon</a></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="61"></div>
-											</div>
-									</section>
+                               
+								
 					</footer>
 				</div>
 

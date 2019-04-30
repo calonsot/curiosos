@@ -1,9 +1,14 @@
 
 	<?php include'../Layouts/header.php'?>
     
-    <title>Carl Lumholtz</title>
+    <title>Carl Sofus Lumholtz</title>
     </head>
-    
+     <section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="30"></div>
+											</div>
+									</section><br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -23,7 +28,9 @@
 											</header>
 <ul class="link-list last-child">
                                               
-              <li></li>
+              <li>Lumholtz, C. 1986. El México Desconocido. Volúmenes I y II. Instituto Nacional Indigenista. México, D.F.</li>
+              <li>Vazquez, M. 1996. Carl Lumholtz. Montañas, duendes, adivinos... Instituto Nacional Indigenista. México, D.F.</li>
+
               </ul>
                                            
 										  </section>
@@ -37,12 +44,12 @@
 												<h2>Carl Lumholtz </h2>
 												<h3>1851-1922</h3>
 											</header>
-<p>Nací en Noruega y estudié teología en la Universidad de Oslo (1876). Como desde joven tuve inclinaciones naturalistas y era un explorador nato, acepté ser enviado a Australia para recolectar animales y plantas que formarían parte de las colecciones biológicas del Museo de Historia Natural de la universidad donde había sido estudiante. </p>
-<p>La convivencia con los pueblos originarios de ese país y el registro de sus formas de vida durante cuatro años de exploración (1880-1884) dio origen a mis primeros trabajos etnográficos.</p>
+<p>Nací en Fåberg, Noruega el 23 de abril de 1851. El pueblo era pequeño pero vivíamos a la orilla de un hermoso río rodeado de bosques. Mi padre Paul Nicolai Lumholtz era oficial de la armada noruega. Mi madre Inger Elise Lumholtz. Fui el mayor de siete hermanos. Estudié teología, por decisión de mi padre, en la Universidad de Christiania en Oslo (1876) cuando se conocía como la Real Universidad Frederick. Sin embargo, me interesaba más salir a explorar y colectar animales. Afortunadamente mi profesor Robert Collet, quien más tarde fue director del Museo de Zoología de la Universidad de Oslo, me consiguió un lugar en una expedición a Australia com colector de plantas y animales para la colección del Museo de Historia Natural de la Universidad.</p>
+<p>La convivencia con los pueblos originarios de ese país y el registro de sus formas de vida durante cuatro años de exploración (1880-1884) dio origen a mis primeros trabajos etnográficos. En Australia aprendí que la mejor manera de conocer la historia natural de plantas y animales era vivir con los aborígenes. Por 14 meses viví y viaje con una tribu de aborígenes australianos. Describí al simpático canguro arbóricola (<i>Dendrolagus lumholtzi</i>) de las selvas húmedas del noreste de Australia que hoy lleva mi apellido.  </p>
 <p>Más tarde conseguí el apoyo del Museo Americano de Historia Natural, la Sociedad Geográfica Americana (ambos de Estados Unidos) y el gobierno mexicano para comenzar mis exploraciones por el territorio nacional.</p>
 <p>En total emprendí seis viajes de investigación entre 1890 y 1910, en los que recorrí principalmente amplias zonas del norte y occidente de México. Así pude convivir y fotografiar a los purépechas, tepehuanos, tarahumaras, coras, huicholes, nahuas, pápagos y tarascos. También hice registros arqueológicos, del paisaje, la flora y la fauna de varios de los estados que visité.</p>
-<p>El resultado de mis estudios y esfuerzos culminaron con la publicación del voluminoso libro “El México Desconocido” (1902), originalmente escrito en inglés y después traducido al español. Esta obra es a la fecha un referente para los estudios sociales de la época del Porfiriato así como etnográficos por sus numerosos datos, descripciones, anécdotas y material fotográfico.</p>
-<p>Viajé también a otros lugares del mundo como la India y Borneo, y al final regresé a Noruega, donde fallecí. He sido considerado uno de los pioneros de la antropología mexicana debido a mi amplio trabajo en campo sobre diferentes pueblos indígenas del país.</p>
+<p>El resultado de mis estudios y esfuerzos culminaron con la publicación del voluminoso libro <a href="http://www.gutenberg.org/files/16426/16426-h/16426-h.htm">“El México Desconocido” </a>(1902), originalmente escrito en inglés y después traducido al español. Esta obra es a la fecha un referente para los estudios sociales de la época del Porfiriato así como etnográficos por sus numerosos datos, descripciones, anécdotas y material fotográfico.</p>
+<p>Viajé también a otros lugares del mundo como la India y Borneo, y al final regresé a Noruega, donde fallecí el 5 de mayo de 1922. He sido considerado uno de los pioneros de la antropología mexicana debido a mi amplio trabajo en campo sobre diferentes pueblos indígenas del país.</p>
 								  </section>
 
 								</div>
@@ -64,7 +71,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-			  <li></li>
+			  <li><img src="../images/pagInternas/CarlLumimg4.jpg" width="330" height="230" alt=""/></li>
+			  <li>Cascada de Basaseachic, Chihuahua, Foto: Alejandro Boneta / CONABIO></li>
 		      </ul>
 									    </section>
                                   <section>
@@ -83,7 +91,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -98,59 +106,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XIX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/AntonioCastillo.php">Antonio del Castillo Patiño</a></li>
-														<li><a href="../sXIX/AlfredoDuges.php">Alfredo Dugès</a></li>
-														<li><a href="../sXIX/EugenioDuges.php">Eugenio Dugès</a></li>
-														<li><a href="../sXIX/AlfonsoHerrera.php">Alfonso Herrera Fernández </a>(padre)</li>
-														<li><a href="../sXIX/JoseMVelasco.php">José María Velasco Gómez</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXIX/ManuelMVillada.php">Manuel María Villada Peimbert</a></li>
-														<li><a href="../sXIX/MarianoBarcena.php">Mariano de la Bárcena y Ramos</a></li>
-														<li><a href="../sXIX/CarlLumholtz.php">Carl Sofus Lumholtz</a></li>
-													  <li><a href="../sXIX/JoseRamirez.php">José Ramírez</a></li>
-													  <li><a href="../sXIX/NicolasLeon.php">Nicolás León Calderón</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												  <ul class="link-list last-child">
-													   <li><a href="../sXIX/MiguelAQuevedo.php">Miguel Ángel de Quevedo y Zubieta</a></li>
-													   <li><a href="../sXIX/CasianoConzatti.php">Casiano Bartolameotti Conzatti</a></li>
-													   <li><a href="../sXIX/AlfonsoLHerrera.php">Alfonso Luis Herrera López</a></li>
-													   <li><a href="../sXIX/CarlosCHoffmann.php">Carlos Cristian Hoffmann</a></li>
-													   <li><a href="../sXIX/GeorgeBoole.php">George Boole Hinton</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li><a href="../sXIX/IsaacOchoterena.php">Isaac Ochotorena Mendieta</a></li>
-                                                       <li><a href="../sXIX/MaximinoM.php">Maximino Martínez y Martínez</a></li>
-                                                       <li><a href="../sXIX/EiziMatuda.php">Eizi Matuda</a></li>
-                                                       <li><a href="../sXIX/EnriqueRioja.php">Enrique Rioja Lo Bianco</a></li>
-                                                       <li><a href="../sXIX/candidoBolivar.php">Cándido Bolívar y Pieltáin</a></li>
-                                                       <li></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="28"></div>
-											</div>
-									</section>
+                               
 					</footer>
 				</div>
 

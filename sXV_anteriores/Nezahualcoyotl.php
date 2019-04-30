@@ -3,7 +3,14 @@
     
 	<title>Acolmiztli Nezahualcóyotl</title>
     </head>
-    
+    <section>
+										
+										
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 98%; height: 400px;" start_at_slide="4"></div>
+											</div>
+									</section><br><br>
     <body class="subpage">			
             <!-- Content -->
 				<div id="content-wrapper">
@@ -48,7 +55,7 @@
                                           <p>Durante mi gobierno, recuperado en 1429, realicé muchas obras, como la creación de uno de los primeros jardines botánicos en el cerro de Tetzcotzingo. Aquí desarrollé un complejo sistema de canales que traían el agua desde el Cerro Tláloc y rodeaban al Tezcotzingo, creando cascadas, baños y proporcionando agua a cientos de terrazas en donde cultivaba gran variedad de plantas, en particular de plantas medicinales. Me deleitaba tanto el estudio de la naturaleza que en mi palacio tenía todos los animales y plantas que se criaban en el territorio de mi imperio y los que no podía adquirir, por ser de diversos climas, hacía que se pintaran en los muros del palacio. El cerro de Tetzotzingo, estaba rodeado de bosques que se extendían por las faldas de los volcanes. Desde ahí podía contemplar todo el inmenso lago.</p>
                                           <p>Mi gobierno duró 43 años (1429-1472), coincidiendo con el de tres gobernantes mexicas (<em>Itzcóatl</em> 4º, <em>Moctezuma Ilhuicamina</em> 5º y <em>Axayacatl</em>, 6º). Fui gran amigo del hermano de mi madre, mi tío el quinto tlatoani mexica <em>Moctezuma Ilhuicamina</em> (1398-1469), éramos casi de la misma edad. Con él continuamos la Triple Alianza por casi 30 años. A él también le interesaba mucho la naturaleza y creo el jardín botánico de Oaxtepec, primero en todo el continente.</p>
                                           <p>En 1449 lo ayudé en la construcción del Albarradón, un gran dique que separara las aguas salobres de la parte noreste del Lago de Texcoco, de las más dulces del suroeste. Esta obra iba desde la orilla del lago en Iztapalapa en dirección sur a norte hasta Atzacoalco, con más de 15 kilómetros de longitud y 18 metros de ancho. Actualmente se conoce como albarradón de San Cristóbal o de Ecatepec. </p>
-                                          <p>El noveno <em>tlatoani <a href="Moctezuma.html">Moctezuma Xocoyotzin</a></em> (1466-1520), biznieto del <em>tlatoani Moctezuma Ilhuicamina</em> e hijo del <em>tlatoani Axayacatl</em> y mi propio nieto, por parte de mi hija <em>Izelcoatzin</em>, fue el que heredó mi gusto por la naturaleza. Él tenía un <em>Totocalli</em> (Casa de animales, en náhuatl), con una gran diversidad de animales.  </p>
+                                          <p>El noveno <em>tlatoani <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXV_anteriores/Moctezuma.php">Moctezuma Xocoyotzin</a></em> (1466-1520), biznieto del <em>tlatoani Moctezuma Ilhuicamina</em> e hijo del <em>tlatoani Axayacatl</em> y mi propio nieto, por parte de mi hija <em>Izelcoatzin</em>, fue el que heredó mi gusto por la naturaleza. Él tenía un <em>Totocalli</em> (Casa de animales, en náhuatl), con una gran diversidad de animales.  </p>
                                           <p>Dicté normas que protegieran los bosques en el Valle de México. Ayudé a los mexicas a la creación del bosque de Chapultepec con la introducción de sus hermosos ahuehuetes. Mandé construir el primer acueducto formal; reorganicé la recaudación de tributos y la administración de justicia; impulsé la educación, estimulé las artes y fui consejero de los monarcas mexicas. Me preocupé por el estudio y la conservación de la lengua, fui amante de la poesía, actualmente se conocen 30 de mis poemas. </p>
                                           <p>Tuve entre 20 y 30 concubinas y ciento diecinueve hijos. Mi esposa legítima fue <em>Azcalxochiltzin</em>, hija del mexica <em>Temictzin</em>, con quien contraje nupcias alrededor de 1443 cuando tenía 41 años. Morí en el año 1472 a los 70 años. Mi hijo <em>Nezahualpilli Acamapichtli</em> (1464-1515) me sucedió en el trono en 1473, cuando solo tenía ocho años de edad.</p>
                                           <p>Afortunadamente, gran parte de mi vida quedó plasmada por mis descendientes mestizos. Mi nieto Juan Bautista Pomar (1535-1590) escribió &ldquo;Romances de los señores de Nueva España&rdquo; y &ldquo;Relación de Juan Bautista Pomar&rdquo; y mi tataranieto Fernando de Alva Cortés Ixtlilxóchitl (1568?-1648) escribió la &ldquo;Historia Chichimeca&rdquo;.</p>
@@ -90,7 +97,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/pais/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -107,44 +114,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XV y anteriores</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXV_anteriores/Naia.php">Naia</a></li>
-                                                        <li><a href="../sXV_anteriores/Gakil.php">Gakil</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-														<li><a href="../sXV_anteriores/Garradejaguar.php">Garra de Jaguar</a></li>
-                                                        <li><a href="../sXV_anteriores/Nezahualcoyotl.php">Acolmiztli Nezahualcóyotl</a></li>
-                                                        <li></li>
-													</ul>
-												</div>
-												<div class="3u 12u(mobile)">
-												   <ul class="link-list last-child">
-														<li><a href="../sXV_anteriores/Moctezuma.php">Moctezuma II, Xocoyotzin</a></li>
-                                                        <li></li>
-                                                   </ul>
-                                                 </div>
-                                                 <div class="3u 12u(mobile)">
-                                                   <ul class="link-list last-child">
-                                                       <li></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</section><br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="4"></div>
-											</div>
-									</section>
+                                
 					</footer>
 				</div>
 				

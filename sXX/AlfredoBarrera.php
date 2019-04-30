@@ -3,7 +3,12 @@
     
     <title>Alfredo Barrera Marín</title>
     </head>
-    
+		<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="71"></div>
+											</div>
+									</section>    <br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -23,6 +28,7 @@
 											</header>
 <ul class="link-list last-child">
 			  <li> <a href="http://www.ecosur-qroo.mx/index.htm" target="_blank">ECOSUR-Chetumal</a></li>
+              <li>Muñiz, R. 1995. In Memoriam Isabel Bassols Batalla (1929-1995). Folia Entomol. Mex. 94:1-5</li>
               <li>Rogelio, A.J. 1977. Enciclopedia de México. Tomo II. Enciclopedia de México.</li>
               <li>Sánchez, S.O. y G.A. Islebe (eds). 2000. El Jardín Botánico Dr. Alfredo Barrera Marín: fundamentos y estudios particulares. CONABIO, ECOSUR. 191 p.</li>
               </ul>
@@ -37,10 +43,13 @@
 												<h2>Alfredo Barrera Marín</h2>
 												<h3>1926 - 1980</h3>
 											</header>
-<p>Nací en Yucatán en 1926. Mi padre fue Alfredo Barrera Vásquez (1900-1980) su interés en la cultura maya precolombina hizo que yo también me interesara. El promovió la literatura en lengua maya y yo aprendí ese bello idioma. En la Ciudad de México estudié la licenciatura en 1952, y el doctorado en 1965, ambos en la Escuela Nacional de Ciencias Biológicas del Instituto Politécnico Nacional (IPN). Me convertí en investigador y profesor en el Poli, en la Universidad Nacional Autónoma de México (UNAM) y en el extinto Instituto Nacional de Investigaciones sobre Recursos Bióticos (INIREB) en Jalapa, Veracruz.</p>
+<p>Nací en Yucatán en 1926. Mi padre fue Alfredo Barrera Vázquez (1900-1980) y mi madre Gloria Marín. El nació en Maxcanú, un poblado maya al oeste de Mérida y desde pequeño aprendió ola lengua maya. Su interés en la cultura maya precolombina hizo que yo también me interesara en ella. Promovió con mucho entusiasmo la literatura en lengua maya y yo aprendí ese bello idioma. </p>
+<p>En la Ciudad de México estudié la licenciatura en 1952, y el doctorado en 1965, ambos en la <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/ENCB.php">Escuela Nacional de Ciencias Biológicas </a> del Instituto Politécnico Nacional (IPN). Me convertí en investigador y profesor en el Poli, en la Universidad Nacional Autónoma de México (UNAM) y en el extinto Instituto Nacional de Investigaciones sobre Recursos Bióticos (INIREB) en Jalapa, Veracruz.</p>
+<p>Me casé con Isabel Bassols Batalla, hija de Narciso Bassols García, quien fue Secretario de Educación Pública y de Clementina Batalla Torres, primera abogada de México. Isabel también era bióloga y tuvimos a <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/MHN.php">Marco (museólogo e historiador) </a>Jacinto (historiador), Dalia (economista y socióloga) y Narciso (antropólogo y geógrafo). 
 <p>Publiqué más de 100 trabajos de investigación, entre los cuales muchos trataban sobre los mosquitos y su control, las pulgas de México, así como de otros temas entomológicos. Aunque me encantaban los insectos, también me interesé en la etnobiología, en particular en la etnobotánica maya, y dediqué gran parte de mi vida al estudio y rescate del conocimiento de los mayas sobre el entorno natural de la península de Yucatán .</p>
 <p>Fundé y dirigí la revista Acta Zoológica Mexicana, hasta la fecha activa. Publiqué con otros autores los libros Biología: unidad del mundo vivo y Biología: diversidad  y continuidad del mundo vivo.</p>
-<p>Aparte de la investigación y la enseñanza, también tuve varios cargos administrativos y académicos, entre los que destacan: director del Museo de Historia Natural de la Ciudad de México; presidente de la <strong><a href="../sXIX/SMHN.php">Sociedad Mexicana de Historia Natural</a></strong>&quot; (1864-1965) y de la Academia de la Investigación Científica (ya extinta). Me despedí en 1980 en el mismo estado donde nací.</p>
+<p>Aparte de la investigación y la enseñanza, también tuve varios cargos administrativos y académicos, entre los que destacan: director del <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/MHN.php">Museo de Historia Natural </a>de la Ciudad de México; presidente de la <strong><a href="../sXIX/SMHN.php">Sociedad Mexicana de Historia Natural</a></strong>&quot; (1864-1965) y de la Academia de la Investigación Científica (ya extinta).</p> 
+<p>Me despedí en 1980 en el mismo estado donde nací. El Colegio de la Frontera Sur me dedicó su Jardín Botánico que se encuentra en Puerto Morelos, Quintana Roo y el <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/MHN.php">Museo de Historia Natural y Cultura Ambiental </a>le dió mi nombre a la Colección Nacional de Insectos. </p>
 								  </section>
                               </div><div class="3u 12u(mobile)">
 
@@ -78,7 +87,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -93,80 +102,7 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-										        <li><a href="../sXX/HeliaBravo.php">Helia Bravo Hollis</a></li>
-										        <li><a href="../sXX/EnriqueBeltran.php">Enrique Beltrán Castillo</a></li>
-										        <li><a href="../sXX/FaustinoMiranda.php">Faustino Miranda González</a></li>
-										        <li><a href="../sXX/AmeliaSamano.php">Amelia Sámano Bishop</a></li>
-										        <li><a href="../sXX/FedericoBonet.php">Federico Bonet Marco</a></li>
-										        <li><a href="../sXX/JoseAlvarez.php">José Álvarez del Villar</a></li>
-										        <li><a href="../sXX/ManuelRuiz.php">Manuel Ruiz Oronoz</a></li>
-										        <li><a href="../sXX/RafaelMCampo.php">Rafael Martín del Campo</a></li>
-										        <li><a href="../sXX/BernardoVilla.php">Bernardo Villa Ramírez</a></li>
-										        <li><a href="../sXX/EfrainHdezX.php">Efraim Hernández Xolocotzi</a></li>
-										        <li><a href="../sXX/AldoStarker.php">Aldo Starker Leopold</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/LauraHuertaM.php">Laura Huerta Múzquiz</a></li>
-										        <li><a href="../sXX/LuzMaVillareal.php">Luz María Villarreal de Puga</a></li>
-										        <li><a href="../sXX/LeonilaVazquez.php">Leonila Vázquez García</a></li>
-										        <li><a href="../sXX/MariaElenaCaso.php">María Elena Caso Muñoz</a></li>
-										        <li><a href="../sXX/DionisioPelaez.php">Dionisio Pelaez Fernández</a></li>
-										        <li><a href="../sXX/MiguelAToro.php">Miguel Álvarez del Toro</a></li>
-										        <li><a href="../sXX/AlejandroVillalobos.php">Alejandro Villalobos</a></li>
-										        <li><a href="../sXX/AnaHoffman.php">Ana Hoffman Mendizábal</a></li>
-										        <li><a href="../sXX/TeofiloHerrera.php">Teófilo Herrera</a></li>
-										        <li><a href="../sXX/AgustinAyala.php">Agustín Ayala Castañares</a></li>
-										        <li><a href="../sXX/JerzyRzedowski.php">Jerzy Rzedowski</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/AlfredoBarrera.php">Alfredo Barrera Marín</a></li>
-										        <li><a href="../sXX/IngvarEmisson.php">Ingvar Emilsson Jonatansdottir</a></li>
-										        <li><a href="../sXX/GloriaAlencaster.php">Gloria Alencáster Ybarra</a></li>
-										        <li><a href="../sXX/EnriquetaGarcia.php">Enriqueta García</a></li>
-										        <li><a href="../sXX/JuanLCifuentes.php">Juan Luis Cifuentes Lemus</a></li>
-										        <li><a href="../sXX/JulioBerdegue.php">Julio Berdegué Aznar</a></li>
-										        <li><a href="../sXX/GonzaloHalffter.php">Gonzálo Halffter</a></li>
-										        <li><a href="../sXX/GastonGuzman.php">Gastón Guzmán Huerta</a></li>
-										        <li><a href="../sXX/ArturoGomezP.php">Arturo Gómez Pompa</a></li>
-										        <li><a href="../sXX/RamonRibaN.php">Ramón Riba y Nava Esparza</a></li>
-										        <li><a href="../sXX/SalvadorContreras.php">Salvador Contreras Balderas</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/JoseSarukhan.php">José Sarukhán Kermez</a></li>
-										        <li><a href="../sXX/FranciscoTakaki.php">Francisco Takaki Takaki</a></li>
-										        <li><a href="../sXX/MiguelAMartinez.php">Miguel Ángel Martínez Alfaro</a></li>
-										        <li><a href="../sXX/DanielLluch.php">Daniel Lluch Belda</a></li>
-										        <li><a href="../sXX/JoseLuisCastro.php">José Luis Castro Aguirre</a></li>
-										        <li><a href="../sXX/MiguelAUlloa.php">Miguel Ulloa Sosa</a></li>
-										        <li><a href="../sXX/SaulAlvarezB.php">Saul Álvarez Borrego</a></li>
-										        <li><a href="../sXX/FranciscoContreras.php">Francisco Contreras Espinosa</a></li>
-										        <li><a href="../sXX/AntonioBadan.php">Antonio Badán Dangon</a></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="67"></div>
-											</div>
-									</section>
+                               
 					</footer>
 				</div>
 

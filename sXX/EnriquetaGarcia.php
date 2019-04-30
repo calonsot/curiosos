@@ -1,9 +1,14 @@
 	
 	<?php include'../Layouts/header.php'?>
     
-    <title>Enriqueta García</title>
+    <title>Enriqueta García Amaro</title>
     </head>
-    
+	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="74"></div>
+											</div>
+									</section>    <br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -15,7 +20,7 @@
 
 									<!-- Left Sidebar -->
 										<section>
-											<header><img src="../assets/css/images/refImagen.jpg" width="230" height="300" alt=""/></header>
+											<header><img src="../images/personajes/EnriquetaGarciaAmaro.jpg" width="230" height="300" alt=""/></header>
 </section>
 										<section>
 											<header>
@@ -39,7 +44,7 @@
 											</header>
 											<p>Nací el 22 de enero de 1928 en la ciudad de México. 
                                           Comencé mi carrera profesional en 1946 como ayudante de investigador en el Instituto de Geografía de la UNAM. Me dediqué en mis inicios a la representación gráfica de la superficie de la Tierra (topografía) utilizando técnicas como la fotogrametría aérea. Siguiendo esa temática obtuve el título de Ingeniero Topógrafo e Hidrógrafo en 1956. En esas épocas eramos contadas las mujeres que ingresábamos a la carrera de ingeniería. A partir de entonces me apasionó la elaboración de mapas, algunos de los cuales han sido de gran utilidad para numerosos estudios biológicos.</p>
-                                          <p>En 1962 me casé con el gran botánico inimigrante español Faustino Miranda González y tuvimos un hijo, Antonio que estudió Física. Uno de mis trabajos más importantes lo publiqué en coautoría con mi esposo, el botánico Faustino Miranda, titulado &ldquo;<em>Larrea</em> y clima&rdquo; (1961), obra en la que se enfatiza la relación entre el clima y la distribución de la vegetación. </p>
+                                          <p>En 1962 me casé con el gran botánico inimigrante español <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXX/FaustinoMiranda.php">Faustino Miranda González</a> y tuvimos un hijo, Antonio que estudió Física. Uno de mis trabajos más importantes lo publiqué en coautoría con mi esposo, </a>titulado &ldquo;<a href="http://www.enciclovida.mx/especies/6032248"><em>Larrea</em></a> y clima&rdquo; (1961), obra en la que se enfatiza la relación entre el clima y la distribución de la vegetación. </p>
                                           <p>Profundicé en el estudio de esta relación y en 1970 obtuve la Maestría en Ciencias (Geografía) en la Universidad de Wisconsin, Estados Unidos, con la tesis &ldquo;Modificaciones al Sistema de clasificación de climas de Köppen para adaptarlo a las condiciones de la República Mexicana&rdquo;. </p>
                                           <p>Mis trabajos abrieron un gran campo de investigación en el área de la ecología y la climatología, con lo cual promoví la interacción entre geógrafos, climatólogos y ecólogos. A lo largo de mi carrera impartí clases de climatología, geografía y geología en distintos niveles, desde medio hasta posgrados.</p>
                                           <p>Fuí miembro de la Academia de la Investigación Científica, de la Sociedad Botánica de México, de la Comisión de Zonas Áridas de la UNESCO y de la Sociedad Meteorológica Americana. Fallecí en la Ciudad de México el 18 de octubre de 1999 debido a una enfermedad.</p>
@@ -54,10 +59,9 @@
 												<h2>Mis favoritos</h2>
 										  </header>
 <ul class="link-list">
-               	<li><img src="../images/pagInternas/EnriquetaGarciaImg2.jpg" width="230" height="167" alt=""/><br>
+               	<li><img src="../images/pagInternas/EnriquetaGarciaImg3.jpg" width="230" height="167" alt=""/>
            	    </li>
-               	 <li>Mapa de climas de la República Mexicana de Köppen modificado por Enriqueta Garcia</li>
-               	 <li></li>
+               	 <li>La gobernadora <i>(Larrea tridentata)</i>. Foto: Carlos Gerardo Velazco Macías / CONABIO</li>
               </ul>
                                     </section>
                                   <section>
@@ -65,7 +69,8 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-		      <li></li>
+		      <li><img src="../images/pagInternas/EnriquetaGarciaImg2.jpg" width="230" height="167" alt=""/></li>
+		                     	 <li>Mapa de climas de la República Mexicana de Köppen modificado por Enriqueta Garcia</li>
               </ul>
 								      </section>
                                   <section>
@@ -80,7 +85,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section> 
@@ -95,80 +100,8 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-										        <li><a href="../sXX/HeliaBravo.php">Helia Bravo Hollis</a></li>
-										        <li><a href="../sXX/EnriqueBeltran.php">Enrique Beltrán Castillo</a></li>
-										        <li><a href="../sXX/FaustinoMiranda.php">Faustino Miranda González</a></li>
-										        <li><a href="../sXX/AmeliaSamano.php">Amelia Sámano Bishop</a></li>
-										        <li><a href="../sXX/FedericoBonet.php">Federico Bonet Marco</a></li>
-										        <li><a href="../sXX/JoseAlvarez.php">José Álvarez del Villar</a></li>
-										        <li><a href="../sXX/ManuelRuiz.php">Manuel Ruiz Oronoz</a></li>
-										        <li><a href="../sXX/RafaelMCampo.php">Rafael Martín del Campo</a></li>
-										        <li><a href="../sXX/BernardoVilla.php">Bernardo Villa Ramírez</a></li>
-										        <li><a href="../sXX/EfrainHdezX.php">Efraim Hernández Xolocotzi</a></li>
-										        <li><a href="../sXX/AldoStarker.php">Aldo Starker Leopold</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/LauraHuertaM.php">Laura Huerta Múzquiz</a></li>
-										        <li><a href="../sXX/LuzMaVillareal.php">Luz María Villarreal de Puga</a></li>
-										        <li><a href="../sXX/LeonilaVazquez.php">Leonila Vázquez García</a></li>
-										        <li><a href="../sXX/MariaElenaCaso.php">María Elena Caso Muñoz</a></li>
-										        <li><a href="../sXX/DionisioPelaez.php">Dionisio Pelaez Fernández</a></li>
-										        <li><a href="../sXX/MiguelAToro.php">Miguel Álvarez del Toro</a></li>
-										        <li><a href="../sXX/AlejandroVillalobos.php">Alejandro Villalobos</a></li>
-										        <li><a href="../sXX/AnaHoffman.php">Ana Hoffman Mendizábal</a></li>
-										        <li><a href="../sXX/TeofiloHerrera.php">Teófilo Herrera</a></li>
-										        <li><a href="../sXX/AgustinAyala.php">Agustín Ayala Castañares</a></li>
-										        <li><a href="../sXX/JerzyRzedowski.php">Jerzy Rzedowski</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/AlfredoBarrera.php">Alfredo Barrera Marín</a></li>
-										        <li><a href="../sXX/IngvarEmisson.php">Ingvar Emilsson Jonatansdottir</a></li>
-										        <li><a href="../sXX/GloriaAlencaster.php">Gloria Alencáster Ybarra</a></li>
-										        <li><a href="../sXX/EnriquetaGarcia.php">Enriqueta García</a></li>
-										        <li><a href="../sXX/JuanLCifuentes.php">Juan Luis Cifuentes Lemus</a></li>
-										        <li><a href="../sXX/JulioBerdegue.php">Julio Berdegué Aznar</a></li>
-										        <li><a href="../sXX/GonzaloHalffter.php">Gonzálo Halffter</a></li>
-										        <li><a href="../sXX/GastonGuzman.php">Gastón Guzmán Huerta</a></li>
-										        <li><a href="../sXX/ArturoGomezP.php">Arturo Gómez Pompa</a></li>
-										        <li><a href="../sXX/RamonRibaN.php">Ramón Riba y Nava Esparza</a></li>
-										        <li><a href="../sXX/SalvadorContreras.php">Salvador Contreras Balderas</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/JoseSarukhan.php">José Sarukhán Kermez</a></li>
-										        <li><a href="../sXX/FranciscoTakaki.php">Francisco Takaki Takaki</a></li>
-										        <li><a href="../sXX/MiguelAMartinez.php">Miguel Ángel Martínez Alfaro</a></li>
-										        <li><a href="../sXX/DanielLluch.php">Daniel Lluch Belda</a></li>
-										        <li><a href="../sXX/JoseLuisCastro.php">José Luis Castro Aguirre</a></li>
-										        <li><a href="../sXX/MiguelAUlloa.php">Miguel Ulloa Sosa</a></li>
-										        <li><a href="../sXX/SaulAlvarezB.php">Saul Álvarez Borrego</a></li>
-										        <li><a href="../sXX/FranciscoContreras.php">Francisco Contreras Espinosa</a></li>
-										        <li><a href="../sXX/AntonioBadan.php">Antonio Badán Dangon</a></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="70"></div>
-											</div>
-									</section>
+                               
+								
 					</footer>
 				</div>
 

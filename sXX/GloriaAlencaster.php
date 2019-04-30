@@ -3,7 +3,12 @@
     
     <title>Gloria Alencáster Ybarra</title>
     </head>
-    
+    	<section>
+										<br>
+										  <div class="row">
+													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="73"></div>
+											</div>
+									</section><br><br>
 	<body class="subpage">
 
 			<!-- Content -->
@@ -22,7 +27,8 @@
 												<h2>Referencias</h2>
 											</header>
 <ul class="link-list last-child">
-			  <li></li>
+			  <li>Alencaster, G. 2009. Cuando el mar invadió a México. Una historia narrada por fósiles. Nuestra tierra. Estación Regional del Noroeste. UNAM. 12:5-11 </li>
+			  <li>Perrilliat-Montoya M. del C. 2012. Semblanza de la Dra. Gloria Alencàster Ybarra. Paleontología Mexicana 62:1-3.</li>
               <li></li>
               </ul>
                                             </section>
@@ -34,16 +40,17 @@
 										<section>
 											<header>
 												<h2>Gloria Alencáster Ybarra</h2>
-												<h3>1927</h3>
+												<h3>1927 - 2018</h3>
 											</header>
-                        <p>Nací en la ciudad de México. Mi padre fue Agustín Alencáster y mi madre María de Jesús Ybarra. Fuimos tres hijas, Perla, Artemisa y yo. Desde chica supe que mi vocación era la biología, por eso decidí estudiar esta carrera en la Facultad de Ciencias de la UNAM (1948). </p>
-                                          <p>Un par de años después, se me presentó la oportunidad de trabajar en la Sección de Paleontología Gerencia de Exploración de PEMEX. Ahí, realicé mis primeros estudios sobre diferentes grupos de invertebrados fósiles, los cuales eran el material que recolectaban los geólogos durante las campañas de exploración.</p>
-                                          <p>Este campo del conocimiento me cautivó y por eso decidí especializar mis estudios en paleontología: hice la maestría en Geología en la Universidad de Columbia en Nueva York, Estados Unidos, (1956) y luego el doctorado en ciencias, de vuelta en la UNAM (1969). Eligí enfocarme al estudio de los moluscos (popularmente conocidos como caracoles) marinos fosilizados, procedentes de localidades fosilíferas de casi todo el país; incluso descubrí nuevas especies de estos organismos para la ciencia.</p>
-                                          <p>Mi trabajo en esta área ha permitido conocer más sobre la riqueza faunística del registro fósil del país y, a partir de esto, hacer recreaciones sobre cómo era el ambiente en el que vivieron estos organismos hace cientos de millones de años, cuando el mar cubría casi totalmente el territorio mexicano. </p>
-                                          <p>Luego de trabajar para el gobierno, ingresé al Instituto Geología de la UNAM, donde participé en la creación de la hoy &ldquo;Colección Nacional de Paleontología&rdquo;. </p>
-                                          <p>La docencia y la divulgación de la ciencia también han sido parte de mi quehacer; y la misma Facultad de Ciencias donde ella estudió, di numerosos cursos y también participé en diferentes programas culturales.</p>
-                                          <p>Soy miembro de varias sociedades científicas, entre ellas, la Sociedad Geológica Mexicana, Sociedad Mexicana de Paleontología, la Asociación Paleontológica inglesa y la Sociedad Paleontológica en Estados Unidos.</p>
-										  </section>
+                        <p>Nací en la ciudad de México el 5 de marzo de 1926. Mi padre fue Agustín Alencáster y mi madre María de Jesús Ybarra. Fuimos tres hijas, Perla, Artemisa y yo. Desde chica supe que mi vocación era la biología. Estudié en la Escuela Secundaria N. 6 con las maestras <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXX/HeliaBravo.php">Helia Bravo Hollis </a>y María Luisa Blackaller.  De ahí pasé a la <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sociedades/ENP.php">Escuela Nacional Preparatoria </a>donde estuidé con el Dr. Francisco Villagrán y más tarde a la Facultad de Ciencias de la UNAM (1948). Desarrollé mi tesis de licenciatura con el Dr. Eduardo Caballero. </p>
+                         <p>Un par de años después, se me presentó la oportunidad de trabajar en la Sección de Paleontología Gerencia de Exploración de Petróleos Mexicanos (PEMEX) creada por el Dr. Manuel Maldonado-Koerdell. Ahí, realicé mis primeros estudios sobre diferentes grupos de invertebrados fósiles, los cuales eran el material que recolectaban los geólogos durante las campañas de exploración. Mi amiga la bióloga <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXX/MariaElenaCaso.php">María Elena Caso </a>también trabajó ahi como especialista de estrellas de mar y erizos (equinodermos).</p>
+                         <p>Este campo del conocimiento me cautivó y por eso decidí especializar mis estudios en paleontología. Hice la maestría en Geología en la Universidad de Columbia en Nueva York, Estados Unidos, (1956) y luego el doctorado en ciencias, de vuelta en la UNAM (1969). Elegí enfocarme al estudio de los moluscos (caracoles, almejas, ostiones) marinos fosilizados, procedentes de localidades fosilíferas de casi todo el país; incluso descubrí nuevas especies de estos organismos para la ciencia.</p>
+                         <p>Mi trabajo en esta área ha permitido conocer más sobre la riqueza faunística del registro fósil del país y, a partir de esto, hacer recreaciones sobre cómo era el ambiente en el que vivieron estos organismos hace cientos de millones de años, cuando el mar cubría casi totalmente el territorio mexicano. </p>
+                         <p>Desde la era Paleozoica (542 a 251 millones de años) hubo porciones del territorio mexicano cubiertas por mares. De esta era se han descubierto trilobites en Sonora. A principio del Mesozoico (251 a 65.5 millones de años) la mayor parte del país fue un continente emergido. Pero más tarde, el mar invadió el continente en gran parte del oriente. De estos tiempo son los fósiles conocidos como amonites. Además se han encontrado gran diversidad de caracoles, almejas, ostiones, corales, esponjas y estrellas de mar, en zonas que ahora ocupan lugares muy altos como la Sierra Madre Oriental, que se originó alrededor de hace 60 millones de años. La 5a extinción masiva sucedida a finales del Mesozoico, que acabó con los dinosaurios, también resultó en la extinción de amonites y rudistas, y muchas familias de caracoles y almejas, además de estrellas de mar y corales. </p> 
+
+                         <p>Luego de trabajar para el gobierno, ingresé al Instituto Geología de la UNAM, donde participé en la creación de la hoy <a href="https://www.youtube.com/watch?v=kDRQ7EW_Esw">&ldquo;Colección Nacional de Paleontología&rdquo;.</a> La docencia y la divulgación de la ciencia también han sido parte de mi quehacer; y en la misma Facultad de Ciencias donde estudié, di numerosos cursos y también participé en diferentes programas culturales.</p>
+                         <p>Fui miembro de varias sociedades científicas, entre ellas, la Sociedad Geológica Mexicana, Sociedad Mexicana de Paleontología, la Asociación Paleontológica Inglesa y la Sociedad Paleontológica de Estados Unidos. Fallecí el 9 de agosto de 2018.</p>
+						</section>
 
 								</div>
 								<div class="3u 12u(mobile)">
@@ -65,7 +72,7 @@
 												<h2>Mis lugares</h2>
 										  </header>
 <ul class="link-list">
-		      <li></li>
+		      <li><a href="https://www.youtube.com/watch?time_continue=14&v=kDRQ7EW_Esw">Mentes Quo: Gloria Alencaster Ibarra</a></li>
               </ul>
 								      </section>
                                   <section>
@@ -82,7 +89,7 @@
                                   <section>
 										  <header>
 										    <ul class="link-list">
-										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="../index.html">Curiosos y comprometidos</a></li>
+										      <li><img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <img src="../assets/css/images/bg02.jpg" width="5" height="5" alt=""/> <a href="http://www.biodiversidad.gob.mx/biodiversidad/curiosos">Curiosos y comprometidos</a></li>
 										    </ul>
 										  </header>
 								  </section>
@@ -97,80 +104,8 @@
 					<footer id="footer" class="container">
 						
 								<!-- Links -->
-                                <section>
-										<h2>Naturalistas del siglo XX</h2>
-										<div>
-											<div class="row">
-												<div class="3u 12u(mobile)">
-													<ul class="link-list last-child">
-										        <li><a href="../sXX/HeliaBravo.php">Helia Bravo Hollis</a></li>
-										        <li><a href="../sXX/EnriqueBeltran.php">Enrique Beltrán Castillo</a></li>
-										        <li><a href="../sXX/FaustinoMiranda.php">Faustino Miranda González</a></li>
-										        <li><a href="../sXX/AmeliaSamano.php">Amelia Sámano Bishop</a></li>
-										        <li><a href="../sXX/FedericoBonet.php">Federico Bonet Marco</a></li>
-										        <li><a href="../sXX/JoseAlvarez.php">José Álvarez del Villar</a></li>
-										        <li><a href="../sXX/ManuelRuiz.php">Manuel Ruiz Oronoz</a></li>
-										        <li><a href="../sXX/RafaelMCampo.php">Rafael Martín del Campo</a></li>
-										        <li><a href="../sXX/BernardoVilla.php">Bernardo Villa Ramírez</a></li>
-										        <li><a href="../sXX/EfrainHdezX.php">Efraim Hernández Xolocotzi</a></li>
-										        <li><a href="../sXX/AldoStarker.php">Aldo Starker Leopold</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/LauraHuertaM.php">Laura Huerta Múzquiz</a></li>
-										        <li><a href="../sXX/LuzMaVillareal.php">Luz María Villarreal de Puga</a></li>
-										        <li><a href="../sXX/LeonilaVazquez.php">Leonila Vázquez García</a></li>
-										        <li><a href="../sXX/MariaElenaCaso.php">María Elena Caso Muñoz</a></li>
-										        <li><a href="../sXX/DionisioPelaez.php">Dionisio Pelaez Fernández</a></li>
-										        <li><a href="../sXX/MiguelAToro.php">Miguel Álvarez del Toro</a></li>
-										        <li><a href="../sXX/AlejandroVillalobos.php">Alejandro Villalobos</a></li>
-										        <li><a href="../sXX/AnaHoffman.php">Ana Hoffman Mendizábal</a></li>
-										        <li><a href="../sXX/TeofiloHerrera.php">Teófilo Herrera</a></li>
-										        <li><a href="../sXX/AgustinAyala.php">Agustín Ayala Castañares</a></li>
-										        <li><a href="../sXX/JerzyRzedowski.php">Jerzy Rzedowski</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/AlfredoBarrera.php">Alfredo Barrera Marín</a></li>
-										        <li><a href="../sXX/IngvarEmisson.php">Ingvar Emilsson Jonatansdottir</a></li>
-										        <li><a href="../sXX/GloriaAlencaster.php">Gloria Alencáster Ybarra</a></li>
-										        <li><a href="../sXX/EnriquetaGarcia.php">Enriqueta García</a></li>
-										        <li><a href="../sXX/JuanLCifuentes.php">Juan Luis Cifuentes Lemus</a></li>
-										        <li><a href="../sXX/JulioBerdegue.php">Julio Berdegué Aznar</a></li>
-										        <li><a href="../sXX/GonzaloHalffter.php">Gonzálo Halffter</a></li>
-										        <li><a href="../sXX/GastonGuzman.php">Gastón Guzmán Huerta</a></li>
-										        <li><a href="../sXX/ArturoGomezP.php">Arturo Gómez Pompa</a></li>
-										        <li><a href="../sXX/RamonRibaN.php">Ramón Riba y Nava Esparza</a></li>
-										        <li><a href="../sXX/SalvadorContreras.php">Salvador Contreras Balderas</a></li>
-										        <li></li>
-									          </ul>
-									        </div>
-										    <div class="3u 12u(mobile)">
-										      <ul class="link-list last-child">
-										        <li><a href="../sXX/JoseSarukhan.php">José Sarukhán Kermez</a></li>
-										        <li><a href="../sXX/FranciscoTakaki.php">Francisco Takaki Takaki</a></li>
-										        <li><a href="../sXX/MiguelAMartinez.php">Miguel Ángel Martínez Alfaro</a></li>
-										        <li><a href="../sXX/DanielLluch.php">Daniel Lluch Belda</a></li>
-										        <li><a href="../sXX/JoseLuisCastro.php">José Luis Castro Aguirre</a></li>
-										        <li><a href="../sXX/MiguelAUlloa.php">Miguel Ulloa Sosa</a></li>
-										        <li><a href="../sXX/SaulAlvarezB.php">Saul Álvarez Borrego</a></li>
-										        <li><a href="../sXX/FranciscoContreras.php">Francisco Contreras Espinosa</a></li>
-										        <li><a href="../sXX/AntonioBadan.php">Antonio Badán Dangon</a></li>
-                                                   </ul>
-                                                </div>
-											</div>
-										</div>
-									</section> <br>
-									<section>
-										<h2>Línea del tiempo</h2><br>
-										  <div class="row">
-													<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="69"></div>
-											</div>
-									</section>
+                                
+								
 					</footer>
 				</div>
 
