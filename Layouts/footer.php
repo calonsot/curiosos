@@ -14,7 +14,8 @@
 <script src="../assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="../assets/js/main.js"></script>
-<script src="TIMELINE3/js/timeline.js"></script>
+<script src="../TIMELINE3/js/timeline.js"></script>
+<!--script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script-->
 <script type="text/javascript">
 	// The TL.Timeline constructor takes at least two arguments:
 	// the id of the Timeline container (no '#'), and
@@ -38,12 +39,6 @@
 		var pageTracker = _gat._getTracker("UA-8226401-1");
 		pageTracker._trackPageview();
 	} catch(err) {}</script>
-
-<script type="text/javascript">
-	$(document).ready(function () {
-		$('#myModal').modal('show');
-	});
-</script>
 
 <!-- Fin del código para estadísticas en Google Analytics -->
 

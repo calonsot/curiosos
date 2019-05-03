@@ -39,12 +39,6 @@
 			pageTracker._trackPageview();
 			} catch(err) {}</script>
 
-			<script type="text/javascript">
-				$(document).ready(function () {
-					$('#myModal').modal('show');
-				});
-			</script>
-
 			<!-- Fin del código para estadísticas en Google Analytics -->
 
 	</body>
