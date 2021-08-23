@@ -12,7 +12,7 @@
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<link rel="stylesheet" href="TIMELINE3/css/timeline.css" />
+	<!--link rel="stylesheet" href="TIMELINE3/css/timeline.css" /-->
 	<link rel="stylesheet" href="assets/css/fuentes.css"/>
 	
 	<!-- Header -->

@@ -136,7 +136,7 @@
 <p><strong>1993</strong> Diversidad Biológica de México. Gío Argáez (ed). Publicación de la Sociedad Mexicana de Historia Natural. México, D.F. 427 pp. </p>
 <p><strong>1996</strong> El Estado de Campeche y sus Recursos Naturales. Gío Argáez (ed). Publicación de la Sociedad Mexicana de Historia Natural. México, D.F. 247 pp. </p>
 <p><strong>1996</strong> La Diversidad Etnográfica de Campeche. Publicación de la Sociedad Mexicana de Historia Natural. México, D.F.</p>
-<p><strong>1996</strong> Publicación dedicada a Leonila Vázquez</p>
+<p><strong>1996</strong> Publicación dedicada a <a href="https://www.biodiversidad.gob.mx/biodiversidad/curiosos/sXX/LeonilaVazquez.php">Leonila Vázquez </a></p>
 <p><strong>1999</strong> Año Internacional de los Océanos. Publicación sobre los Océanos de México. Dedicado a Agustín Ayala-Castañares. </p>
 <p><strong>2005</strong> Catálogo de publicaciones de la Sociedad Mexicana de Historia Natural. Volumen 50.</p>
 <p><strong>2007</strong> XVII Bienal de Real Sociedad Española de Historia Natural. Reunión de naturalistas de la Península Ibérica y de estudiosos de la naturaleza de México. 1 al 17 de julio, Unidad Académica UNAM Puerto Morelos, Quintana Roo, México </p>
@@ -150,12 +150,12 @@
                               </div><div class="3u 12u(mobile)">
 
 									<!-- Right Sidebar -->
-                                  <section>
+                                 <section>
 											<header>
 												<h2>Mis favoritos</h2>
 										  </header>
 <ul class="link-list">
-			  <li><img src="../images/pagInternas/SMHN1.jpg" width="230" height="300" alt=""/></li>
+			  <li><img src="../images/pagInternas/SMHN1.jpg" width="250" height="230" alt=""/></li>
 		      </ul>
                                     </section>
                                   <section>

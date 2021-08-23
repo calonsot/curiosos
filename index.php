@@ -11,7 +11,8 @@
 							<div class="row">
 								
 									<!-- Banner AQUÍ VA IFRAME -->
-									<div id='timeline-embed' style="width: 100%; height: 500px;" start_at_slide="0"></div>			
+									<!--div id='timeline-embed' style="width: 100%; height: 500px;"></div-->
+									<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1-awSTGqjvaZvPuaTBD-FmKV1Po7OCoPsJXccm-HM5RY&font=Default&lang=es&initial_zoom=2&height=500' width='100%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 							</div>
 						</div>
 					</div>

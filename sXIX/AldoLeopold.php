@@ -32,6 +32,7 @@
 												<li><a href="https://sora.unm.edu/sites/default/files/journals/auk/v101n04/p0868-p0871.pdf">Raitt, R.J. 1984. In Memoriam: A. Starker Leopold. The Auk October, 868-871.</a></li>
 												<li>Forbes, W. 2004. Revisiting Aldo Leopold´s "perfect" land health: conservation and development in Mexico´s Rio Gavilan. Ph.D. Thesis. University of North Texas.</a>
 												<li><a href="https://www.aldoleopold.org/">The Aldo Leopold Foundation</a>
+												<li><a href="https://vimeo.com/399913541/">Green Fire: ALdo Leopold and a Land Ethic of Our Time</a>
 
 											
 

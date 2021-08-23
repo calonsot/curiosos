@@ -29,6 +29,7 @@
 <ul class="link-list last-child">
 			  <li>Lozano-Vilano, M. (ed.) 2002. Libro Jubilar en Honor al Dr. Salvador Contreras. Universidad Autónoma de Nuevo León. Monterrey, Nuevo León</li>
 			  <li>Contreras-Balderas, S., M.L. Lozano-Vilano y M.E García-Ramírez. 1995. Peces de la cuenca geohidrológica del río Bravo. Atlas. Bioconservación y Universidad Autónoma de Nuevo León. Monterrey.</li>
+			  <li>Valdez-Moreno, M.E., y A. Contreras. 2009. In memoriam: Dr. Salvador Contreras Balderas (1936-2009) Hidrobiológica 9(1).</li>
 		      </ul>
                                           </section>
 								</div>
@@ -46,8 +47,8 @@
 <p>El tema de mi tesis fueron los peces de la Cuenca del Río San Juan afluente del río Bravo. En la Cuenca del Río Bravo se han registrado alrededor de 145 especies de peces de 19 familias distintas.  </p>
 <p>Cuando terminé la carrera trabajé como piscicultor en el Banco Nacional de Crédito Ejidal. Me hubiera encantado desarrollar criaderos con especies nativas pero la burocracía no lo permitió. En 1962 salí a estudiar el doctorado a la Universidad de Tulane en Nueva Orleans. </p>
 <p> De regreso en México ingresé al Departamento de Vertebrados de la Universidad de Nuevo León donde fundé el Laboratorio de Ictiología. Entre mis estudiantes estuvo la Dra. María de Lourdes Lozano-Vilano. En México hice estudios desde Baja California hasta Quintana Roo. Un lugar muy especial para investigar fue Cuatro Ciénegas en Coahuila donde pude trabajar al lado de los biólogos Eglantina Canales y Julio Carrera. Al darnos cuenta de la importancia de este sitio iniciamos su promoción en 1967 y finalmente se declaró protegido en 1994. </p>
-<p>Mi hermano Armando Jesús, y mi hijo Salvador Contreras Arquieta y mi sobrino Jorge Contreras Lozano también se dedicaron a la biología.</p>
-<p>A pesar de que mi gran amor fueron los peces, también incursioné en el conocimiento de otros grupos de organismos como las orquídeas, las plantas acuáticas, los isópodos cavernícolas y los acociles. Conociendo la problemática del agua en el norte de México me involucré en los estudios de impacto y restauración ambiental. Fui miembro fundador y primer presidente de la Sociedad Ictiológica Mexicana, A.C. Fallecí el 11 de febrero de 2009 en San Nicolás de los Garza, Nuevo León.</p>
+<p>Mi hermano Armando Jesús, mi hijo Salvador Contreras Arquieta y mi sobrino Jorge Contreras Lozano también se dedicaron a la biología.</p>
+<p>A pesar de que mi gran amor fueron los peces, también incursioné en el conocimiento de otros grupos de organismos como las orquídeas, las plantas acuáticas, los isópodos cavernícolas y los acociles. Conociendo la problemática del agua en el norte de México me involucré en los estudios de impacto y restauración ambiental. Fui pionero en el estudio de <a href="https://www.biodiversidad.gob.mx/especies/Invasoras"> invasiones acuáticas </a>en México y documenté varios casos en el país. Además, fui miembro fundador y primer presidente de la Sociedad Ictiológica Mexicana, A.C. Fallecí el 11 de febrero de 2009 en San Nicolás de los Garza, Nuevo León.</p>
 										  </section>
 
 								</div>

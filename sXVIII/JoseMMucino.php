@@ -27,8 +27,9 @@
 												<h2>Referencias</h2>
 											</header>
 <ul class="link-list last-child">
-                      <li>LEchenique March, F. 2013. José Mariano Moziño y sus Noticias de Nutka a través del tiempo. Instituto Nacional de Antropología e Historia. México, D.F.</li>
+                      <li>Lechenique March, F. 2013. José Mariano Moziño y sus Noticias de Nutka a través del tiempo. Instituto Nacional de Antropología e Historia. México, D.F.</li>
                       <li>Lozoya L. X. 1997. Plantas, medicina y poder. Breve historia de la herbolaria mexicana. Procuraduría Federal del Consumidor. Pax, México, 176 pp.</li>
+                      <li>López Cano, R., M.T. Germán, J.L. Godínez, G. Garduño y M.A. Pérez Chávez. 2007. Jose Mariano Mociño, 250 aniversario de su natalicio. Colección Investigación y Divulgación. Biblioteca Mexiquense del Bicentenario. Toluca, Estado de México.</li>
                       <li>Mariano Mociño, J. y Martínde Sessé. 2010. La real expedición botánica a Nueva España. Volúmenes I al XII, México, D.F.</li>
                       <li>Terán E. M. 2001. Orígenes de la crítica literaria en México: la polémica entre Alzate y Larrañaga. El Colegio de Michoacán y la Universidad Autónoma de Zacatecas, 398 pp.</li>
                       <li>Zamudio G. 2004. La Real Expedición Botánica de Sessé y Mociño. Boletín informativo de la Coordinación de la Investigación Científica,  El faro, 4(42):10-11.</li>
